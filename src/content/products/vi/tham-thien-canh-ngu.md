@@ -1,13 +1,13 @@
 ---
-title: "Tham thiền cảnh ngữ"
-description: "Tham thiền cảnh ngữ - thiền sư Bác Sơn Nguyên Lai"
+title: "Tham Thiền Cảnh Ngữ"
+description: "Tham Thiền Cảnh Ngữ - thiền sư Bác Sơn Nguyên Lai"
 main:
   id: 1
   content: |
     Découvrez le SF-TB T845 – votre solution de prédilection pour la fixation de précision dans les machines et équipements. Cet ensemble complet de vis à machine est méticuleusement conçu pour répondre aux exigences strictes des applications industrielles, garantissant une fixation sécurisée et fiable.
-  imgCard: "@/images/product-image-1.avif"
-  imgMain: "@/images/product-image-main-1.avif"
-  imgAlt: "Maquettes de boîtes de vis à machine"
+  imgCard: "@/images/tham-thien-canh-ngu.png"
+  imgMain: "@/images/tham-thien-canh-ngu.png"
+  imgAlt: "Tham Thiền Cảnh Ngữ"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,7 +19,7 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Plans"
 longDescription:
-  title: "Tham thiền cảnh ngữ"
+  title: "Tham Thiền Cảnh Ngữ"
   subTitle: |
     Les vis à machine SF-TB T845 offrent une précision et une fiabilité inégalées pour les applications industrielles, garantissant un fonctionnement fluide et une longue durée de vie pour vos machines et équipements.
   btnTitle: "Contactez le service commercial pour en savoir plus"
