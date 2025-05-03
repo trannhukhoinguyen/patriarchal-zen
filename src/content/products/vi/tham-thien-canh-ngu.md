@@ -1,6 +1,6 @@
 ---
 title: "Tham Thiền Cảnh Ngữ"
-description: "Tham Thiền Cảnh Ngữ - thiền sư Bác Sơn Nguyên Lai"
+description: "THAM THIỀN CẢNH NGỮ - thiền sư Bác Sơn Nguyên Lai"
 main:
   id: 1
   content: |
@@ -19,7 +19,7 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Plans"
 longDescription:
-  title: "Tham Thiền Cảnh Ngữ"
+  title: "THAM THIỀN CẢNH NGỮ"
   subTitle: |
     Les vis à machine SF-TB T845 offrent une précision et une fiabilité inégalées pour les applications industrielles, garantissant un fonctionnement fluide et une longue durée de vie pour vos machines et équipements.
   btnTitle: "Contactez le service commercial pour en savoir plus"

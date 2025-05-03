@@ -1,6 +1,6 @@
 ---
 title: "Trung Phong pháp ngữ"
-description: "Trung Phong pháp ngữ - thiền sư Trung Phong Minh Bổn"
+description: "TRUNG PHONG PHÁP NGỮ - thiền sư Trung Phong Minh Bổn"
 main:
   id: 4
   content: |
@@ -19,7 +19,7 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Plans"
 longDescription:
-  title: "Trung Phong pháp ngữ"
+  title: "TRUNG PHONG PHÁP NGỮ"
   subTitle: |
     Les boulons hexagonaux SF-FN F303 sont conçus pour relever les défis de fixation les plus difficiles avec aisance. Que vous travailliez sur des projets de construction ou des machines lourdes, ces boulons hexagonaux offrent la force et la fiabilité nécessaires.
   btnTitle: "Contactez le service commercial pour en savoir plus"

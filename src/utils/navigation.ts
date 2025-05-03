@@ -3,26 +3,23 @@ const navBarLinks = [
   { name: "Home", url: "/" },
   { name: "Products", url: "/products" },
   { name: "Services", url: "/services" },
-  { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Insights", url: "/insights" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Documentation",
     links: [
       { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
     ],
   },
   {
-    section: "Company",
+    section: "Compositions",
     links: [
-      { name: "About us", url: "#" },
+      { name: "Insights", url: "/insights" },
+      { name: "Products", url: "/products" },
+      { name: "Services", url: "/services" },
       { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
     ],
   },
 ];

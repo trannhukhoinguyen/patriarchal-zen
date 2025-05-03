@@ -1,6 +1,6 @@
 ---
 title: "Thiền quan sách tấn"
-description: "Thiền quan sách tấn - thiền sư Vân Thê Châu Hoằng"
+description: "THIỀN QUAN SÁCH TẤN - thiền sư Vân Thê Châu Hoằng"
 main:
   id: 2
   content: |
@@ -19,7 +19,7 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Plans"
 longDescription:
-  title: "Thiền quan sách tấn"
+  title: "THIỀN QUAN SÁCH TẤN"
   subTitle: |
     L'ensemble de vis assorties SF-AB A765 offre une polyvalence et une commodité inégalées, ce qui en fait le choix idéal pour les amateurs de bricolage et les professionnels. Avec une sélection complète de vis, vous aurez toujours le bon élément de fixation pour chaque tâche.
   btnTitle: "Contactez les ventes pour en savoir plus"

@@ -3,26 +3,23 @@ const navBarLinks = [
   { name: "Accueil", url: "/fr" },
   { name: "Produits", url: "/fr/products" },
   { name: "Services", url: "/fr/services" },
-  { name: "Blog", url: "/fr/blog" },
-  { name: "Contact", url: "/fr/contact" },
+  { name: "Insights", url: "/fr/insights" },
 ];
 
 const footerLinks = [
   {
-    section: "Écosystème",
+    section: "Documentation",
     links: [
       { name: "Documentation", url: "/fr/welcome-to-docs/" },
-      { name: "Outils et Équipements", url: "/fr/products" },
-      { name: "Services de Construction", url: "/fr/services" },
     ],
   },
   {
-    section: "Société",
+    section: "Compositions",
     links: [
-      { name: "À propos de nous", url: "#" },
+      { name: "Insights", url: "/insights" },
+      { name: "Outils et Équipements", url: "/fr/products" },
+      { name: "Services de Construction", url: "/fr/services" },
       { name: "Blog", url: "/fr/blog" },
-      { name: "Carrières", url: "#" },
-      { name: "Clients", url: "#" },
     ],
   },
 ];
