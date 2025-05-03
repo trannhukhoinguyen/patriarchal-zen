@@ -89,9 +89,21 @@ const insightsCollection = defineCollection({
   }),
 });
 
+const speechesCollection = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/insights" }),
+  schema: ({ image }) => z.object ({
+  title: z.string(),
+  description: z.string(),
+  // contents: z.array(z.string()),
+  cardImage: image(),
+  cardImageAlt: z.string(),
+  }),
+});
+
 export const collections = {
   docs: defineCollection({ schema: docsSchema() }),
   'products': productsCollection,
   'blog': blogCollection,
   'insights': insightsCollection,
+  'speeches': speechesCollection,
 };
