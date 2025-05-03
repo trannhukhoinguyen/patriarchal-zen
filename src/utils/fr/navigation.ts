@@ -1,9 +1,6 @@
 
 const navBarLinks = [
   { name: "Accueil", url: "/fr" },
-  { name: "Produits", url: "/fr/products" },
-  { name: "Services", url: "/fr/services" },
-  { name: "Insights", url: "/fr/insights" },
 ];
 
 const footerLinks = [
@@ -16,10 +13,7 @@ const footerLinks = [
   {
     section: "Compositions",
     links: [
-      { name: "Insights", url: "/insights" },
-      { name: "Outils et Équipements", url: "/fr/products" },
-      { name: "Services de Construction", url: "/fr/services" },
-      { name: "Blog", url: "/fr/blog" },
+      { name: "Insights", url: "/fr/insights" },
     ],
   },
 ];
