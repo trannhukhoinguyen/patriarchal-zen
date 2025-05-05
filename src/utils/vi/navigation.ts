@@ -12,9 +12,27 @@ const footerLinks = [
     ],
   },
   {
-    section: "Sáng tác",
+    section: "Thiền sư",
+    links: [
+      { name: "Thiền sư", url: "/vi/masters" },
+    ],
+  },
+  {
+    section: "Bộ sưu tập",
     links: [
       { name: "Ngữ lục", url: "/vi/speeches" },
+      { name: "Công án", url: "/vi/koans" },
+      { name: "Tất cả", url: "/vi/collections" },
+    ],
+  },
+  {
+    section: "Thiền đường",
+    links: [
+/*      { name: "Miền Nam", url: "/vi/monasteries/vietnam/south" },
+      { name: "Miền Trung", url: "/vi/monasteries/vietnam/middle" },
+      { name: "Miền Bắc", url: "/vi/monasteries/vietnam/north" },
+      { name: "Hải ngoại", url: "/vi/monasteries/world" },*/
+      { name: "(Đang xây dựng)", url: "#" },
     ],
   },
 ];

@@ -32,7 +32,8 @@ export default defineConfig({
         vi: "vi",
       },
     },
-  }), starlight({
+  }),
+  starlight({
     title: "Patriarchal Zen Docs",
     defaultLocale: "root",
     // https://github.com/withastro/starlight/blob/main/packages/starlight/CHANGELOG.md

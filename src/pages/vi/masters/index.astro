@@ -1,36 +1,36 @@
 ---
 // Import necessary components, modules and types
 import MainLayout from "@/layouts/MainLayout.astro";
-import CardSpeech from "@components/ui/cards/CardSpeech.astro";
-import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
 import { SITE } from "@data/constants";
-
-// Get all speeches post in Vietnamese and sort them based on publish date
-const speechPosts: CollectionEntry<"speeches">[] = await getCollection("speeches", ({ id }) => {
-  return id.startsWith("vi/");
-});
+import { FileTree } from "@astrojs/starlight/components";
 
 // Define variables for page content
-const title: string = "Tổ sư thiền";
-const subTitle: string = "Tổ sư thiền";
-const pageTitle: string = `Ngữ lục | ${SITE.title}`;
+const title: string = "Tổ sư";
+const subTitle: string = "Tổ sư";
+const pageTitle: string = `Tổ sư | ${SITE.title}`;
 ---
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>File Tree Demo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@astrojs/starlight/style.css">
+</head>
+<body>
 <MainLayout lang="vi"
   title={pageTitle}
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://patriarchalzen.quest/vi/speeches",
-    "url": "https://patriarchalzen.quest/vi/speeches",
-    "name": "Blog | Patriarchal Zen",
-    "description": "Tổ sư thiền",
+    "@id": "https://patriarchalzen.quest/vi/masters",
+    "url": "https://patriarchalzen.quest/vi/masters",
+    "name": "Tổ sư | Patriarchal Zen",
+    "description": "Tổ sư",
     "isPartOf": {
       "@type": "WebSite",
       "url": "https://patriarchalzen.quest/vi",
       "name": "Patriarchal Zen",
-      "description": "Tổ sư thiền"
+      "description": "Tổ sư"
     },
     "inLanguage": "vi"
   }}
@@ -57,9 +57,16 @@ const pageTitle: string = `Ngữ lục | ${SITE.title}`;
   <section
     class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
   >
-    <!--Blog posts grid-->
-    <div class="grid gap-6 lg:grid-cols-2">
-      {speechPosts.map((speechEntry) => <CardSpeech speechEntry={speechEntry} speechLocale="vi"/>)}
-    </div>
+    <FileTree>
+      ├─ src/
+      │  ├─ components/
+      │  │  └─ Header.astro
+      │  └─ pages/
+      │     └─ index.astro
+      └─ package.json
+    </FileTree>
   </section>
 </MainLayout>
+
+</body>
+</html>
