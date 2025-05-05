@@ -10,20 +10,22 @@ import { SITE } from "@data/constants";
 
 // Get all blogs post in Vietnamese and sort them based on publish date
 
-const frenchBlogEntries = await getCollection("blog", ({ id }) => {
+const viBlogEntries = await getCollection("blog", ({ id }) => {
   return id.startsWith("vi/");
 });
 
-const frenchInsightsEntries = await getCollection("insights", ({ id }) => {
+const viInsightsEntries = await getCollection("insights", ({ id }) => {
   return id.startsWith("vi/");
 });
 
-const blogPosts: CollectionEntry<"blog">[] = frenchBlogEntries.sort(
+const blogPosts: CollectionEntry<"blog">[] = viBlogEntries.sort(
   (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
     b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 // Get all insights posts
-const insightPosts: CollectionEntry<"insights">[] = frenchInsightsEntries;
+const insightPosts: CollectionEntry<"insights">[] = await getCollection("insights", ({ id }) => {
+  return id.startsWith("vi/");
+});
 
 // Separate the most recent post from others
 const mostRecentPost: CollectionEntry<"blog"> = blogPosts[0];

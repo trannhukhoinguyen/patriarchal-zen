@@ -22,9 +22,7 @@ interface Props {
   href={
     blogLocale && blogLocale === "vi"
       ? `/${blogLocale}/blog/${blogEntry.id.replace(/^vi\//, "")}/`
-      : blogLocale && blogLocale === "fr"
-        ? `/${blogLocale}/blog/${blogEntry.id.replace(/^fr\//, "")}/`
-        : `/blog/${blogEntry.id.replace(/^en\//, "")}/`
+      : `/blog/${blogEntry.id.replace(/^en\//, "")}/`
   }
   data-astro-prefetch
 >

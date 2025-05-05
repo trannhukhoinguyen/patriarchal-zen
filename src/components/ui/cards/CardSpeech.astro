@@ -1,0 +1,59 @@
+---
+// Import necessary modules and utilities
+import { Image } from "astro:assets";
+import Icon from "@components/ui/icons/Icon.astro";
+import type { CollectionEntry } from "astro:content";
+
+const {
+  speechEntry,
+  speechLocale,
+  label = Astro.currentLocale === "vi" ? "Đọc thêm" : "Read more",
+} = Astro.props;
+
+interface Props {
+  speechEntry: CollectionEntry<"speeches">;
+  speechLocale?: string;
+  label?: string;
+}
+---
+
+<!-- The anchor tag is the root container for the "Speech" card. It links to the speech detail page. -->
+<a
+  class="group rounded-xl outline-hidden ring-zinc-500 transition duration-300 focus-visible:ring-3 dark:ring-zinc-200 dark:focus:outline-hidden"
+  href={
+    speechLocale && speechLocale === "vi"
+      ? `/${speechLocale}/speeches/${speechEntry.id.replace(/^vi\//, "")}/`
+      : `/speeches/${speechEntry.id.replace(/^en\//, "")}/`
+  }
+>
+  <!-- This is the container for the speech's cover image. -->
+  <div class="relative overflow-hidden rounded-xl pt-[50%] sm:pt-[70%]">
+    <Image
+      class="absolute start-0 top-0 size-full rounded-xl object-cover transition duration-500 ease-in-out group-hover:scale-105"
+      src={speechEntry.data.cardImage}
+      alt={speechEntry.data.cardImageAlt}
+      draggable={"false"}
+      format={"avif"}
+    />
+  </div>
+  <!-- This is the container for the speech's title and description. -->
+  <div class="mt-7">
+    <!-- The title of the speech -->
+    <h3
+      class="text-xl font-bold text-neutral-800 group-hover:text-neutral-600 dark:text-neutral-200 dark:group-hover:text-neutral-400"
+    >
+      {speechEntry.data.title}
+    </h3>
+    <!-- The description of the speech -->
+    <p class="mt-3 text-neutral-600 dark:text-neutral-400">
+      {speechEntry.data.description}
+    </p>
+    <!-- The "Read More" hyperlink going to the full speech. With an arrow icon -->
+    <p
+      class="mt-5 inline-flex items-center gap-x-1 font-medium text-orange-400 decoration-2 group-hover:underline dark:text-orange-300"
+    >
+      {label}
+      <Icon name="arrowRightStatic" />
+    </p>
+  </div>
+</a>

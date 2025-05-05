@@ -39,9 +39,7 @@ interface Props {
         href={
           recentBlogLocale && recentBlogLocale === "vi"
               ? `/${recentBlogLocale}/blog/${blogEntry.id.replace(/^vi\//, '')}/`
-              : recentBlogLocale && recentBlogLocale === "fr"
-                ? `/${recentBlogLocale}/blog/${blogEntry.id.replace(/^fr\//, '')}/`
-                : `/blog/${blogEntry.id.replace(/^en\//, '')}/`
+              : `/blog/${blogEntry.id.replace(/^en\//, '')}/`
         }
       >
         {blogEntry.data.description}
@@ -66,9 +64,7 @@ interface Props {
         url={
           recentBlogLocale && recentBlogLocale === "vi"
               ? `/${recentBlogLocale}/blog/${blogEntry.id.replace(/^vi\//, '')}/`
-              : recentBlogLocale && recentBlogLocale === "fr"
-                  ? `/${recentBlogLocale}/blog/${blogEntry.id.replace(/^fr\//, '')}/`
-                : `/blog/${blogEntry.id.replace(/^en\//, '')}/`
+              : `/blog/${blogEntry.id.replace(/^en\//, '')}/`
         }
         title="Read More"
         data-astro-prefetch
