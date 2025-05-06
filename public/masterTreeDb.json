@@ -1,0 +1,404 @@
+{
+    "id": "0",
+    "name_en": "Shakyamuni Buddha",
+    "disciples": [
+      {
+        "id": "1",
+        "name_en": "Mahakasyapa",
+        "teacher": "Shakyamuni Buddha",
+        "disciples": [
+          {
+            "id": "2",
+            "name_en": "Ananda",
+            "teacher": "Mahakasyapa",
+            "disciples": [
+              {
+                "id": "3",
+                "name_en": "Sanakavasa",
+                "teacher": "Ananda",
+                "disciples": [
+                  {
+                    "id": "4",
+                    "name_en": "Upagupta",
+                    "teacher": "Sanakavasa",
+                    "disciples": [
+                      {
+                        "id": "5",
+                        "name_en": "Dhrtaka",
+                        "teacher": "Upagupta",
+                        "disciples": [
+                          {
+                            "id": "6",
+                            "name_en": "Miccaka",
+                            "teacher": "Dhrtaka",
+                            "disciples": [
+                              {
+                                "id": "7",
+                                "name_en": "Vasumitra",
+                                "teacher": "Miccaka",
+                                "disciples": [
+                                  {
+                                    "id": "8",
+                                    "name_en": "Buddhanandi",
+                                    "teacher": "Vasumitra",
+                                    "disciples": [
+                                      {
+                                        "id": "9",
+                                        "name_en": "Buddhamitra",
+                                        "teacher": "Buddhanandi",
+                                        "disciples": [
+                                          {
+                                            "id": "10",
+                                            "name_en": "Parsvika",
+                                            "teacher": "Buddhamitra",
+                                            "disciples": [
+                                              {
+                                                "id": "11",
+                                                "name_en": "Punyayasas",
+                                                "teacher": "Parsvika",
+                                                "disciples": [
+                                                  {
+                                                    "id": "12",
+                                                    "name_en": "Asvaghosha",
+                                                    "teacher": "Punyayasas",
+                                                    "disciples": [
+                                                      {
+                                                        "id": "13",
+                                                        "name_en": "Kapimala",
+                                                        "teacher": "Asvaghosha",
+                                                        "disciples": [
+                                                          {
+                                                            "id": "14",
+                                                            "name_en": "Nagarjuna",
+                                                            "teacher": "Kapimala",
+                                                            "disciples": [
+                                                              {
+                                                                "id": "15",
+                                                                "name_en": "Kanadeva",
+                                                                "teacher": "Nagarjuna",
+                                                                "disciples": [
+                                                                  {
+                                                                    "id": "16",
+                                                                    "name_en": "Rahulata",
+                                                                    "teacher": "Kanadeva",
+                                                                    "disciples": [
+                                                                      {
+                                                                        "id": "17",
+                                                                        "name_en": "Sanghanandi",
+                                                                        "teacher": "Rahulata",
+                                                                        "disciples": [
+                                                                          {
+                                                                            "id": "18",
+                                                                            "name_en": "Gayasata",
+                                                                            "teacher": "Sanghanandi",
+                                                                            "disciples": [
+                                                                              {
+                                                                                "id": "19",
+                                                                                "name_en": "Kumarata",
+                                                                                "teacher": "Gayasata",
+                                                                                "disciples": [
+                                                                                  {
+                                                                                    "id": "20",
+                                                                                    "name_en": "Jayata",
+                                                                                    "teacher": "Kumarata",
+                                                                                    "disciples": [
+                                                                                      {
+                                                                                        "id": "21",
+                                                                                        "name_en": "Vasubandhu",
+                                                                                        "teacher": "Jayata",
+                                                                                        "disciples": [
+                                                                                          {
+                                                                                            "id": "22",
+                                                                                            "name_en": "Manorhita",
+                                                                                            "teacher": "Vasubandhu",
+                                                                                            "disciples": [
+                                                                                              {
+                                                                                                "id": "23",
+                                                                                                "name_en": "Haklenayaśas",
+                                                                                                "teacher": "Manorhita",
+                                                                                                "disciples": [
+                                                                                                  {
+                                                                                                    "id": "24",
+                                                                                                    "name_en": "Simhabodhi",
+                                                                                                    "teacher": "Haklena",
+                                                                                                    "disciples": [
+                                                                                                      {
+                                                                                                        "id": "25.1",
+                                                                                                        "name_en": "Basiasita",
+                                                                                                        "teacher": "Simhabodhi",
+                                                                                                        "disciples": [
+                                                                                                          {
+                                                                                                            "id": "26.1",
+                                                                                                            "name_en": "Punyamitra",
+                                                                                                            "teacher": "Basiasita",
+                                                                                                            "disciples": [
+                                                                                                              {
+                                                                                                                "id": "27.1",
+                                                                                                                "name_en": "Prajnatara",
+                                                                                                                "teacher": "Punyamitra",
+                                                                                                                "disciples": [
+                                                                                                                  {
+                                                                                                                    "id": "28.1",
+                                                                                                                    "name_en": "Bodhidharma",
+                                                                                                                    "teacher": "Prajnatara",
+                                                                                                                    "disciples": [
+                                                                                                                      {
+                                                                                                                        "id": "29",
+                                                                                                                        "name_en": "Dazu Huike",
+                                                                                                                        "teacher": "Bodhidharma",
+                                                                                                                        "disciples": [
+                                                                                                                          {
+                                                                                                                            "id": "30.1",
+                                                                                                                            "name_en": "Jianzhi Sengcan",
+                                                                                                                            "teacher": "Dazu Huike",
+                                                                                                                            "disciples": [
+                                                                                                                              {
+                                                                                                                                "id": "31.1",
+                                                                                                                                "name_en": "Dayi Daoxin",
+                                                                                                                                "teacher": "Jianzhi Sengcan",
+                                                                                                                                "disciples": [
+                                                                                                                                  {
+                                                                                                                                    "id": "32.1",
+                                                                                                                                    "name_en": "Daman Hongren",
+                                                                                                                                    "teacher": "Dayi Daoxin",
+                                                                                                                                    "disciples": [
+                                                                                                                                      {
+                                                                                                                                        "id": "33.1",
+                                                                                                                                        "name_en": "Dajian Huineng",
+                                                                                                                                        "teacher": "Daman Hongren",
+                                                                                                                                        "disciples": [
+                                                                                                                                          {
+                                                                                                                                            "id": "34.1.1",
+                                                                                                                                            "name_en": "Qingyuan Xingsi",
+                                                                                                                                            "teacher": "Dajian Huineng",
+                                                                                                                                            "disciples": [
+                                                                                                                                              {
+                                                                                                                                                "id": "35.2.1",
+                                                                                                                                                "name_en": "Shitou Xiqian",
+                                                                                                                                                "teacher": "Dajian Huineng",
+                                                                                                                                                "disciples": [
+                                                                                                                                                  {
+                                                                                                                                                    "id": "36.3.2",
+                                                                                                                                                    "name_en": "Yaoshan Weiyan",
+                                                                                                                                                    "teacher": "Shitou Xiqian",
+                                                                                                                                                    "disciples": []
+                                                                                                                                                  },
+                                                                                                                                                  {
+                                                                                                                                                    "id": "36.3.3",
+                                                                                                                                                    "name_en": "Tianhuang Daowu",
+                                                                                                                                                    "teacher": "Shitou Xiqian",
+                                                                                                                                                    "disciples": []
+                                                                                                                                                  },
+                                                                                                                                                  {
+                                                                                                                                                    "id": "36.3.4",
+                                                                                                                                                    "name_en": "Dadian Baotong",
+                                                                                                                                                    "teacher": "Shitou Xiqian",
+                                                                                                                                                    "disciples": []
+                                                                                                                                                  },
+                                                                                                                                                  {
+                                                                                                                                                    "id": "36.3.5",
+                                                                                                                                                    "name_en": "Danxia Tianran",
+                                                                                                                                                    "teacher": "Shitou Xiqian",
+                                                                                                                                                    "disciples": []
+                                                                                                                                                  },
+                                                                                                                                                  {
+                                                                                                                                                    "id": "36.3.25",
+                                                                                                                                                    "name_en": "Tanzhou Dachuan",
+                                                                                                                                                    "teacher": "Shitou Xiqian",
+                                                                                                                                                    "disciples": []
+                                                                                                                                                  }
+                                                                                                                                                ]
+                                                                                                                                              }
+                                                                                                                                            ]
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                            "id": "34.1.3",
+                                                                                                                                            "name_en": "Nanyue Huairang",
+                                                                                                                                            "teacher": "Dajian Huineng",
+                                                                                                                                            "disciples": [
+                                                                                                                                              {
+                                                                                                                                                "id": "35.2.2",
+                                                                                                                                                "name_en": "Mazu Daoyi",
+                                                                                                                                                "teacher": "Nanyue Huairang"
+                                                                                                                                              }
+                                                                                                                                            ]
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                            "id": "34.1.10",
+                                                                                                                                            "name_en": "Biandan Xiaoliao",
+                                                                                                                                            "teacher": "Dajian Huineng",
+                                                                                                                                            "disciples": []
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                            "id": "34.1.12",
+                                                                                                                                            "name_en": "Hongzhou Fada",
+                                                                                                                                            "teacher": "Dajian Huineng",
+                                                                                                                                            "disciples": []
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                            "id": "34.1.8",
+                                                                                                                                            "name_en": "Jizhou Zhicheng",
+                                                                                                                                            "teacher": "Dajian Huineng",
+                                                                                                                                            "disciples": []
+                                                                                                                                          }
+
+                                                                                                                                        ]
+                                                                                                                                      }
+                                                                                                                                    ]
+                                                                                                                                  },
+                                                                                                                                  {
+                                                                                                                                    "id": "32.2",
+                                                                                                                                    "name_en": "Niutou Farong",
+                                                                                                                                    "teacher": "Dayi Daoxin",
+                                                                                                                                    "disciples": [
+                                                                                                                                      {
+                                                                                                                                        "id": "33.2",
+                                                                                                                                        "name_en": "Niutou Zhiyan",
+                                                                                                                                        "teacher": "Niutou Farong",
+                                                                                                                                        "disciples": [
+                                                                                                                                          {
+                                                                                                                                            "id": "34.1.49",
+                                                                                                                                            "name_en": "Niutou Huifang",
+                                                                                                                                            "teacher": "Niutou Zhiyan",
+                                                                                                                                            "disciples": [
+                                                                                                                                              {
+                                                                                                                                                "id": "35.2.10",
+                                                                                                                                                "name_en": "Niutou Fazhi",
+                                                                                                                                                "teacher": "Niutou Huifang",
+                                                                                                                                                "disciples": [
+                                                                                                                                                  {
+                                                                                                                                                    "id": "36.3.10",
+                                                                                                                                                    "name_en": "Niutou Zhiwei",
+                                                                                                                                                    "teacher": "Niutou Fazhi-",
+                                                                                                                                                    "disciples": [
+                                                                                                                                                      {
+                                                                                                                                                        "id": "37.4.10",
+                                                                                                                                                        "name_en": "Helin Xuansu",
+                                                                                                                                                        "teacher": "Niutou Zhiwei",
+                                                                                                                                                        "disciples": [
+                                                                                                                                                          {
+                                                                                                                                                            "id": "38.5.100",
+                                                                                                                                                            "name_en": "Jingshan Daoqin",
+                                                                                                                                                            "teacher": "Helin Xuansu",
+                                                                                                                                                            "disciples": []
+                                                                                                                                                          }
+                                                                                                                                                        ]
+                                                                                                                                                      },
+                                                                                                                                                      {
+                                                                                                                                                        "id": "37.4.9",
+                                                                                                                                                        "name_en": "Niutou Huizhong",
+                                                                                                                                                        "teacher": "Niutou Zhiwei",
+                                                                                                                                                        "disciples": []
+                                                                                                                                                      }
+                                                                                                                                                    ]
+                                                                                                                                                  }
+                                                                                                                                                ]
+                                                                                                                                              }
+                                                                                                                                            ]
+                                                                                                                                          }
+                                                                                                                                        ]
+                                                                                                                                      }
+                                                                                                                                    ]
+                                                                                                                                  }
+                                                                                                                                ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                "id": "31.2",
+                                                                                                                                "name_en": "Vinitaruci",
+                                                                                                                                "teacher": "Jianzhi Sengcan",
+                                                                                                                                "disciples": [
+                                                                                                                                  {
+                                                                                                                                    "id": "32.101.1.V",
+                                                                                                                                    "name_en": "Zhongshan Faxian",
+                                                                                                                                    "teacher": "Vinitaruci",
+                                                                                                                                    "disciples": []
+                                                                                                                                  }
+                                                                                                                                ]
+                                                                                                                              }
+                                                                                                                            ]
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                            "id": "30.3",
+                                                                                                                            "name_en": "Xiangzhou Huiman",
+                                                                                                                            "teacher": "Dazu Huike",
+                                                                                                                            "disciples": []
+                                                                                                                          }
+                                                                                                                        ]
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              }
+                                                                                                            ]
+                                                                                                          }
+                                                                                                        ]
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "id": "25.2",
+                                                                                                        "name_en": "Dharmadha",
+                                                                                                        "teacher": "Simhabodhi",
+                                                                                                        "disciples": [
+                                                                                                          {
+                                                                                                            "id": "26.2",
+                                                                                                            "name_en": "Nhân Đà La",
+                                                                                                            "teacher": "Dharmadha",
+                                                                                                            "disciples": []
+                                                                                                          },
+                                                                                                          {
+                                                                                                            "id": "26.3",
+                                                                                                            "name_en": "Cù La Kỵ Lợi Bà",
+                                                                                                            "teacher": "Dharmadha",
+                                                                                                            "disciples": []
+                                                                                                          }
+                                                                                                        ]
+                                                                                                      }
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

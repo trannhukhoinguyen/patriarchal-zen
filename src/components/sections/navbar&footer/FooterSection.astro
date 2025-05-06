@@ -110,7 +110,9 @@ const crafted: string = Astro.currentLocale === "vi" ? "vi" : "";
     <script>
       const year = new Date().getFullYear();
       const element = document.getElementById("current-year");
-      element!.innerText = year.toString();
+      if (element) {
+        element.innerText = year.toString();
+      }
     </script>
   </div>
 </footer>

@@ -1,0 +1,2987 @@
+[
+  {
+    "id": "26.2",
+    "name_en": "Nhân Đà La",
+    "teacher": "Đạt Ma Đạt",
+    "disciples": [
+      "Đạt Ma Thi Lợi Đế",
+      "Na Già Nan Đề",
+      "Phú Lâu Cầu Đa La",
+      "Ba La Bà Đề"
+    ]
+  },
+  {
+    "id": "26.3",
+    "name_en": "Cù La Kỵ Lợi Bà",
+    "teacher": "Đạt Ma Đạt",
+    "disciples": [
+      "Bà La Bạt Ma",
+      "Tăng Già La Xoa"
+    ]
+  },
+  {
+    "id": "27.2",
+    "name_en": "Đạt Ma Thi Lợi Đế",
+    "teacher": "Nhân Đà La",
+    "disciples": [
+      "Ma Đế Lệ Bạt La / Ma Đế Lệ Phi La",
+      "A Lợi Bạt Mâu / Ha Lợi Bạt Mậu"
+    ]
+  },
+  {
+    "id": "27.3",
+    "name_en": "Phá Lâu Cầu Đa La",
+    "teacher": "Nhân Đà La",
+    "disciples": [
+      "Hòa Tu Bàn Đầu",
+      "Đạt Ma Kha Đế",
+      "Chiên Đà La Đa Ba"
+    ]
+  },
+  {
+    "id": "27.4",
+    "name_en": "Ba La Bạt Ma",
+    "teacher": "Cù La Kỵ Lợi Bà",
+    "disciples": [
+      "Lặc/Nặc La Đa La",
+      "Bàn Đầu Đa La",
+      "Bà Ba Bà La / Bà La Bà Đa"
+    ]
+  },
+  {
+    "id": "27.5",
+    "name_en": "Tăng Già La Xoa",
+    "teacher": "Cù La Kỵ Lợi Bà",
+    "disciples": [
+      "Tì Xá Dã Đa La",
+      "Tì Lâu La Đa Ma",
+      "Tì Túc Xô Đa La / Tỳ-lật-sô-đa-la",
+      "Ưu Bà Chiên Đà / Ưu-ba-thiên-đà",
+      "Bà Nan Đề Đa /  Bà-nan-đề-la"
+    ]
+  },
+
+  {
+    "id": "34.1.7",
+    "name_en": "Tây Ấn Quật Đa Tam Tạng",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+
+
+  {
+    "id": "30.2",
+    "name_en": "Tăng Na",
+    "teacher": "Dazu Huike",
+    "disciples": []
+  },
+  {
+    "id": "30.4",
+    "name_en": "cư sĩ Hướng",
+    "teacher": "Dazu Huike",
+    "disciples": []
+  },
+
+  {
+    "id": "31.2",
+    "name_en": "Cư sĩ Hoa Nhàn",
+    "teacher": "Tương Châu Tuệ Mãn",
+    "disciples": [
+      "Đàm Thúy"
+    ]
+  },
+
+
+  {
+    "id": "32.3",
+    "name_en": "Đàm Thúy",
+    "teacher": "Cư sĩ Hoa Nhàn",
+    "disciples": [
+      "Diên lăng Tuệ Giản",
+      "Bành thành Tuệ Sai",
+      "Định lâm Tuệ Cương"
+    ]
+  },
+
+
+  {
+    "id": "33.3",
+    "name_en": "Yuquan Shenxiu",
+    "teacher": "Daman Hongren",
+    "disciples": [
+      "Dōsen (道璿)",
+      "Tung Sơn Huệ Tịch (嵩山慧寂)",
+      "Kinh Triệu Nghĩa Phước (京兆 義福)",
+      "Yìfú",
+      "Kính Hiền",
+      "Pǔjì",
+      "Huệ Minh"
+    ]
+  },
+  {
+    "id": "33.4",
+    "name_en": "Laoan Huian",
+    "teacher": "Daman Hongren",
+    "disciples": [
+      "Phá Táo Đọa",
+      "Đạo Lượng"
+    ]
+  },
+  {
+    "id": "33.5",
+    "name_en": "Zizhou Zhishen",
+    "teacher": "Daman Hongren",
+    "disciples": [
+      "Zizhou Chuji"
+    ]
+  },
+  {
+    "id": "33.6",
+    "name_en": "Định Lâm Tuệ Cương",
+    "teacher": "Đàm Thúy",
+    "disciples": [
+      "Lục Hợp Đại Giác"
+    ]
+  },
+  {
+    "id": "33.7",
+    "name_en": "Thượng Nguyên Trí Thành",
+    "teacher": "Niutou Farong",
+    "disciples": [
+      "Định Châu"
+    ]
+  },
+  {
+    "id": "34.1.1",
+    "name_en": "Qingyuan Xingsi",
+    "teacher": "Dajian Huineng",
+    "disciples": [
+      "Shitou Xiqian"
+    ]
+  },
+  {
+    "id": "34.1.2",
+    "name_en": "Nanyang Huizhong",
+    "teacher": "Dajian Huineng",
+    "disciples": [
+      "Danyuan Yingzhen",
+      "Suzong - (vua Túc Tông - Lý Hanh)",
+      "Daizong - (vua Đại Tông - Lý Dự)",
+      "Đặng Châu Duy Giới",
+      "Khai phủ Tôn Tri Hữu"
+    ]
+  },
+  {
+    "id": "34.1.3",
+    "name_en": "Nanyue Huairang",
+    "teacher": "Dajian Huineng",
+    "disciples": [
+      "Mazu Daoyi",
+      "Nam Nhạc Thường Hoạt",
+      "Trí Đạt",
+      "Thản Nhiên",
+      "Triều Châu Thần Chiếu",
+      "Dương châu Nghiêm Lăng",
+      "Tân La Bản Như",
+      "Huyền Thịnh",
+      "Đông Vụ Pháp Không"
+    ]
+  },
+  {
+    "id": "34.1.4",
+    "name_en": "Heze Shenhui",
+    "teacher": "Dajian Huineng",
+    "disciples": [
+      "Cizhou Faru",
+      "Wutai Wuming",
+      "Đại Thạch Phước Lâm, Hoàng Châu",
+      "Thủy Mông Quang Bảo",
+      "Tây Ẩn Chuẩn Bình Hoài An",
+      "Tuệ Diễn ở Lễ Dương",
+      "Hoài Không ở Hà Thang",
+      "Viên Chấn ở Nam Dương",
+      "Quảng Phu ở Nghi Xuân",
+      "Hạnh Giác ở Giang Lăng",
+      "Thần Anh ở núi Ngũ đài",
+      "Vô Sinh ở núi Ngũ đài",
+      "Hạo Ngọc ở Nam Nhạc",
+      "Chí Mãn ở Tuyên Châu",
+      "Lãng ở Phù Châu",
+      "Linh Thản ở Quảng Lăng",
+      "Thông Ẩn ở Ninh Châu",
+      "Nam Ấn ở Ích Châu",
+      "Hà Nam Duẫn Lý Thường"
+    ]
+  },
+  {
+    "id": "34.1.5",
+    "name_en": "Thiều Châu Pháp Hải",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.6",
+    "name_en": "Yongjia Xuanjue",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.8",
+    "name_en": "Jizhou Zhicheng",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.9",
+    "name_en": "Giang Tây Chí Triệt",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.10",
+    "name_en": "Biandan Xiaoliao",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.11",
+    "name_en": "Hà Bắc Trí Hoàng",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.12",
+    "name_en": "Hongzhou Fada",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.13",
+    "name_en": "Thọ Châu Trí Thông",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.14",
+    "name_en": "Tín Châu Trí Thường",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.15",
+    "name_en": "Quảng Châu Chí Đạo",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.16",
+    "name_en": "Quảng Châu Pháp Tánh Ấn Tông",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.17",
+    "name_en": "Vụ Châu Huyền Sách",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.18",
+    "name_en": "Daixiao Lingtao",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.19",
+    "name_en": "Ni Vô Tận Tạng",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.20",
+    "name_en": "Kỳ Đà La",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.21",
+    "name_en": "Tịnh An",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.22",
+    "name_en": "Tâm",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.23",
+    "name_en": "Định Chơn",
+    "teacher": "Dajian Huineng",
+    "disciples": [
+      "Linh Vân"
+    ]
+  },
+  {
+    "id": "34.1.24",
+    "name_en": "Kiên Cố",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.25",
+    "name_en": "Đạo Tiến",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.26",
+    "name_en": "Thiện Khoái",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.27",
+    "name_en": "Duyên Tố",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.28",
+    "name_en": "Tông Nhất",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.29",
+    "name_en": "Thiên Hiện",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.30",
+    "name_en": "Phạm Hạnh",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.31",
+    "name_en": "Tự Tại",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.32",
+    "name_en": "Hàm Thông",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.33",
+    "name_en": "Thái Tường",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.34",
+    "name_en": "Pháp Tịnh",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.35",
+    "name_en": "Biện Tài",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.36",
+    "name_en": "Dạo Dung",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.37",
+    "name_en": "Ngô Đầu-đà",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.38",
+    "name_en": "Đạo Anh",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.39",
+    "name_en": "Trí Bổn",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.40",
+    "name_en": "Pháp Chơn",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.41",
+    "name_en": "Huyền Giai",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.42",
+    "name_en": "Chung Sơn Đàm Thổi",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.43",
+    "name_en": "Thích sử Vi Cừ",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.44",
+    "name_en": "Yìfú",
+    "teacher": "Yuquan Shenxiu",
+    "disciples": []
+  },
+  {
+    "id": "34.1.45",
+    "name_en": "Songshan Puji",
+    "teacher": "Yuquan Shenxiu",
+    "disciples": [
+      "Dàoxuán",
+      "Nangaku Myōsan",
+      "Duy Chính (惟政)"
+    ]
+  },
+  {
+    "id": "34.1.46",
+    "name_en": "Đạo Lượng",
+    "teacher": "Huệ An",
+    "disciples": []
+  },
+  {
+    "id": "34.1.47",
+    "name_en": "破竈墮",
+    "teacher": "Huệ An (慧安)",
+    "disciples": [
+      "Tuấn Cực (峻極)"
+    ]
+  },
+  {
+    "id": "34.1.48",
+    "name_en": "Tzu-chou Ch’u-chi",
+    "teacher": "Zizhou Chiji",
+    "disciples": [
+      "Wúxiàng (無相)"
+    ]
+  },
+
+  {
+    "id": "34.1.50",
+    "name_en": "Mengshan Daoming",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "34.1.51",
+    "name_en": "Zizhou Chuji",
+    "teacher": "Zizhou Zhishen",
+    "disciples": [
+      "Jingzhong Wuxiang",
+      "Chengyuan (712-802)"
+    ]
+  },
+  {
+    "id": "34.1.52",
+    "name_en": "Lục Hợp Đại Giác",
+    "teacher": "Định Lâm Tuệ Cương",
+    "disciples": [
+      "Cao bưu Đàm Ảnh"
+    ]
+  },
+  {
+    "id": "34.1.53",
+    "name_en": "Định Châu",
+    "teacher": "Thượng Nguyên Trí Thành",
+    "disciples": [
+      "Như Độ"
+    ]
+  },
+  {
+    "id": "34.1.54",
+    "name_en": "Sikong Benjing",
+    "teacher": "Dajian Huineng",
+    "disciples": []
+  },
+  {
+    "id": "35.2.1",
+    "name_en": "Shitou Xiqian",
+    "teacher": "Dajian Huineng",
+    "disciples": [
+      "Yaoshan Weiyan",
+      "Kinh triệu Thi Lợi",
+      "Tianhuang Daowu",
+      "Danxia Tianran",
+      "Dadian Baotong",
+      "Chiêu Đề tại Đà châu Tuệ Lãng",
+      "Trường sa Chấn Lãng Hưng quốc",
+      "Tanzhou Dachuan",
+      "Phần châu Thạch Thê",
+      "Pháp môn tại Phụng tường Phật Đà",
+      "Đàm châu Hoa Lâm",
+      "Triều châu Đại Điên",
+      "Đàm châu Khoáng – Trường Tỳ",
+      "Thủy Không",
+      "Hải lăng Đại Biện",
+      "Chử Kinh",
+      "Hành châu Đạo Tiên",
+      "Hán châu Thường Thanh",
+      "Phước châu Toái Thạch",
+      "Thương châu Thương Lãnh",
+      "Thường châu Nghĩa Hưng"
+    ]
+  },
+  {
+    "id": "35.2.2",
+    "name_en": "Mazu Daoyi",
+    "teacher": "Nanyue Huairang",
+    "disciples": [
+      "Baizhang Huaihai",
+      "Dazhu Huihai",
+      "Damei Fachang",
+      "Ehu Dayi",
+      "Xitang Zhizang",
+      "Nanquan Puyuan",
+      "Fenzhou Wuye",
+      "Guizong Zhichang",
+      "Zhangjing Huaiyun",
+      "Yanguan Qian",
+      "Layman Pangyun (Jushi)",
+      "Mayu Baoche",
+      "Panshan Baoji",
+      "Luzu Baoyun",
+      "Zhongyi Hongen",
+      "Wujiu Youxuan",
+      "Zhangjing Huaihui",
+      "Panshan Baoji",
+      "Ngũ Đài Đặng Ẩn Phong",
+      "Thạch Củng Tuệ Tạng",
+      "Ô Cửu",
+      "Yanguan Qian",
+      "Tử Ngọc Đạo Thông",
+      "Lỗ Tổ Bảo Vân",
+      "An phong Hoài Không",
+      "Bách Linh",
+      "Cổ Sơn Linh Kiệu (Hongzhou Gushan Lingjiao)",
+      "Bách Nham Ninh Triết",
+      "Bách Trượng Duy Chính",
+      "Bạch Hổ Pháp Tuyên",
+      "Bản Khê",
+      "Cam tuyền Chí Hiền",
+      "Càn Nguyên Huy",
+      "Côn Sơn Định Giác",
+      "Cổ Tự",
+      "Dương Châu Trí Thông",
+      "Dương kỳ Chân Thúc",
+      "Đài châu Thường Triệt Bách nham",
+      "Đại Dương",
+      "Đại Dương Hy Hạng",
+      "Đại hội Đạo Ngộ",
+      "Đảnh châu Hồng Ân Trung Ấp",
+      "Động An",
+      "Giang Tây Bề Thọ",
+      "Giang tây Nhượng Bắc lan",
+      "Hiện sơn Định Khánh",
+      "Hoa châu Sách",
+      "Hoa lâm Thiện Giác",
+      "Hà Trung Bảo Khánh",
+      "Hà Trung Hoài Tắc",
+      "Hàng Châu Trí Tạng",
+      "Hàng Châu Tự Mãn Ly thôn ",
+      "Hàng Châu Đả Địa",
+      "Hán Nam Lương tân",
+      "Hưng Bình",
+      "Hạo Anh",
+      "Hải Lăng Khánh Vân",
+      "Hồ Nam Như Hội",
+      "Hồng Châu Huyền Hư",
+      "Hồng loa Sơn",
+      "Kim Ngưu",
+      "Kim Quật Duy Trực",
+      "Kinh Châu Bảo Tích",
+      "Kinh Châu Linh Nhu",
+      "Kinh Châu Thảo Đường",
+      "Kinh Nam Đạo Bản Bảo chánh",
+      "Kinh Triệu Duy Khoan",
+      "Kinh Triệu Giác Bình",
+      "Kinh Triệu Hoài Thao",
+      "Kinh Triệu Sùng",
+      "Kinh Triệu Trí Tạng",
+      "La Phù Tư Quảng",
+      "La Phù Đạo Hạnh",
+      "Liên Châu Nguyên Đề",
+      "Long nha Viên Sướng",
+      "Long Sơn",
+      "Luyện sơn Thần Ngoạn",
+      "Lã Hậu Ninh Bí",
+      "Lô Sơn Pháp Tạng",
+      "Lạc Kinh Như Mãn Phật quang ",
+      "Lặc Đàm Duy Kiến",
+      "Lặc Đàm Pháp Hội",
+      "Lặc Đàm Thường Hưng",
+      "Lễ châu Quảng Trừng Đại đồng",
+      "Lễ Châu Trí Thông",
+      "Lễ Châu Đạo Hạnh Minh khê",
+      "Lộ phủ Nguyên Lễ",
+      "Lộ Phủ Pháp Nhu",
+      "Lợi Sơn",
+      "Mã đầu Thần Tạng",
+      "Mông Khê",
+      "Mặc Giản",
+      "Mặc Nhãn",
+      "Mễ Lãnh",
+      "Nam nguyên Đại Minh",
+      "Nam nhạc Trí Châu",
+      "Nghĩa hưng Thắng Biện",
+      "Ngũ Tiết Linh Mặc",
+      "Ngọc Châu Hồng Đàm",
+      "Ngọc Châu Vô Đẳng",
+      "Ngọc Mổ Tiêu Nhiên",
+      "Ngọc Đài Duy Nhiên",
+      "Nhũ Nguyên",
+      "Phong sơn Hồng Tuấn",
+      "phu Hà trung Pháp Tạng",
+      "Phù Bôi",
+      "Phù dung Thái Dục",
+      "Phước Khê",
+      "Phật Áo",
+      "Phục Ngưu Tự Tại",
+      "Quang minh Phổ Mãn",
+      "Quy Dương Vô Liễu",
+      "Quật sơn Đạo Viên",
+      "Sam sơn Trí Kiên",
+      "Song lãnh Đạo Phương",
+      "Sùng Thái",
+      "Tam giác Tổng Ấn",
+      "Thiên mục Minh Giác",
+      "Thiều châu Thanh Hạ",
+      "Thường châu Minh Cán",
+      "Thạch Cửu",
+      "Thạch Lâm",
+      "Thạch sương Đại Thiện",
+      "Thủy Lão",
+      "Thủy Đường",
+      "Tiêu Diêu",
+      "Trì Châu Đàm Ký Hội Sơn",
+      "Tuyền Châu Tuệ Trung",
+      "Tây Sơn Chủ tọa Lượng",
+      "Tây Viên Đàm Tạng",
+      "Tùng Sơn",
+      "Tùy châu Đại sư Hồng Sơn",
+      "Tú Khê",
+      "Tương Châu Thường Kiên",
+      "Tượng Nguyên Hoài Thản",
+      "Tắc Xuyên",
+      "Tề châu Đạo Nham",
+      "Tề Phong",
+      "Tử Âm Duy Kiến",
+      "Việt Châu Duy Hiến",
+      "Vân Thủy Tĩnh Tông",
+      "Vân Tú Thần Giám",
+      "Vương Cốc Hạnh Minh",
+      "Xứ Châu Pháp Tạng"
+    ]
+  },
+  {
+    "id": "35.2.3",
+    "name_en": "Danyuan Yingzhen",
+    "teacher": "Nanyang Huizhong",
+    "disciples": []
+  },
+  {
+    "id": "35.2.4",
+    "name_en": "Cizhou Faru",
+    "teacher": "Heze Shenhui",
+    "disciples": [
+      "Kinh Nam Duy Trung"
+    ]
+  },
+  {
+    "id": "35.2.5",
+    "name_en": "Wutai Wuming",
+    "teacher": "Heze Shenhui",
+    "disciples": []
+  },
+  {
+    "id": "35.2.6",
+    "name_en": "Dàoxuán",
+    "teacher": "Songshan Puji",
+    "disciples": [
+      "Hành Biểu (行表)"
+    ]
+  },
+  {
+    "id": "35.2.7",
+    "name_en": "Nangaku Myōsan",
+    "teacher": "Songshan Puji",
+    "disciples": []
+  },
+  {
+    "id": "35.2.8",
+    "name_en": "Yizhou Wuxiang",
+    "teacher": "Jingzhong Zhixian - Chùjì (普寂)",
+    "disciples": [
+      "Wúzhù (無住)"
+    ]
+  },
+  {
+    "id": "35.2.9",
+    "name_en": "峻極",
+    "teacher": "Phá Táo Đọa (破竈墮)",
+    "disciples": []
+  },
+
+  {
+    "id": "35.2.11",
+    "name_en": "惟政",
+    "teacher": "Songshan Puji",
+    "disciples": [
+      "Chí Chân (志眞)"
+    ]
+  },
+  {
+    "id": "35.2.12",
+    "name_en": "Jingzhong Wuxiang",
+    "teacher": "Zizhou Chuji",
+    "disciples": [
+      "Jingzhong Shenhui",
+      "Baotang Wuzhu",
+      "Sang-shi",
+      "Tongchuan Ji"
+    ]
+  },
+  {
+    "id": "35.2.13",
+    "name_en": "Cao bưu Đàm Ảnh",
+    "teacher": "Lục Hợp Đại Giác",
+    "disciples": [
+      "Thái sơn Minh Luyện"
+    ]
+  },
+  {
+    "id": "36.3.1",
+    "name_en": "Kinh Nam Duy Trung",
+    "teacher": "Cizhou Faru",
+    "disciples": [
+      "Toại Châu Đạo Viên"
+    ]
+  },
+  {
+    "id": "36.3.2",
+    "name_en": "Yaoshan Weiyan",
+    "teacher": "Shitou Xiqian",
+    "disciples": [
+      "Yunyan Tansheng",
+      "Chuanzi Decheng",
+      "Daowu Yuanzhi"
+    ]
+  },
+  {
+    "id": "36.3.3",
+    "name_en": "Tianhuang Daowu",
+    "teacher": "Shitou Xiqian",
+    "disciples": [
+      "Longtan Chongxin"
+    ]
+  },
+  {
+    "id": "36.3.4",
+    "name_en": "Dadian Baotong",
+    "teacher": "Shitou Xiqian",
+    "disciples": [
+      "Sanping Yizhong"
+    ]
+  },
+  {
+    "id": "36.3.5",
+    "name_en": "Danxia Tianran",
+    "teacher": "Shitou Xiqian",
+    "disciples": [
+      "Cuiwei Wuxue"
+    ]
+  },
+  {
+    "id": "36.3.6",
+    "name_en": "Baizhang Huaihai",
+    "teacher": "Mazu Daoyi",
+    "disciples": [
+      "Huangbo Xiyun",
+      "Guishan Lingyou",
+      "Baizhang Niepan / Fazheng",
+      "Guishan Da’an",
+      "Wufeng Changguan",
+      "Guling Shencan",
+      "Guannan Daochang"
+    ]
+  },
+  {
+    "id": "36.3.7",
+    "name_en": "Wúzhù",
+    "teacher": "Wúxiàng (無相)",
+    "disciples": []
+  },
+  {
+    "id": "36.3.8",
+    "name_en": "志眞",
+    "teacher": "Duy Chính (惟政)",
+    "disciples": []
+  },
+
+  {
+    "id": "36.3.11",
+    "name_en": "Ehu Dayi",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "36.3.12",
+    "name_en": "Damei Fachang",
+    "teacher": "Mazu Daoyi",
+    "disciples": [
+      "Juzi",
+      "Hangzhou Tianlong"
+    ]
+  },
+  {
+    "id": "36.3.13",
+    "name_en": "Dazhu Huihai",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "36.3.14",
+    "name_en": "Xitang Zhizang",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "36.3.15",
+    "name_en": "Nanquan Puyuan",
+    "teacher": "Mazu Daoyi",
+    "disciples": [
+      "Zhuyu Ozhou",
+      "Xichan",
+      "Baima Tanzhao",
+      "Changsha Jingcen",
+      "Zhongnan Yunji",
+      "Zihu Lizong",
+      "Taizhou Shengguang",
+      "Lugeng",
+      "Chŏlgam Toyun",
+      "Zhaozhou Congshen"
+    ]
+  },
+  {
+    "id": "36.3.16",
+    "name_en": "Fenzhou Wuye",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "36.3.18",
+    "name_en": "Jingzhong Shenhui",
+    "teacher": "Jingzhong Wuxiang",
+    "disciples": [
+      "Shengshou Nanyin"
+    ]
+  },
+  {
+    "id": "36.3.19",
+    "name_en": "Baotang Wuzhu",
+    "teacher": "Jingzhong Wuxiang",
+    "disciples": [
+      "Longyou Fayuan",
+      "Changjingjin",
+      "Zhengbianzhi",
+      "Liaojianxing"
+    ]
+  },
+  {
+    "id": "36.3.20",
+    "name_en": "Thái sơn Minh Luyện",
+    "teacher": "Cao Bưu Đàm Ảnh",
+    "disciples": [
+      "Dương châu Tỉnh Thái"
+    ]
+  },
+  {
+    "id": "36.3.21",
+    "name_en": "Zhangjing Huaihui",
+    "teacher": "Mazu Daoyi",
+    "disciples": [
+      "Hoằng Biện",
+      "Trí Chân"
+    ]
+  },
+  {
+    "id": "36.3.22",
+    "name_en": "Panshan Baoji",
+    "teacher": "Mazu Daoyi",
+    "disciples": [
+      "Zhenzhou Puhua"
+    ]
+  },
+  {
+    "id": "36.3.23",
+    "name_en": "Guizong Zhichang",
+    "teacher": "Mazu Daoyi",
+    "disciples": [
+      "Gaoan Dayu"
+    ]
+  },
+  {
+    "id": "36.3.24",
+    "name_en": "Gushan Lingjiao",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "36.3.25",
+    "name_en": "Tanzhou Dachuan",
+    "teacher": "Shitou Xiqian",
+    "disciples": []
+  },
+  {
+    "id": "36.3.26",
+    "name_en": "Pangyun Jushi",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "36.3.27",
+    "name_en": "Yanguan Qian",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "36.3.28",
+    "name_en": "Shigong Huicang",
+    "teacher": "Mazu Daoyi",
+    "disciples": []
+  },
+  {
+    "id": "37.4.1",
+    "name_en": "Đại Đức Đạo Viên",
+    "teacher": "Kinh Nam Duy Trung",
+    "disciples": [
+      "Guifeng Zongmi"
+    ]
+  },
+  {
+    "id": "37.4.2",
+    "name_en": "Yunyan Tansheng",
+    "teacher": "Yaoshan Weiyan, Baizhang Huaihai",
+    "disciples": [
+      "Dongshan Liangjie",
+      "Xingshan Jianghong",
+      "Thần Sơn Tăng Mật"
+    ]
+  },
+  {
+    "id": "37.4.3",
+    "name_en": "Longtan Chongxin",
+    "teacher": "Tianhuang Daowu",
+    "disciples": [
+      "Deshan Xuanjian"
+    ]
+  },
+  {
+    "id": "37.4.4",
+    "name_en": "Guishan Lingyou",
+    "teacher": "Tianhuang Daowu",
+    "disciples": [
+      "Yangshan Huiji",
+      "Lingyun Zhiqin",
+      "Xiangyan Zhixian",
+      "Xiangyan Zhixian",
+      "Liu Tiemo",
+      "Jiufeng Zihui",
+      "Jingzhao Mihu",
+      "Jingshan Hongyin",
+      "Shuanfeng"
+    ]
+  },
+  {
+    "id": "37.4.5",
+    "name_en": "Sanping Yizhong",
+    "teacher": "Dadian Baotong",
+    "disciples": []
+  },
+  {
+    "id": "37.4.6",
+    "name_en": "Cuiwei Wuxue",
+    "teacher": "Danxia Tianran",
+    "disciples": [
+      "Touzi Datong"
+    ]
+  },
+  {
+    "id": "37.4.7",
+    "name_en": "Huangbo Xiyun",
+    "teacher": "Baizhang Huaihai",
+    "disciples": [
+      "Linji Yixuan"
+    ]
+  },
+
+  {
+    "id": "37.4.10",
+    "name_en": "Helin Xuansu",
+    "teacher": "Niutou Zhiwei",
+    "disciples": [
+      "Jingshan Daoqin",
+      "Ngô Trung Pháp Kính",
+      "Wuxing Fahai - Ngô Hưng Pháp Hải",
+      "Tử Sơn Hạo Nhiên",
+      "Kim Hoa Đàm Ích",
+      "Ngô Môn Viên Cảnh"
+    ]
+  },
+  {
+    "id": "37.4.11",
+    "name_en": "Tuyên Châu Huyền Dĩnh",
+    "teacher": "Chii (智威)",
+    "disciples": []
+  },
+  {
+    "id": "37.4.12",
+    "name_en": "Daowu Yuanzhi",
+    "teacher": "Yaoshan Weiyan",
+    "disciples": [
+      "Shishuang Qingzhu"
+    ]
+  },
+  {
+    "id": "37.4.13",
+    "name_en": "Zhaozhou Congshen",
+    "teacher": "Nanquan Puyuan",
+    "disciples": [
+      "Yanyang Shanxin / Yanyang Shanzhao",
+      "Yanyang Cunsu",
+      "Huicong",
+      "Guangxiao Huijiao",
+      "Guoqing Yuanfeng",
+      "Wenyuan",
+      "Muzhen Tulang"
+    ]
+  },
+  {
+    "id": "37.4.14",
+    "name_en": "Changsha Jingcen",
+    "teacher": "Nanquan Puyuan",
+    "disciples": [
+      "Xuedou Changtong"
+    ]
+  },
+  {
+    "id": "37.4.16",
+    "name_en": "Hangzhou Tianlong",
+    "teacher": "Damei Fachang",
+    "disciples": [
+      "Jinhua Juzhi"
+    ]
+  },
+  {
+    "id": "37.4.17",
+    "name_en": "Baizhang Niepan",
+    "teacher": "Baizhang Huaihai",
+    "disciples": []
+  },
+  {
+    "id": "37.4.18",
+    "name_en": "Guannan Daochang",
+    "teacher": "Baizhang Huaihai",
+    "disciples": []
+  },
+  {
+    "id": "37.4.19",
+    "name_en": "Guishan Da’an",
+    "teacher": "Baizhang Huaihai",
+    "disciples": [
+      "Lingshu Rumin",
+      "Dasui Fazhen"
+    ]
+  },
+  {
+    "id": "37.4.20",
+    "name_en": "Wufeng Changguan",
+    "teacher": "Baizhang Huaihai",
+    "disciples": []
+  },
+  {
+    "id": "37.4.21",
+    "name_en": "Zhenzhou Puhua",
+    "teacher": "Panshan Baoji",
+    "disciples": []
+  },
+  {
+    "id": "37.4.22",
+    "name_en": "Chuanzi Decheng",
+    "teacher": "Yaoshan Weiyan",
+    "disciples": [
+      "Jiashan Shanhui"
+    ]
+  },
+  {
+    "id": "37.4.23",
+    "name_en": "Gaoan Dayu",
+    "teacher": "Guizong Zhichang",
+    "disciples": [
+      "Moshan Liaoran"
+    ]
+  },
+  {
+    "id": "37.4.24",
+    "name_en": "Zihu Lizong",
+    "teacher": "Nanquan Puyuan",
+    "disciples": []
+  },
+  {
+    "id": "38.5.1",
+    "name_en": "Guifeng Zongmi",
+    "teacher": "Toại Châu Đạo Viên",
+    "disciples": []
+  },
+  {
+    "id": "38.5.2",
+    "name_en": "Dongshan Liangjie",
+    "teacher": "Yunyan Tansheng",
+    "disciples": [
+      "Yunju Daoying",
+      "Caoshan Benji",
+      "Sushan Kuangren",
+      "Jiufeng Puman",
+      "Baoji Xiujing",
+      "Tiantong Weiqi",
+      "Longya Judun",
+      "Qinshan Wensui",
+      "Yuezhou Qianfeng",
+      "Qinglin Shiqian",
+      "Jingdiao Xianzu",
+      "Yuezhou Qianfeng"
+    ]
+  },
+  {
+    "id": "38.5.3",
+    "name_en": "Deshan Xuanjian",
+    "teacher": "Longtan Chongxin",
+    "disciples": [
+      "Xuefeng Yicun",
+      "Yantou Quanhuo"
+    ]
+  },
+  {
+    "id": "38.5.4",
+    "name_en": "Yangshan Huiji",
+    "teacher": "Guishan Lingyou",
+    "disciples": [
+      "Nanta Guangyong",
+      "Wuzhu Wenxi",
+      "Xita Guangmu",
+      "Miaoxin",
+      "Wŏnnang Taet’ong",
+      "Sunji Yoo"
+    ]
+  },
+  {
+    "id": "38.5.5",
+    "name_en": "Linji Yixuan",
+    "teacher": "Huangbo Xiyun",
+    "disciples": [
+      "Weifu Dajue",
+      "Xinghua Cunjiang",
+      "Sansheng Huiran",
+      "Baoshou Yanzhao",
+      "Zhiyi Daozhe",
+      "Guanqi Zhixian",
+      "Luopu Yuan’an",
+      "Tongfeng Anzhu",
+      "Zhenzhou Wanshou",
+      "Youzhou Tangong",
+      "Zhexi Shanquan",
+      "Dingzhou Cuichan",
+      "Zhuoshou Kepu",
+      "Fubei Anzhu",
+      "Xiangzhou Licun",
+      "Xingshan Jianhong",
+      "Guanqi Ezhou (Guanxi)",
+      "Ding Shanzuo",
+      "Qisong",
+      "Yunshan",
+      "Shanyang Anzhu",
+      "Huxi Anzhu (sun)",
+      "Cangzhou Meicang",
+      "Silla Zhiyi"
+    ]
+  },
+  {
+    "id": "38.5.6",
+    "name_en": "Muzhou Daoming",
+    "teacher": "Huangbo Xiyun",
+    "disciples": []
+  },
+  {
+    "id": "38.5.7",
+    "name_en": "Pei Xiu",
+    "teacher": "Huangbo Xiyun",
+    "disciples": []
+  },
+  {
+    "id": "38.5.8",
+    "name_en": "Jingshan Faqin",
+    "teacher": "Helin Xuansu",
+    "disciples": [
+      "Niaoke Daolin",
+      "Hàng Ma Sùng Huệ",
+      "Fahai",
+      "Zhangxin Chonghui",
+      "Funiu Zucai",
+      "Niaoke Guoyi?"
+    ]
+  },
+  {
+    "id": "38.5.9",
+    "name_en": "Shishuang Qingzhu",
+    "teacher": "Daowu Yuanzhi",
+    "disciples": [
+      "Zhangzhuo Xiucai",
+      "Jiufeng Daoqian",
+      "Daguang Juhui",
+      "Yungai Zhiyuan",
+      "Nanji Sengyi",
+      "Yongquan Jingxin"
+    ]
+  },
+  {
+    "id": "38.5.10",
+    "name_en": "Lingyun Zhiqin",
+    "teacher": "Guishan Lingyou",
+    "disciples": []
+  },
+  {
+    "id": "38.5.11",
+    "name_en": "Xiangyan Zhixian",
+    "teacher": "Guishan Lingyou",
+    "disciples": [
+      "Diên Khánh Pháp Đoan"
+    ]
+  },
+  {
+    "id": "38.5.13",
+    "name_en": "Yanyang Shanxin",
+    "teacher": "Zhaozhou Congshen",
+    "disciples": []
+  },
+  {
+    "id": "38.5.14",
+    "name_en": "Jinhua Juzhi",
+    "teacher": "Hangzhou Tianlong",
+    "disciples": []
+  },
+  {
+    "id": "38.5.15",
+    "name_en": "Touzi Datong",
+    "teacher": "Cuiwei Wuxue",
+    "disciples": []
+  },
+  {
+    "id": "38.5.16",
+    "name_en": "Jiashan Shanhui",
+    "teacher": "Chuanzi Decheng",
+    "disciples": [
+      "Luopu Yuan’an"
+    ]
+  },
+  {
+    "id": "38.5.17",
+    "name_en": "Moshan Liaoran",
+    "teacher": "Gaoan Dayu",
+    "disciples": []
+  },
+  {
+    "id": "38.5.18",
+    "name_en": "Xuedou Changtong",
+    "teacher": "Changsha Jingcen",
+    "disciples": []
+  },
+  {
+    "id": "38.5.19",
+    "name_en": "Xingshan Jianghong",
+    "teacher": "Yunyan Tansheng",
+    "disciples": []
+  },
+  {
+    "id": "38.5.20",
+    "name_en": "Thần Sơn Tăng Mật",
+    "teacher": "Yunyan Tansheng",
+    "disciples": []
+  },
+  {
+    "id": "38.5.21",
+    "name_en": "Dasui Fazhen",
+    "teacher": "Guishan Da’an",
+    "disciples": []
+  },
+  {
+    "id": "38.5.22",
+    "name_en": "Liu Tiemo",
+    "teacher": "Guishan Lingyou",
+    "disciples": []
+  },
+  {
+    "id": "38.5.23",
+    "name_en": "Jingzhao Mihu",
+    "teacher": "Guishan Lingyou",
+    "disciples": []
+  },
+  {
+    "id": "39.6.1",
+    "name_en": "Caoshan Benji",
+    "teacher": "Dongshan Liangjie",
+    "disciples": [
+      "Caoshan Huixia, Jingfeng Congzhi",
+      "Lumen Chuzhen / Lumen Zhenchan",
+      "Heyu Kuanghui",
+      "Yuwang Hongtong"
+    ]
+  },
+  {
+    "id": "39.6.2",
+    "name_en": "Xinghua Cunjiang",
+    "teacher": "Linji Yixuan",
+    "disciples": [
+      "Nanyuan Huiyong"
+    ]
+  },
+  {
+    "id": "39.6.3",
+    "name_en": "Sansheng Huiran",
+    "teacher": "Linji Yixuan",
+    "disciples": [
+      "Zhenzhou Dabei"
+    ]
+  },
+  {
+    "id": "39.6.4",
+    "name_en": "Muzhou Chen Cao",
+    "teacher": "Muzhou Daoming",
+    "disciples": []
+  },
+  {
+    "id": "39.6.5",
+    "name_en": "Zhangzhuo Xiucai",
+    "teacher": "Shishuang Qingzhu",
+    "disciples": []
+  },
+  {
+    "id": "39.6.6",
+    "name_en": "Jiufeng Daoqian",
+    "teacher": "Shishuang Qingzhu",
+    "disciples": [
+      "Heshan Wuyin",
+      "Baofeng Yanmao",
+      "Guangmu Xingxiu",
+      "Tong'an Changcha",
+      "Letan Kuangwu"
+    ]
+  },
+  {
+    "id": "39.6.7",
+    "name_en": "Xuefeng Yicun",
+    "teacher": "Deshan Xuanjian",
+    "disciples": [
+      "Xuansha Shibei",
+      "Yunmen Wenyan",
+      "Baofu Congzhan",
+      "Changqing Huileng",
+      "Cuiyan Lingcan",
+      "Jingqing Daofu",
+      "Taiyuan Fu",
+      "Furong Lingxun",
+      "Zhangsheng Jiaoran",
+      "Lingzhao Buna (靈照布衲, 870-947, Long Hoa Linh Chiếu)",
+      "Ehu Zhifu (Nga Hồ Trí Phù)",
+      "Dapu Xuantong (Huyền Thông Đạo Phổ)",
+      "Gushan Shenyan",
+      "Bao’en Huaiyue (Báo Ân Hoài Nhạc)",
+      "Huadu Shiye (Hóa Độ Sư Úc)",
+      "Xiangshou Shaoxiang",
+      "Anguo Hongtao",
+      "Jiyun Lingzhao",
+      "Wushi Lingguan (烏石靈觀)",
+      "Yongfu Congyan",
+      "Fuqing Xuanna",
+      "Dongyan Kexiu",
+      "Hushan Yanzong",
+      "Nanyue Weijing (Weijing Chanshi)",
+      "Yueshan Jianzhen (越山鑒真)",
+      "Shuilong Daopu (Thụy Long Đạo Phổ - 睡龍道溥)",
+      "Wŏnnap (Korean)",
+      "Yŏngjo (Korean)"
+    ]
+  },
+  {
+    "id": "39.6.8",
+    "name_en": "Niaoke Daolin",
+    "teacher": "Kinzan Dōkin",
+    "disciples": [
+      "Hàng Châu Hội Thông"
+    ]
+  },
+  {
+    "id": "39.6.9",
+    "name_en": "Yunju Daoying",
+    "teacher": "Dongshan Liangjie",
+    "disciples": [
+      "Guizong Huaiyun",
+      "Yunju Daojian",
+      "Jishan Zhang",
+      "Langzhou Deshan",
+      "Tongan Daopi",
+      "Yongguang Yuanzhen",
+      "Taekyŏng Yŏŏm (K)",
+      "Sŏngak Hyŏngmi (K)",
+      "Chinch’ŏl Iŏm (K)"
+    ]
+  },
+  {
+    "id": "39.6.10",
+    "name_en": "Baoshou Yanzhao",
+    "teacher": "Linji Yixuan",
+    "disciples": [
+      "Xiyuan Siming"
+    ]
+  },
+  {
+    "id": "39.6.11",
+    "name_en": "Daguang Juhui",
+    "teacher": "Shishuang Qingzhu",
+    "disciples": []
+  },
+  {
+    "id": "39.6.12",
+    "name_en": "Yantou Quanhuo",
+    "teacher": "Deshan Xuanjian",
+    "disciples": [
+      "Luoshan Daoxian",
+      "Ruiyan Shiyan"
+    ]
+  },
+  {
+    "id": "39.6.13",
+    "name_en": "Luopu Yuan’an",
+    "teacher": "Jiashan Shanhui",
+    "disciples": [
+      "Qianfeng Chuanchu"
+    ]
+  },
+  {
+    "id": "39.6.14",
+    "name_en": "Yungai Zhiyuan",
+    "teacher": "Shishuang Qingzhu",
+    "disciples": []
+  },
+  {
+    "id": "39.6.15",
+    "name_en": "Yongquan Jingxin",
+    "teacher": "Shishuang Qingzhu",
+    "disciples": []
+  },
+  {
+    "id": "39.6.16",
+    "name_en": "Phúc Thuyền Hồng Tiến",
+    "teacher": "Shishuang Qingzhu",
+    "disciples": []
+  },
+  {
+    "id": "39.6.17",
+    "name_en": "Sushan Kuangren",
+    "teacher": "Dongshan Liangjie",
+    "disciples": [
+      "Huguo Shoucheng",
+      "Tongjin Kyŏngbo"
+    ]
+  },
+  {
+    "id": "39.6.18",
+    "name_en": "Yuezhou Qianfeng",
+    "teacher": "Dongshan Liangjie",
+    "disciples": []
+  },
+  {
+    "id": "39.6.19",
+    "name_en": "Weifu Dajue",
+    "teacher": "Linji Yixuan",
+    "disciples": []
+  },
+  {
+    "id": "39.6.20",
+    "name_en": "Nanta Guangyong",
+    "teacher": "Yangshan Huiji",
+    "disciples": [
+      "Bajiao Huiqing"
+    ]
+  },
+  {
+    "id": "39.6.21",
+    "name_en": "Xita Guangmu",
+    "teacher": "Yangshan Huiji",
+    "disciples": [
+      "Zifu Rubao"
+    ]
+  },
+  {
+    "id": "39.6.22",
+    "name_en": "Wuzhu Wenxi",
+    "teacher": "Yangshan Huiji",
+    "disciples": []
+  },
+  {
+    "id": "39.6.23",
+    "name_en": "Miàoxìn",
+    "teacher": "Yangshan Huiji",
+    "disciples": []
+  },
+  {
+    "id": "40.7.1",
+    "name_en": "Nanyuan Huiyong",
+    "teacher": "Xinghua Cunjiang",
+    "disciples": [
+      "Fengxue Yanzhao",
+      "Yingqiao An"
+    ]
+  },
+  {
+    "id": "40.7.2",
+    "name_en": "Heshan Wuyin",
+    "teacher": "Jiufeng Daoqian",
+    "disciples": []
+  },
+  {
+    "id": "40.7.3",
+    "name_en": "Xuansha Shibei",
+    "teacher": "Xuefeng Yicun",
+    "disciples": [
+      "Luohan Guichen",
+      "Zhongta Huiqui"
+    ]
+  },
+  {
+    "id": "40.7.4",
+    "name_en": "Yunmen Wenyan",
+    "teacher": "Xuefeng Yicun",
+    "disciples": [
+      "Shuangquan Renyu",
+      "Shuangfeng Jingqin - Song Phong Quảng Ngộ (雙峰竟欽)",
+      "Fengxian Daoshen",
+      "Baling Haojian",
+      "Dongshan Shouchu",
+      "Deshan Yuanming",
+      "Shuangquan Shikuang",
+      "Lang Shangzuo (朗上座)",
+      "Xianglin Chengyuan",
+      "Baiyun Zixiang (Baiyun Xiang) - Bạch Vân Tử Tường (白雲子祥 / 白云子祥)",
+      "Jianfu Chenggu (Jianfeng Gu) (薦福承古)",
+      "Mingjiao Shikuan (Chih Men) (明教師寬)"
+    ]
+  },
+  {
+    "id": "40.7.5",
+    "name_en": "Baofu Congzhan",
+    "teacher": "Xuefeng Yicun",
+    "disciples": [
+      "Zhaoqing Wendeng",
+      "Lontan Ruxin",
+      "Shangu Xingchong",
+      "Baoci Wenqin",
+      "Yanshou Huilun"
+    ]
+  },
+  {
+    "id": "40.7.6",
+    "name_en": "Changqing Huileng",
+    "teacher": "Xuefeng Yicun",
+    "disciples": [
+      "Xianzong Cichan",
+      "Zhaoqing Daokuang",
+      "Baozi Guangyun"
+    ]
+  },
+  {
+    "id": "40.7.7",
+    "name_en": "Tongan Daopi",
+    "teacher": "Yunju Daoying",
+    "disciples": [
+      "Tongan Guanzhi"
+    ]
+  },
+  {
+    "id": "40.7.8",
+    "name_en": "Xiyuan Siming",
+    "teacher": "Baoshou Yanzhao",
+    "disciples": [
+      "Xingyang Guijing"
+    ]
+  },
+  {
+    "id": "40.7.9",
+    "name_en": "Luoshan Daoxian",
+    "teacher": "Yantou Quanhuo",
+    "disciples": [
+      "Mingzhao Deqian",
+      "Daning Daokuan",
+      "Zingbing (845–919)"
+    ]
+  },
+  {
+    "id": "40.7.10",
+    "name_en": "Ruiyan Shiyan",
+    "teacher": "Yantou Quanhuo",
+    "disciples": []
+  },
+  {
+    "id": "40.7.11",
+    "name_en": "Huguo Shoucheng",
+    "teacher": "Sushan Kuangren",
+    "disciples": []
+  },
+  {
+    "id": "40.7.12",
+    "name_en": "Gushan Shenyan",
+    "teacher": "Xuefeng Yicun",
+    "disciples": []
+  },
+  {
+    "id": "40.7.13",
+    "name_en": "Cuiyan Lingcan",
+    "teacher": "Xuefeng Yicun",
+    "disciples": []
+  },
+  {
+    "id": "40.7.14",
+    "name_en": "Taiyuan Fu",
+    "teacher": "Xuefeng Yicun",
+    "disciples": []
+  },
+  {
+    "id": "40.7.15",
+    "name_en": "Caoshan Huixia",
+    "teacher": "Caoshan Benji",
+    "disciples": []
+  },
+  {
+    "id": "40.7.16",
+    "name_en": "Jingfeng Congzhi",
+    "teacher": "Caoshan Benji",
+    "disciples": []
+  },
+  {
+    "id": "40.7.17",
+    "name_en": "Lumen Zhenchan",
+    "teacher": "Caoshan Benji",
+    "disciples": []
+  },
+  {
+    "id": "40.7.18",
+    "name_en": "Heyu Kuanghui",
+    "teacher": "Caoshan Benji",
+    "disciples": []
+  },
+  {
+    "id": "40.7.19",
+    "name_en": "Yuwang Hongtong",
+    "teacher": "Caoshan Benji",
+    "disciples": []
+  },
+  {
+    "id": "40.7.20",
+    "name_en": "Zifu Rubao",
+    "teacher": "Xita Guangmu",
+    "disciples": [
+      "Guizhen Deshao"
+    ]
+  },
+  {
+    "id": "40.7.21",
+    "name_en": "Bajiao Huiqing",
+    "teacher": "Nanta Guangyong",
+    "disciples": [
+      "ingyang Qingrang"
+    ]
+  },
+  {
+    "id": "41.8.1",
+    "name_en": "Fengxue Yanzhao",
+    "teacher": "Nanyuan Huiyong",
+    "disciples": [
+      "Shoushan Xingnian"
+    ]
+  },
+  {
+    "id": "41.8.2",
+    "name_en": "Luohan Guichen",
+    "teacher": "Xuansha Shibei",
+    "disciples": [
+      "Fayan Wenyi",
+      "Longji Shaoxiu",
+      "Tianbing Congyi",
+      "Qingqi Hongjin"
+    ]
+  },
+  {
+    "id": "41.8.3",
+    "name_en": "Xianglin Chengyuan",
+    "teacher": "Yunmen Wenyan",
+    "disciples": [
+      "Zhimen Guangzuo"
+    ]
+  },
+  {
+    "id": "41.8.4",
+    "name_en": "Dongshan Shouchu",
+    "teacher": "Yunmen Wenyan",
+    "disciples": [
+      "Fuyan Liangya"
+    ]
+  },
+  {
+    "id": "41.8.5",
+    "name_en": "Deshan Yuanmi",
+    "teacher": "Yunmen Wenyan",
+    "disciples": [
+      "Wenshu Yingzhen"
+    ]
+  },
+  {
+    "id": "41.8.6",
+    "name_en": "Shuangquan Renyu",
+    "teacher": "Yunmen Wenyan",
+    "disciples": []
+  },
+  {
+    "id": "41.8.7",
+    "name_en": "Baling Haojian",
+    "teacher": "Yunmen Wenyan",
+    "disciples": []
+  },
+  {
+    "id": "41.8.8",
+    "name_en": "Fengxian Daoshen",
+    "teacher": "Yunmen Wenyan",
+    "disciples": [
+      "Lianhua Fengxiang",
+      "Xiang Anzhu"
+    ]
+  },
+  {
+    "id": "41.8.9",
+    "name_en": "Tongan Guanzhi",
+    "teacher": "Tongan Daopi",
+    "disciples": [
+      "Liangshan Yuanguan"
+    ]
+  },
+  {
+    "id": "41.8.10",
+    "name_en": "Mingzhao Deqian",
+    "teacher": "Luoshan Daoxian",
+    "disciples": [
+      "Baoen Qicong"
+    ]
+  },
+  {
+    "id": "41.8.11",
+    "name_en": "Shuangquan Shikuang",
+    "teacher": "Yunmen Wenyan",
+    "disciples": [
+      "Wuzu Shijie"
+    ]
+  },
+  {
+    "id": "41.8.12",
+    "name_en": "Guizhen Deshao",
+    "teacher": "Zifu Rubao",
+    "disciples": [
+      "Sanjiao Zhiqian"
+    ]
+  },
+  {
+    "id": "41.8.13",
+    "name_en": "Xingyang Qingrang",
+    "teacher": "Bajiao Huiqing",
+    "disciples": []
+  },
+  {
+    "id": "42.9.1",
+    "name_en": "Shoushan Xingnian",
+    "teacher": "Fengxue Yanzhao",
+    "disciples": [
+      "Fenyang Shanzhao",
+      "Shexian Guixing",
+      "Guyin Yuncong",
+      "Sanjiao Zhisong",
+      "Guanghui Yuanlian",
+      "Shending Hongyin",
+      "Shoushan Huaizhi"
+    ]
+  },
+  {
+    "id": "42.9.2",
+    "name_en": "Fayan Wenyi",
+    "teacher": "Luohan Guichen",
+    "disciples": [
+      "Tiantai Deshao",
+      "Quy Tông Nghĩa Nhu (Guizong Yirou, 歸宗義柔)",
+      "Chongshou Qichou",
+      "Baizhang Daoheng - Bách Trượng Đạo Hằng (百丈道恆,?-991/992)",
+      "Qingliang Taiqin / Qingliang Fadeng - Thanh Lương Pháp Đăng Thái Khâm (泰欽法燈,?-974)",
+      "Baoen Huiming",
+      "Baoen Xuanze - 报恩玄则",
+      "Lingyin Qingshuo",
+      "Guizong Cezhen - 归宗策真",
+      "Baoci Xingyan - 报慈行言"
+    ]
+  },
+  {
+    "id": "42.9.3",
+    "name_en": "Zhimen Guangzuo",
+    "teacher": "Xianglin Chéngyuan",
+    "disciples": [
+      "Xuedou Chongxian",
+      "Jiufeng Qin"
+    ]
+  },
+  {
+    "id": "42.9.4",
+    "name_en": "Deshan Huiyuan",
+    "teacher": "Shuangquan Renyu",
+    "disciples": [
+      "Kaixian Shanxian"
+    ]
+  },
+  {
+    "id": "42.9.5",
+    "name_en": "Wenshu Yingzhen",
+    "teacher": "Deshan Yuanmi",
+    "disciples": [
+      "Dongshan Xiaocong"
+    ]
+  },
+  {
+    "id": "42.9.6",
+    "name_en": "Lianhua Fengxiang",
+    "teacher": "Shuangquan Renyu",
+    "disciples": []
+  },
+  {
+    "id": "42.9.7",
+    "name_en": "Liangshan Yuanguan",
+    "teacher": "Tongan Guanzhi",
+    "disciples": [
+      "Dayang Jingxuan (Taiyang)",
+      "Shimen Huiche? (Shimena Xiana)"
+    ]
+  },
+  {
+    "id": "42.9.8",
+    "name_en": "Wuzu Shijie",
+    "teacher": "Shuangquan Shikuang",
+    "disciples": [
+      "Dongshan Zibao",
+      "Letan Huaicheng (泐潭懷澄)"
+    ]
+  },
+  {
+    "id": "42.9.9",
+    "name_en": "Fuyan Liangya",
+    "teacher": "Dongshan Shouchu",
+    "disciples": [
+      "Beichan Zhixian"
+    ]
+  },
+  {
+    "id": "42.9.10",
+    "name_en": "Baoen Qicong",
+    "teacher": "Mingzhao Deqian",
+    "disciples": []
+  },
+  {
+    "id": "42.9.11",
+    "name_en": "Sanjiao Zhiqian",
+    "teacher": "Guizhen Deshao",
+    "disciples": [
+      "Xingyang Ciduo"
+    ]
+  },
+  {
+    "id": "43.10.1",
+    "name_en": "Fenyang Shanzhao",
+    "teacher": "Shoushan Xingnian",
+    "disciples": [
+      "Shishuang Chuyuan",
+      "Dongshan Shouzhi",
+      "Dayu Shouzhi",
+      "Langye Huijue"
+    ]
+  },
+  {
+    "id": "43.10.2",
+    "name_en": "Tiantai Deshao",
+    "teacher": "Fayan Wenyi",
+    "disciples": [
+      "Yongming Yanshou",
+      "Trường Thọ Bằng Ngạn",
+      "Đại Ninh Khả Hoằng",
+      "Wuyun Zhifeng - Hoa Nghiêm Chí Phùng (五雲志逢, 910-986)",
+      " Yong’an Daoyuan - Vĩnh An Đạo Nguyên (永安道原)",
+      "Đoan Lộc Bản Tiên 端鹿本先 (942-1008)",
+      "Hoa Nghiêm Huệ Đạt 華嚴慧達 (909-985)",
+      "Longce Xiaorong - 龍冊曉榮"
+    ]
+  },
+  {
+    "id": "43.10.3",
+    "name_en": "Xuedou Chongxian",
+    "teacher": "Zhimen Guangzuo",
+    "disciples": [
+      "Tianyi Yihuai",
+      "Chengtian Chuanzong",
+      "Thảo Đường - 草堂 - 997-1047 - Tuân Phát Hỉ Túc"
+    ]
+  },
+  {
+    "id": "43.10.4",
+    "name_en": "Kaixian Shanxian",
+    "teacher": "Deshan Huiyuan",
+    "disciples": [
+      "Fuyin Liaoyuan"
+    ]
+  },
+  {
+    "id": "43.10.5",
+    "name_en": "Jiufeng Qin",
+    "teacher": "Zhimen Guangzuo",
+    "disciples": []
+  },
+  {
+    "id": "43.10.6",
+    "name_en": "Shexian Guixing",
+    "teacher": "Shoushan Xingnian",
+    "disciples": [
+      "Fushan Fayuan"
+    ]
+  },
+  {
+    "id": "43.10.7",
+    "name_en": "Dayang Jingxuan",
+    "teacher": "Liangshan Yuanguan",
+    "disciples": [
+      "Touzi Yiqing*"
+    ]
+  },
+  {
+    "id": "43.10.8",
+    "name_en": "Sanjiao Zhisong",
+    "teacher": "Shoushan Xingnian",
+    "disciples": []
+  },
+  {
+    "id": "43.10.9",
+    "name_en": "Dongshan Xiaocong",
+    "teacher": "Wenshu Yingzhen",
+    "disciples": [
+      "Fori Qisong"
+    ]
+  },
+  {
+    "id": "43.10.10",
+    "name_en": "Dongshan Zibao",
+    "teacher": "Wuzu Shijie",
+    "disciples": []
+  },
+  {
+    "id": "43.10.11",
+    "name_en": "Letan Huaicheng",
+    "teacher": "Wuzu Shijie",
+    "disciples": [
+      "Yuwang Huailian"
+    ]
+  },
+  {
+    "id": "43.10.12",
+    "name_en": "Beichan Zhixian",
+    "teacher": "Fuyan Liangya",
+    "disciples": [
+      "Fachang Yiyu"
+    ]
+  },
+  {
+    "id": "43.10.13",
+    "name_en": "Chongshou Qichou",
+    "teacher": "Fayan Wenyi",
+    "disciples": []
+  },
+  {
+    "id": "43.10.14",
+    "name_en": "Guizong Cezhen",
+    "teacher": "Fayan Wenyi",
+    "disciples": []
+  },
+  {
+    "id": "43.10.15",
+    "name_en": "Baoen Huiming",
+    "teacher": "Fayan Wenyi",
+    "disciples": []
+  },
+  {
+    "id": "43.10.16",
+    "name_en": "Baizhang Daoheng",
+    "teacher": "Fayan Wenyi",
+    "disciples": []
+  },
+  {
+    "id": "43.10.17",
+    "name_en": "Xingyang Ciduo",
+    "teacher": "Sanjiao Zhiqian",
+    "disciples": [
+      "Deqing Yanche (Xuyun)"
+    ]
+  },
+  {
+    "id": "44.11.1",
+    "name_en": "Shishuang Chuyuan",
+    "teacher": "Fenyang Shanzhao",
+    "disciples": [
+      "Yangqi Fanghui",
+      "Huanglong Huinan",
+      "Cuiyan Kezhen",
+      "Daning Daokuan",
+      "Daowu Wuzhen",
+      "Guquan Dadao"
+    ]
+  },
+  {
+    "id": "44.11.2",
+    "name_en": "Yongming Yanshou",
+    "teacher": "Tiantai Deshao",
+    "disciples": [
+      "Triều Minh Viện Tân (朝明院津)",
+      "Phú Dương Tử Bàng (富陽子蒙)"
+    ]
+  },
+  {
+    "id": "44.11.3",
+    "name_en": "Fuyin Liaoyuan",
+    "teacher": "Kaixian Shanxian",
+    "disciples": []
+  },
+  {
+    "id": "44.11.4",
+    "name_en": "Tianyi Yihuai",
+    "teacher": "Xuedou Chongxian",
+    "disciples": [
+      "Yuantong Fashen - Viên Thông Pháp Tú - Entsû Hôshû",
+      "Yang Wuwei - Yô Mui",
+      "Shi Zongben - Viên Chiếu Tông Bản - 圓照宗本 - 1020?-1099"
+    ]
+  },
+  {
+    "id": "44.11.5",
+    "name_en": "Chengtian Chuanzong",
+    "teacher": "Xuedou Chongxian",
+    "disciples": []
+  },
+  {
+    "id": "44.11.6",
+    "name_en": "Thảo Đường",
+    "teacher": "Xuedou Chongxian",
+    "disciples": []
+  },
+  {
+    "id": "44.11.7",
+    "name_en": "Fushan Fayuan",
+    "teacher": "Shexian Guixing",
+    "disciples": [
+      "Touzi Yiqing*"
+    ]
+  },
+  {
+    "id": "44.11.8",
+    "name_en": "Yuwang Huailian",
+    "teacher": "Letan Huaicheng",
+    "disciples": []
+  },
+  {
+    "id": "44.11.9",
+    "name_en": "Fori Qisong",
+    "teacher": "Dongshan Xiaocong",
+    "disciples": []
+  },
+  {
+    "id": "44.11.10",
+    "name_en": "Fachang Yiyu",
+    "teacher": "Beichan Zhixian",
+    "disciples": []
+  },
+  {
+    "id": "44.11.11",
+    "name_en": "Wuyun Zhifeng",
+    "teacher": "Tiantai Deshao",
+    "disciples": []
+  },
+  {
+    "id": "45.12.1",
+    "name_en": "Yangqi Fanghui",
+    "teacher": "Shishuang Chuyuan",
+    "disciples": [
+      "Baiyun Shouduan",
+      "Baoning Renyong"
+    ]
+  },
+  {
+    "id": "45.12.2",
+    "name_en": "Huanglong Huinan",
+    "teacher": "Shishuang Chuyuan",
+    "disciples": [
+      "Baofeng Kewen",
+      "Huitang Zuxin",
+      "Donglin Changcong",
+      "Xuefeng Daoyuan",
+      "Baoben Huiyuan",
+      "Huangbo Weisheng - 黃蘗惟勝 (Northern Song Dynasty)",
+      "Letan Hongying - 泐潭洪英 (1012–1070)",
+      "Yunju Yuanyou - 雲居元祐 (1027–1092)",
+      "Guishan Huaixiu (Dagui Hauixiu) - 大溈懷秀 (Northern Song Dynasty)",
+      "Yungai Shouzhi (1025–1115)",
+      "Huilin Dexun (1107-1110)",
+      "Fuyan Cigan (Nanyue Cikan)",
+      "Guizong Zhizhi - 歸宗志芝 (Northern Song Dynasty)"
+    ]
+  },
+  {
+    "id": "45.12.3",
+    "name_en": "Cuiyan Kezhen",
+    "teacher": "Shishuang Chuyuan",
+    "disciples": [
+      "Dagui Muzhe"
+    ]
+  },
+  {
+    "id": "45.12.4",
+    "name_en": "Touzi Yiqing",
+    "teacher": "Fushan Fayuan",
+    "disciples": [
+      "Dahong Bao’en",
+      "Furong Daokai"
+    ]
+  },
+  {
+    "id": "46.13.1",
+    "name_en": "Baiyun Shouduan",
+    "teacher": "Yangqi Fanghui",
+    "disciples": [
+      "Wuzu Fayan"
+    ]
+  },
+  {
+    "id": "46.13.2",
+    "name_en": "Yungai Shouzhi",
+    "teacher": "Huanglong Huinan",
+    "disciples": []
+  },
+  {
+    "id": "46.13.3",
+    "name_en": "Baofeng Kewen",
+    "teacher": "Huanglong Huinan",
+    "disciples": [
+      "Letan Wenzhun"
+    ]
+  },
+  {
+    "id": "46.13.4",
+    "name_en": "Huitang Zuxin",
+    "teacher": "Huanglong Huinan",
+    "disciples": [
+      "Lingyuan Weiqing",
+      "Sixin Wuxin",
+      "Caotang Shanqing",
+      "Baofu Benquan"
+    ]
+  },
+  {
+    "id": "46.13.5",
+    "name_en": "Baoning Renyong",
+    "teacher": "Yangqi Fanghui",
+    "disciples": [
+      "Thọ Thánh Trí Uyên (壽聖智淵)",
+      "Thọ Thánh Sở Văn (壽聖楚文)",
+      "Bảo Tích Tông Ánh (寶積宗映)",
+      "Cảnh Phước Nhật Dư (景福日余)"
+    ]
+  },
+  {
+    "id": "46.13.6",
+    "name_en": "Dagui Muzhe",
+    "teacher": "Cuiyan Kezhen",
+    "disciples": []
+  },
+  {
+    "id": "46.13.7",
+    "name_en": "Furong Daokai",
+    "teacher": "Touzi Yiqing",
+    "disciples": [
+      "Danxia Zichun",
+      "Huizhao Qingyu",
+      "Hongzhi Zhengjue",
+      "Lumen Zijue"
+    ]
+  },
+  {
+    "id": "46.13.8",
+    "name_en": "Donglin Changcong",
+    "teacher": "Huanglong Huinan",
+    "disciples": []
+  },
+  {
+    "id": "46.13.9",
+    "name_en": "Letan Hongying",
+    "teacher": "Huanglong Huinan",
+    "disciples": []
+  },
+  {
+    "id": "47.14.1",
+    "name_en": "Wuzu Fayan",
+    "teacher": "Baiyun Shouduan",
+    "disciples": [
+      "Yuanwu Keqin",
+      "Kaifu Daoning",
+      "Foyan Qingyuan"
+    ]
+  },
+  {
+    "id": "47.14.2",
+    "name_en": "Lumen Zijue",
+    "teacher": "Furong Daokai",
+    "disciples": [
+      "Puzhao Yibian"
+    ]
+  },
+  {
+    "id": "47.14.3",
+    "name_en": "Letan Wenzhun",
+    "teacher": "Baofeng Kewen",
+    "disciples": []
+  },
+  {
+    "id": "47.14.4",
+    "name_en": "Lingyuan Weiqing",
+    "teacher": "Huitang Zuxin",
+    "disciples": [
+      "Foxin Bencai",
+      "Zhangling Shouzhuo"
+    ]
+  },
+  {
+    "id": "47.14.5",
+    "name_en": "Sixin Wuxin",
+    "teacher": "Huitang Zuxin",
+    "disciples": [
+      "Weiju Zhìtōng"
+    ]
+  },
+  {
+    "id": "48.15.1",
+    "name_en": "Yuanwu Keqin",
+    "teacher": "Wuzu Fayan",
+    "disciples": [
+      "Huqiu Shaolong",
+      "Huguo Jingyuan?",
+      "Wuyong Jingquan?",
+      "Dahui Zonggao",
+      "Miyin Anmin",
+      "Foxing Fatai",
+      "Cunpu Chanren",
+      "Xiangyun Tanyi",
+      "Xiatang Huiyuan"
+    ]
+  },
+  {
+    "id": "48.15.2",
+    "name_en": "Kaifu Daoning",
+    "teacher": "Wuzu Fayan",
+    "disciples": [
+      "Yuehan Shanguo"
+    ]
+  },
+  {
+    "id": "48.15.3",
+    "name_en": "Puzhao Yibian",
+    "teacher": "Lumen Zijue",
+    "disciples": [
+      "Lingyan Sengbao"
+    ]
+  },
+  {
+    "id": "48.15.4",
+    "name_en": "Foyan Qingyuan",
+    "teacher": "Wuzu Fayan",
+    "disciples": [
+      "Gao’an Shanwu",
+      "Zhu’an Shigui"
+    ]
+  },
+  {
+    "id": "48.15.5",
+    "name_en": "Changling Shouzhuo",
+    "teacher": "Lingyuan Weiqing",
+    "disciples": [
+      "Wushi Jiechen"
+    ]
+  },
+  {
+    "id": "48.15.6",
+    "name_en": "Foxin Bencai",
+    "teacher": "Lingyuan Weiqing",
+    "disciples": [
+      "Biefeng Zuzhen"
+    ]
+  },
+  {
+    "id": "48.15.7",
+    "name_en": "Zhìtōng",
+    "teacher": "Lingyuan Weiqing",
+    "disciples": []
+  },
+  {
+    "id": "49.16.1",
+    "name_en": "Huqiu Shaolong",
+    "teacher": "Yuanwu Keqin",
+    "disciples": [
+      "Yingan Tanhua"
+    ]
+  },
+  {
+    "id": "49.16.2",
+    "name_en": "Huguo Jingyuan",
+    "teacher": "Yuanwu Keqin",
+    "disciples": [
+      "Wakuan Shitai",
+      "Xingshan Weiguan",
+      "Huoan Shiti"
+    ]
+  },
+  {
+    "id": "49.16.3",
+    "name_en": "Dahui Zonggao",
+    "teacher": "Yuanwu Keqin",
+    "disciples": [
+      "Fozhao Deguang",
+      "Zishou Miaozong",
+      "Kaixi Daoqian",
+      "Miaodao Dingguang",
+      "Xiangyun Tanyi",
+      "Wuji Lepai",
+      "Ci’an Shoujing (此庵守淨)",
+      "Yishan Chongmi (伊山冲密, Zhongmi)",
+      "Ke-an Huiran (可庵慧然, Xuefeng)"
+    ]
+  },
+  {
+    "id": "49.16.4",
+    "name_en": "Xiatang Huiyuan",
+    "teacher": "Yuanwu Keqin",
+    "disciples": [
+      "Jigong Daoji",
+      "Duệ Sơn Giác A"
+    ]
+  },
+  {
+    "id": "49.16.5",
+    "name_en": "Yuehan Shanguo",
+    "teacher": "Kaifu Daoning",
+    "disciples": [
+      "Laoan Zudeng"
+    ]
+  },
+  {
+    "id": "49.16.6",
+    "name_en": "Lingyan Sengbao",
+    "teacher": "Puzhao Yibian",
+    "disciples": [
+      "Yushan Shiti"
+    ]
+  },
+  {
+    "id": "49.16.7",
+    "name_en": "Miyin Anmin",
+    "teacher": "Yuanwu Keqin",
+    "disciples": [
+      "Biefeng Baoyin"
+    ]
+  },
+  {
+    "id": "49.16.8",
+    "name_en": "Wushi Jiechen",
+    "teacher": "Changling Shouzhuo",
+    "disciples": [
+      "Xinwen Tanbi"
+    ]
+  },
+  {
+    "id": "49.16.9",
+    "name_en": "Biefeng Zuzhen",
+    "teacher": "Foxin Bencai",
+    "disciples": []
+  },
+  {
+    "id": "50.17.1",
+    "name_en": "Yingan Tanhua",
+    "teacher": "Huqiu Shaolong",
+    "disciples": [
+      "Mian Xianjie",
+      "Hoà Sơn Tâm Giám"
+    ]
+  },
+  {
+    "id": "50.17.2",
+    "name_en": "Wakuan Shitai",
+    "teacher": "Huguo Jingyuan",
+    "disciples": []
+  },
+  {
+    "id": "50.17.3",
+    "name_en": "Zhuo’an Deguang",
+    "teacher": "Dahui Zonggao",
+    "disciples": [
+      "Jingshan Ruyan (–1225)",
+      "Pojian Jujian/Bojian Jujian - Bắc Nhàn Cư Giản (1164–1246)",
+      "Triết Ông Như Diễm",
+      "Wuji Liaopai - Vô Tế Liễu Phái (1149–1224)"
+    ]
+  },
+  {
+    "id": "50.17.4",
+    "name_en": "Lingyin Daoji",
+    "teacher": "Xiatang Huiyuan",
+    "disciples": []
+  },
+  {
+    "id": "50.17.5",
+    "name_en": "Yushan Shiti",
+    "teacher": "Lingyan Sengbao",
+    "disciples": [
+      "Xueyan Huiman"
+    ]
+  },
+  {
+    "id": "50.17.12",
+    "name_en": "Zishou Miaozong",
+    "teacher": "Dahui Zonggao",
+    "disciples": []
+  },
+  {
+    "id": "50.17.1e",
+    "name_en": "Wannian Tanguan",
+    "teacher": "Wushi Jiechen",
+    "disciples": [
+      "Xue'an Congjin"
+    ]
+  },
+  {
+    "id": "51.18.1",
+    "name_en": "Mian Xianjie",
+    "teacher": "Yingan Tanhua",
+    "disciples": [
+      "Songyuan Chongyue",
+      "Poan Zuxian"
+    ]
+  },
+  {
+    "id": "51.18.2",
+    "name_en": "Xueyan Huiman",
+    "teacher": "Yushan Shiti",
+    "disciples": [
+      "Wansong Xingxiu"
+    ]
+  },
+  {
+    "id": "51.18.3",
+    "name_en": "Xue'an Congjin",
+    "teacher": "Wannian Tanguan",
+    "disciples": []
+  },
+  {
+    "id": "51.18.4",
+    "name_en": "Xu'an Huaichang",
+    "teacher": "Wannian Tanguan",
+    "disciples": [
+      "Myōan Eisai"
+    ]
+  },
+  {
+    "id": "52.19.1",
+    "name_en": "Poan Zuxian",
+    "teacher": "Mian Xianjie",
+    "disciples": [
+      "Wuzhun Shifan"
+    ]
+  },
+  {
+    "id": "52.19.2",
+    "name_en": "Songyuan Chongyue",
+    "teacher": "Mian Xianjie",
+    "disciples": [
+      "Wuming Huixin",
+      "Yun’an Puyan"
+    ]
+  },
+  {
+    "id": "52.19.3",
+    "name_en": "Tào Nguyên Đạo Sinh",
+    "teacher": "Mian Xianjie",
+    "disciples": []
+  },
+  {
+    "id": "52.19.4",
+    "name_en": "Wansong Xingxiu",
+    "teacher": "Xueyan Huiman",
+    "disciples": [
+      "Xueting Fuyu"
+    ]
+  },
+  {
+    "id": "52.19.5",
+    "name_en": "Eisai Myōan",
+    "teacher": "Xu'an Huaichang",
+    "disciples": []
+  },
+  {
+    "id": "53.20.1",
+    "name_en": "Wuzhun Shifan",
+    "teacher": "Poan Zuxian",
+    "disciples": [
+      "Wuxue Zuyuan",
+      "Enni Benen",
+      "Xueyan Zuqin",
+      "Wanji Xingmi",
+      "Wu’an Puning"
+    ]
+  },
+  {
+    "id": "53.20.2",
+    "name_en": "Xueting Fuyu",
+    "teacher": "Wansong Xingxiu",
+    "disciples": [
+      "Lingyin Wentai"
+    ]
+  },
+  {
+    "id": "54.21.1",
+    "name_en": "Xueyan Zuqin",
+    "teacher": "Wuzhun Shifan",
+    "disciples": [
+      "Gaofeng Yuanmiao"
+    ]
+  },
+  {
+    "id": "54.21.2",
+    "name_en": "Lingyin Wentai",
+    "teacher": "Xueting Fuyu",
+    "disciples": [
+      "Huanyuan Fuyu"
+    ]
+  },
+  {
+    "id": "55.22.1",
+    "name_en": "Gaofeng Yuanmiao",
+    "teacher": "Xueyan Zuqin",
+    "disciples": [
+      "Zhongfeng Mingben"
+    ]
+  },
+  {
+    "id": "55.22.2",
+    "name_en": "Huanyuan Fuyu",
+    "teacher": "Xueyan Zuqin",
+    "disciples": [
+      "Chunzuo Wencai"
+    ]
+  },
+  {
+    "id": "56.23.1",
+    "name_en": "Zhongfeng Mingben",
+    "teacher": "Gaofeng Yuanmiao",
+    "disciples": [
+      "Tianru Weize",
+      "Qianyan Yuanzhang",
+      "Kohō Kakumyō",
+      "Kosen Ingen"
+    ]
+  },
+  {
+    "id": "56.23.2",
+    "name_en": "Chunzuo Wencai",
+    "teacher": "Huanyuan Fuyu",
+    "disciples": [
+      "Songting Ziyan"
+    ]
+  },
+  {
+    "id": "57.24.1",
+    "name_en": "Tianru Weize",
+    "teacher": "Zhongfeng Mingben",
+    "disciples": []
+  },
+  {
+    "id": "57.24.3",
+    "name_en": "Qianyan Yuanzhang",
+    "teacher": "Zhongfeng Mingben",
+    "disciples": [
+      "Wanfeng Shiwei"
+    ]
+  },
+  {
+    "id": "57.24.5",
+    "name_en": "Songting Ziyan",
+    "teacher": "Chunzuo Wencai",
+    "disciples": [
+      "Ningran Liaogai"
+    ]
+  },
+  {
+    "id": "58.25.1",
+    "name_en": "Ningran Liaogai",
+    "teacher": "Songting Ziyan",
+    "disciples": [
+      "Jukong Qibin"
+    ]
+  },
+  {
+    "id": "58.25.2",
+    "name_en": "Wanfeng Shiwei",
+    "teacher": "Qianyan Yuanzhang",
+    "disciples": [
+      "Baozang Puchi"
+    ]
+  },
+  {
+    "id": "59.26.1",
+    "name_en": "Jukong Qibin",
+    "teacher": "Ningran Liaogai",
+    "disciples": [
+      "Wufang Kecong"
+    ]
+  },
+  {
+    "id": "59.26.2",
+    "name_en": "Baozang Puchi",
+    "teacher": "Wanfeng Shiwei",
+    "disciples": [
+      "Dongming Huichan"
+    ]
+  },
+  {
+    "id": "60.27.1",
+    "name_en": "Wufang Kecong",
+    "teacher": "Jukong Qibin",
+    "disciples": [
+      "Yuezhou Wenzai"
+    ]
+  },
+  {
+    "id": "60.27.2",
+    "name_en": "Dongming Huichan",
+    "teacher": "Baozang Puchi",
+    "disciples": [
+      "Haizhou Puci"
+    ]
+  },
+  {
+    "id": "61.28.1",
+    "name_en": "Yuezhou Wenzai",
+    "teacher": "Wufang Kecong",
+    "disciples": [
+      "Zongjing Zongshu"
+    ]
+  },
+  {
+    "id": "61.28.2",
+    "name_en": "Haizhou Puci",
+    "teacher": "Dongming Huichan",
+    "disciples": [
+      "Baofeng Mingxuan"
+    ]
+  },
+  {
+    "id": "62.29.1",
+    "name_en": "Zongjing Zongshu",
+    "teacher": "Yuezhou Wenzai",
+    "disciples": [
+      "Huanxiu Changrun",
+      "Yunkong Changzhong"
+    ]
+  },
+  {
+    "id": "62.29.2",
+    "name_en": "Baofeng Mingxuan",
+    "teacher": "Haizhou Puci",
+    "disciples": [
+      "Tianqi Benrui"
+    ]
+  },
+  {
+    "id": "63.30.1",
+    "name_en": "Yunkong Changzhong",
+    "teacher": "Zongjing Zongshu",
+    "disciples": [
+      "Wuming Huijing"
+    ]
+  },
+  {
+    "id": "63.30.2",
+    "name_en": "Tianqi Benrui",
+    "teacher": "Baofeng Mingxuan",
+    "disciples": [
+      "Wuwen Mingcong"
+    ]
+  },
+  {
+    "id": "64.31.1",
+    "name_en": "Wuming Huijing",
+    "teacher": "Yunkong Changzhong",
+    "disciples": [
+      "Wuyi Yuanlai",
+      "Huitai Yuanjing",
+      "Yuanjue Yuanxian"
+    ]
+  },
+  {
+    "id": "64.31.2",
+    "name_en": "Wuwen Mingcong",
+    "teacher": "Tianqi Benrui",
+    "disciples": [
+      "Xiaoyan Debao"
+    ]
+  },
+  {
+    "id": "65.32.1",
+    "name_en": "Wuyi Yuanlai",
+    "teacher": "Wuming Huijing",
+    "disciples": []
+  },
+  {
+    "id": "65.32.2",
+    "name_en": "Huitai Yuanjing",
+    "teacher": "Wuming Huijing",
+    "disciples": []
+  },
+  {
+    "id": "65.32.3",
+    "name_en": "Yuanjue Yuanxian",
+    "teacher": "Wuming Huijing",
+    "disciples": []
+  },
+  {
+    "id": "65.32.4",
+    "name_en": "Xiaoyan Debao",
+    "teacher": "Wuwen Mingcong",
+    "disciples": [
+      "Yunqi Zhuhong",
+      "Huanyou Zhenchuan"
+    ]
+  },
+  {
+    "id": "66.33.1",
+    "name_en": "Yunqi Zhuhong",
+    "teacher": "Xiaoyan Debao",
+    "disciples": []
+  },
+  {
+    "id": "66.33.2",
+    "name_en": "Huanyou Zhengchuan",
+    "teacher": "Xiaoyan Debao",
+    "disciples": [
+      "Miyun Yuanwu",
+      "Yufeng Yuanxin",
+      "Tianyin Yuanxiu"
+    ]
+  },
+  {
+    "id": "89.56.1",
+    "name_en": "Yuelang Quanding",
+    "teacher": "Langhui Shirong",
+    "disciples": [
+      "Mingxuan Xirui"
+    ]
+  },
+  {
+    "id": "89.56.2",
+    "name_en": "Chuchan Quanzhen",
+    "teacher": "Langhui Shirong",
+    "disciples": []
+  },
+  {
+    "id": "90.57.1",
+    "name_en": "Mingxuan Xirui",
+    "teacher": "Yuelang Quanding",
+    "disciples": [
+      "Laiguo Miaoshu"
+    ]
+  },
+  {
+    "id": "90.57.2",
+    "name_en": "Tienan ",
+    "teacher": "",
+    "disciples": [
+      "Yuexi Xinyuan"
+    ]
+  },
+  {
+    "id": "91.58.1",
+    "name_en": "Deqing Yanche",
+    "teacher": "Shanci Changkai",
+    "disciples": [
+      "Fohui Kuanyin"
+    ]
+  },
+  {
+    "id": "91.58.2",
+    "name_en": "Laiguo Miaoshu",
+    "teacher": "Mingxuan Xirui",
+    "disciples": [
+      "Gaomin Delin"
+    ]
+  },
+  {
+    "id": "91.58.3",
+    "name_en": "Yuexi Xinyuan",
+    "teacher": "Mingxuan Xirui",
+    "disciples": []
+  },
+  {
+    "id": "91.58.1",
+    "name_en": "Deqing Yanche",
+    "teacher": "Shanci Changkai",
+    "disciples": [
+      "Fohui Kuanyin"
+    ]
+  },
+  {
+    "id": "91.58.2",
+    "name_en": "Laiguo Miaoshu",
+    "teacher": "Mingxuan Xirui",
+    "disciples": [
+      "Gaomin Delin"
+    ]
+  },
+  {
+    "id": "91.58.3",
+    "name_en": "Yuexi Xinyuan",
+    "teacher": "Mingxuan Xirui",
+    "disciples": []
+  },
+  {
+    "id": "93.60.1",
+    "name_en": "",
+    "teacher": "",
+    "disciples": []
+  },
+  {
+    "id": "36.3.9",
+    "name_en": "行表",
+    "teacher": "Dàoxuán (道璿)",
+    "disciples": [
+      "Tối Trừng (最澄)"
+    ]
+  },
+  {
+    "id": "37.4.8",
+    "name_en": "Tối Trừng",
+    "teacher": "Hành Biểu (行表)",
+    "disciples": []
+  },
+  {
+    "id": "50.17.5",
+    "name_en": "Duệ Sơn Giác A",
+    "teacher": "Shi Huiyuan",
+    "disciples": []
+  },
+  {
+    "id": "57.24.2",
+    "name_en": "Kohō Kakumyō",
+    "teacher": "Zhongfeng Mingben",
+    "disciples": []
+  },
+  {
+    "id": "57.24.4",
+    "name_en": "Kosen Ingen",
+    "teacher": "Zhongfeng Mingben",
+    "disciples": []
+  },
+  {
+    "id": "71.38.1",
+    "name_en": "Bankei Yotaku",
+    "teacher": "Bokuō Sogyū",
+    "disciples": []
+  },
+  {
+    "id": "32.101.1.V",
+    "name_en": "Zhongshan Faxian",
+    "teacher": "Vinitaruci",
+    "disciples": []
+  },
+  {
+    "id": "88.101.2.V",
+    "name_en": "Weili Juekai",
+    "teacher": "Thích Hoằng Tu",
+    "disciples": []
+  },
+  {
+    "id": "37.4.15.K",
+    "name_en": "Chŏlgam Toyun",
+    "teacher": "Nanquan Puyuan",
+    "disciples": [
+      "Chinghyo Choljung"
+    ]
+  },
+  {
+    "id": "38.5.12.K",
+    "name_en": "Chinghyo Choljung",
+    "teacher": "Chŏlgam Toyun",
+    "disciples": []
+  },
+  {
+    "id": "40.7.10.K",
+    "name_en": "Longhua Lingzhao",
+    "teacher": "Xuefeng Yicun",
+    "disciples": []
+  },
+  {
+    "id": "40.7.11.K",
+    "name_en": "Tongjin Kyŏngbo",
+    "teacher": "Sushan Kuangren",
+    "disciples": []
+  },
+  {
+    "id": "41.8.1.K",
+    "name_en": "Pŏpgyŏng Hyŏnhwi",
+    "teacher": "Letan Kuangwu",
+    "disciples": []
+  }
+]
