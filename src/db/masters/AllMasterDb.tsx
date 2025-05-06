@@ -97,7 +97,7 @@ export const AllMasters = [
   ...ViMasters,
   ...KoMasters,
 ]
-export const CnGuiyangMasters = AllMasters?.filter(master => master.sect?.includes('Guiyang'));
+/*export const CnGuiyangMasters = AllMasters?.filter(master => master.sect?.includes('Guiyang'));
 export const CnLinjiMasters = AllMasters?.filter(master => master.sect?.includes('Linji'));
 export const CnCaodongMasters = AllMasters?.filter(master => master.sect?.includes('Caodong'));
 export const CnFayanMasters = AllMasters?.filter(master => master.sect?.includes('Fayan'));
@@ -112,4 +112,4 @@ export const AllSectMasters = [
   ...CnYunmenMasters,
   ...CnYangqiMasters,
   ...CnHuanglongMasters,
-];
+];*/
