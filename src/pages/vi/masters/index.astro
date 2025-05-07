@@ -1,11 +1,9 @@
 ---
-// Import necessary components, modules and types
+// Import components, modules and types
 import MainLayout from "@/layouts/MainLayout.astro";
 import { SITE } from "@data/constants";
-import { FileTree } from "@astrojs/starlight/components";
 import React from "react";
-import DataTree from "../../../components/ui/DataTree.tsx";
-import MasterFileTree from "../../../components/ui/MasterFileTree.tsx";
+import GoogleOrgChart from '../../../components/ui/GoogleOrgChart';
 
 // Define variables for page content
 const title: string = "Tổ sư";
@@ -54,6 +52,15 @@ const pageTitle: string = `Tổ sư | ${SITE.title}`;
     <section
         class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
     >
-        <MasterFileTree client:load />
+        <GoogleOrgChart client:load />
     </section>
 </MainLayout>
+
+<script>
+    import { AllMasters } from '../../../db/masters/AllMasterDb.tsx';
+    console.log(AllMasters.map(master => ({
+        name_en: master.name_en,
+        teacher: master.teachers[0],
+        sect: master.sect.join(', '),
+    })));
+</script>
