@@ -846,7 +846,7 @@ const masterDb = [
   },
   {
     name_en: "Guifeng Zongmi",
-    teacher: "Toại Châu Đạo Viên",
+    teacher: "Đại Đức Đạo Viên",
     sect: ""
   },
   {
@@ -991,7 +991,7 @@ const masterDb = [
   },
   {
     name_en: "Niaoke Daolin",
-    teacher: "Kinzan Dōkin",
+    teacher: "Jingshan Faqin",
     sect: "Niutou (Oxhead)"
   },
   {
@@ -1251,7 +1251,7 @@ const masterDb = [
   },
   {
     name_en: "Zhimen Guangzuo",
-    teacher: "Xianglin Chéngyuan",
+    teacher: "Xianglin Chengyuan",
     sect: "Yunmen"
   },
   {
@@ -1838,6 +1838,11 @@ const masterDb = [
     name_en: "Huanyou Zhengchuan",
     teacher: "Xiaoyan Debao",
     sect: "Linji, Yangqi"
+  },
+  {
+    name_en: "Langhui Shirong",
+    teacher: "",
+    sect: "Linji"
   },
   {
     name_en: "Yuelang Quanding",

@@ -177,7 +177,7 @@ const CnLv6MasterDb = [
     sect: ['Niutou (Oxhead)'],
     country: '🇨🇳',
     place: '-',
-    teachers: ['Kinzan Dōkin'],
+    teachers: ['Jingshan Faqin'],
     successors: [''],
     disciples: ['Hàng Châu Hội Thông'],
     image: '/images/avatar.png',
