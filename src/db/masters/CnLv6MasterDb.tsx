@@ -181,7 +181,7 @@ const CnLv6MasterDb = [
     successors: [''],
     disciples: ['Hàng Châu Hội Thông'],
     image: '/images/avatar.png',
-    reference: ['https://en.wikipedia.org/wiki/Niaoke_Daolin'],
+    reference: ['https://en.wikipedia.org/wiki/Niaoke_Daolin', 'https://ngulucthien.com/thien-su-dieu-khoa-dao-lam/'],
   },
   {
     id: '39.6.9',

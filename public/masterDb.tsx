@@ -121,7 +121,7 @@ const masterDb = [
   },
   {
     name_en: "Simhabodhi",
-    teacher: "Haklena",
+    teacher: "Haklenayaśas",
     sect: ""
   },
   {
@@ -131,7 +131,7 @@ const masterDb = [
   },
   {
     name_en: "Dharmadha",
-    teacher: "Aryasimha",
+    teacher: "Simhabodhi",
     sect: ""
   },
   {
@@ -200,7 +200,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Tăng Na",
+    name_en: "Zeng Na",
     teacher: "Dazu Huike",
     sect: ""
   },
@@ -221,7 +221,7 @@ const masterDb = [
   },
   {
     name_en: "Cư sĩ Hoa Nhàn",
-    teacher: "Tương Châu Tuệ Mãn",
+    teacher: "Xiangzhou Huiman",
     sect: ""
   },
   {
@@ -265,7 +265,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Định Lâm Tuệ Cương",
+    name_en: "Dinglin Huigang",
     teacher: "Đàm Thúy",
     sect: ""
   },
@@ -450,7 +450,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Ngô Đầu-đà",
+    name_en: "Ngô Đầu đà",
     teacher: "Dajian Huineng",
     sect: ""
   },
@@ -496,17 +496,17 @@ const masterDb = [
   },
   {
     name_en: "Đạo Lượng",
-    teacher: "Huệ An",
+    teacher: "Laoan Huian",
     sect: ""
   },
   {
-    name_en: "破竈墮",
-    teacher: "Huệ An (慧安)",
+    name_en: "Po Zao Dui",
+    teacher: "Laoan Huian",
     sect: ""
   },
   {
-    name_en: "Tzu-chou Ch’u-chi",
-    teacher: "Zizhou Chiji",
+    name_en: "Jingzhong Zhixian",
+    teacher: "Zizhou Chuji",
     sect: "Oxhead"
   },
   {
@@ -526,7 +526,7 @@ const masterDb = [
   },
   {
     name_en: "Lục Hợp Đại Giác",
-    teacher: "Định Lâm Tuệ Cương",
+    teacher: "Dinglin Huigang",
     sect: ""
   },
   {
@@ -575,13 +575,13 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Yizhou Wuxiang",
-    teacher: "Jingzhong Zhixian - Chùjì (普寂)",
+    name_en: "Jingzhong Wuxiang",
+    teacher: "Jingzhong Zhixian",
     sect: ""
   },
   {
     name_en: "峻極",
-    teacher: "Phá Táo Đọa (破竈墮)",
+    teacher: "Po Zao Dui",
     sect: ""
   },
   {
@@ -590,7 +590,7 @@ const masterDb = [
     sect: "Niutou (Oxhead)"
   },
   {
-    name_en: "惟政",
+    name_en: "Chung Nam Duy Chính",
     teacher: "Songshan Puji",
     sect: ""
   },
@@ -600,7 +600,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Cao bưu Đàm Ảnh",
+    name_en: "Cao Bưu Đàm Ảnh",
     teacher: "Lục Hợp Đại Giác",
     sect: ""
   },
@@ -635,13 +635,13 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Wúzhù",
-    teacher: "Wúxiàng (無相)",
+    name_en: "Baotang Wuzhu",
+    teacher: "Jingzhong Wuxiang",
     sect: ""
   },
   {
-    name_en: "志眞",
-    teacher: "Duy Chính (惟政)",
+    name_en: "Chí Chân",
+    teacher: "Chung Nam Duy Chính",
     sect: ""
   },
   {
@@ -741,7 +741,7 @@ const masterDb = [
   },
   {
     name_en: "Yunyan Tansheng",
-    teacher: "Yaoshan Weiyan, Baizhang Huaihai",
+    teacher: "Yaoshan Weiyan",
     sect: ""
   },
   {
@@ -781,7 +781,7 @@ const masterDb = [
   },
   {
     name_en: "Tuyên Châu Huyền Dĩnh",
-    teacher: "Chii (智威)",
+    teacher: "Niutou Zhiwei",
     sect: ""
   },
   {

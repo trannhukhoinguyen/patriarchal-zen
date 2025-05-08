@@ -74,13 +74,37 @@ const OrgChart: React.FC = () => {
     const expandAll = () => {
         setVisibleRows(originalRows);
     };
+    const viewOtherChart = () => {
+        window.location.href = '/vi/masters/cytoscape-chart';
+    };
 
     return (
         <div>
             <div className="controls" style={{ marginBottom: '1rem', display: 'flex', gap: '1rem' }}>
                 <button
+                    onClick={expandAll}
+                    style={{
+                        position: 'fixed',
+                        left: '150px',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '8px',
+                        backgroundColor: '#10b981',
+                        color: '#fff',
+                        border: 'none',
+                        boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease-in-out',
+                    }}
+                    onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
+                    onMouseOut={e => (e.currentTarget.style.opacity = '1')}
+                >
+                    Expand All
+                </button>
+                <button
                     onClick={collapseAll}
                     style={{
+                        position: 'fixed',
+                        left: '300px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
                         backgroundColor: '#ef4444',
@@ -96,11 +120,13 @@ const OrgChart: React.FC = () => {
                     Collapse All
                 </button>
                 <button
-                    onClick={expandAll}
+                    onClick={viewOtherChart}
                     style={{
+                        position: 'fixed',
+                        left: '450px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
-                        backgroundColor: '#10b981',
+                        backgroundColor: '#042773',
                         color: '#fff',
                         border: 'none',
                         boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
@@ -110,7 +136,7 @@ const OrgChart: React.FC = () => {
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    Expand All
+                    View Other Chart
                 </button>
             </div>
             <div id="chart_div"></div>

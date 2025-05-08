@@ -7,6 +7,7 @@ import enStrings from "@utils/navigation.ts";
 import viStrings from "@utils/vi/navigation.ts";
 import BrandLogo from "@components/BrandLogo.astro";
 import LanguagePicker from "@components/ui/LanguagePicker.astro";
+import GoBackButton from '../../../components/ui/buttons/GoBackButton.tsx';
 
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "vi" ? viStrings : enStrings;
@@ -75,6 +76,7 @@ const homeUrl = Astro.currentLocale === "vi" ? "/vi" : "/";
       <span class="inline-block md:hidden">
         <ThemeIcon />
       </span>
+      <GoBackButton />
     </div>
     <!-- Contains navigation links -->
     <div
