@@ -22,7 +22,7 @@ const CnLv57MasterDb = [
   },
   {
     id: '90.57.2',
-    name_en: 'Tienan ',
+    name_en: 'Tienan',
     name_ja: '',
     name_zh: '',
     name_vi: 'Thiết Nham',

@@ -1860,14 +1860,9 @@ const masterDb = [
     sect: "Linji"
   },
   {
-    name_en: "Tienan ",
+    name_en: "Tienan",
     teacher: "",
     sect: ""
-  },
-  {
-    name_en: "Deqing Yanche",
-    teacher: "Shanci Changkai",
-    sect: "Linji, Yangqi, Guiyang, Yunmen, Fayan, Caodong"
   },
   {
     name_en: "Laiguo Miaoshu",
@@ -1881,7 +1876,7 @@ const masterDb = [
   },
   {
     name_en: "Deqing Yanche",
-    teacher: "Shanci Changkai",
+    teacher: "",
     sect: "Linji, Yangqi, Guiyang, Yunmen, Fayan, Caodong"
   },
   {
