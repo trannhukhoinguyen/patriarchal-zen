@@ -112,7 +112,7 @@ export default defineConfig({
       imports: [
         "@/shortcodes/Tooltip",
         "@/shortcodes/Video",
-        "@components/sections/LiteYouTubeEmbed.astro",
+        "@components/sections/YouTube.astro",
       ],
     }),
     mdx(),

@@ -85,54 +85,45 @@ const OrgChart: React.FC = () => {
                     onClick={expandAll}
                     style={{
                         position: 'fixed',
-                        top: '150px',
-                        left: '50px',
-                        padding: '0.5rem 1rem',
-                        borderRadius: '8px',
-                        backgroundColor: '#10b981',
+                        top: '300px',
+                        left: '10px',
+                        padding: 0,
                         color: '#fff',
                         border: 'none',
-                        boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
                         cursor: 'pointer',
                         transition: 'all 0.2s ease-in-out',
                     }}
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    <span className="button-icon" title="Expand All">↕️</span>
+                    <span className="button-icon" title="Expand All">⏬</span>
                 </button>
                 <button
                     onClick={collapseAll}
                     style={{
                         position: 'fixed',
-                        top: '100px',
-                        left: '100px',
-                        padding: '0.5rem 1rem',
-                        borderRadius: '8px',
-                        backgroundColor: '#ef4444',
+                        top: '300px',
+                        left: '40px',
+                        padding: 0,
                         color: '#fff',
                         border: 'none',
-                        boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
                         cursor: 'pointer',
                         transition: 'all 0.2s ease-in-out',
                     }}
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    <span className="button-icon" title="Collapse All">⏬</span>
+                    <span className="button-icon" title="Collapse All">⏫</span>
                 </button>
                 <button
                     onClick={viewOtherChart}
                     style={{
                         position: 'fixed',
-                        top: '100px',
-                        left: '150px',
-                        padding: '0.5rem 1rem',
-                        borderRadius: '8px',
-                        backgroundColor: '#042773',
+                        top: '300px',
+                        left: '70px',
+                        padding: 0,
                         color: '#fff',
                         border: 'none',
-                        boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
                         cursor: 'pointer',
                         transition: 'all 0.2s ease-in-out',
                     }}

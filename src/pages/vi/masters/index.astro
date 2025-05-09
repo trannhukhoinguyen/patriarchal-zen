@@ -55,14 +55,3 @@ const pageTitle: string = `Tổ sư | ${SITE.title}`;
         <GoogleOrgChart client:load />
     </section>
 </MainLayout>
-
-<script>
-    import { AllMasters } from '../../../db/masters/AllMasterDb.tsx';
-    console.log(AllMasters
-        .filter(master => master.name_en !== '')
-        .map(master => ({
-            name_en: master.name_en,
-            teacher: master.teachers[0],
-            sect: master.sect.join(', '),
-        })));
-</script>
