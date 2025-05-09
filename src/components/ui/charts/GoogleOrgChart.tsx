@@ -86,7 +86,7 @@ const OrgChart: React.FC = () => {
                     style={{
                         position: 'fixed',
                         top: '150px',
-                        left: '150px',
+                        left: '50px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
                         backgroundColor: '#10b981',
@@ -107,7 +107,7 @@ const OrgChart: React.FC = () => {
                     style={{
                         position: 'fixed',
                         top: '100px',
-                        left: '300px',
+                        left: '100px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
                         backgroundColor: '#ef4444',
@@ -128,7 +128,7 @@ const OrgChart: React.FC = () => {
                     style={{
                         position: 'fixed',
                         top: '100px',
-                        left: '450px',
+                        left: '150px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
                         backgroundColor: '#042773',
