@@ -7,7 +7,7 @@ const GoBackButton: React.FC = () => {
   };
 
   return (
-      <button onClick={handleGoBack} style={{ position: 'fixed', top: '80px', fontSize: '2rem', cursor: 'pointer' }} title="Go back">
+      <button onClick={handleGoBack} style={{ position: 'fixed', top: '60px', fontSize: '1.5rem', cursor: 'pointer' }} title="Go back">
           ⬅️
       </button>
   );

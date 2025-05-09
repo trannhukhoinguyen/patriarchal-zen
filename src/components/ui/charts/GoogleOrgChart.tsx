@@ -100,13 +100,13 @@ const OrgChart: React.FC = () => {
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
                     <span className="button-text">Expand All</span>
-                    <span className="button-icon">Expand All</span>
+                    <span className="button-icon">↕️</span>
                 </button>
                 <button
                     onClick={collapseAll}
                     style={{
                         position: 'fixed',
-                        top: '150px',
+                        top: '100px',
                         left: '300px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
@@ -120,13 +120,14 @@ const OrgChart: React.FC = () => {
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    Collapse All
+                    <span className="button-text">Collapse All</span>
+                    <span className="button-icon">⏬</span>
                 </button>
                 <button
                     onClick={viewOtherChart}
                     style={{
                         position: 'fixed',
-                        top: '150px',
+                        top: '100px',
                         left: '450px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
@@ -140,7 +141,8 @@ const OrgChart: React.FC = () => {
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    View Other Chart
+                    <span className="button-text">View Other Chart</span>
+                    <span className="button-icon">📊</span>
                 </button>
             </div>
             <div id="chart_div"></div>

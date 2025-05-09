@@ -1,4 +1,16 @@
-const masterDb = [
+import { AllMasters } from '@/db/masters/AllMasterDb.tsx';
+
+const masterDbJson = AllMasters
+    .filter(master => master.name_en !== '')
+    .map(master => ({
+      name_en: master.name_en,
+      teacher: master.teachers[0],
+      sect: master.sect.join(', '),
+    }));
+console.log('masterDbJson', masterDbJson);
+
+const masterDb = masterDbJson;
+/*const masterDb = [
   {
     name_en: "Shakyamuni Buddha",
     teacher: "",
@@ -1984,5 +1996,5 @@ const masterDb = [
     teacher: "Letan Kuangwu",
     sect: ""
   }
-]
+]*/
 export default masterDb;
