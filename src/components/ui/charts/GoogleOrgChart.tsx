@@ -99,8 +99,7 @@ const OrgChart: React.FC = () => {
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    <span className="button-text">Expand All</span>
-                    <span className="button-icon">↕️</span>
+                    <span className="button-icon" title="Expand All">↕️</span>
                 </button>
                 <button
                     onClick={collapseAll}
@@ -120,8 +119,7 @@ const OrgChart: React.FC = () => {
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    <span className="button-text">Collapse All</span>
-                    <span className="button-icon">⏬</span>
+                    <span className="button-icon" title="Collapse All">⏬</span>
                 </button>
                 <button
                     onClick={viewOtherChart}
@@ -141,8 +139,7 @@ const OrgChart: React.FC = () => {
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    <span className="button-text">View Other Chart</span>
-                    <span className="button-icon">📊</span>
+                    <span className="button-icon" title="View Other Chart">📊</span>
                 </button>
             </div>
             <div id="chart_div"></div>
