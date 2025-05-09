@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "types": ["google.visualization"],
+    "types": ["google.visualization", "vite/client"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
@@ -11,9 +11,10 @@
       "@images/*": ["src/images/*"],
       "@scripts/*": ["src/assets/scripts/*"],
       "@styles/*": ["src/assets/styles/*"],
-      "@utils/*": ["src/utils/*"]
+      "@utils/*": ["src/utils/*"],
+      "@/shortcodes/*": ["./src/components/ui/shortcodes/*"]
     }
   },
-  "include": [".astro/types.d.ts", "**/*"],
+  "include": [".astro/types.d.ts", "**/*", "src"],
   "exclude": ["dist"]
 }

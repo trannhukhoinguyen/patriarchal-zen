@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import masterDb from '../../../public/masterDb.tsx';
+import masterDb from '../../../../public/masterDb.tsx';
 
 declare global {
     interface Window {
@@ -85,6 +85,7 @@ const OrgChart: React.FC = () => {
                     onClick={expandAll}
                     style={{
                         position: 'fixed',
+                        top: '150px',
                         left: '150px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
@@ -98,12 +99,14 @@ const OrgChart: React.FC = () => {
                     onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
                     onMouseOut={e => (e.currentTarget.style.opacity = '1')}
                 >
-                    Expand All
+                    <span className="button-text">Expand All</span>
+                    <span className="button-icon">Expand All</span>
                 </button>
                 <button
                     onClick={collapseAll}
                     style={{
                         position: 'fixed',
+                        top: '150px',
                         left: '300px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',
@@ -123,6 +126,7 @@ const OrgChart: React.FC = () => {
                     onClick={viewOtherChart}
                     style={{
                         position: 'fixed',
+                        top: '150px',
                         left: '450px',
                         padding: '0.5rem 1rem',
                         borderRadius: '8px',

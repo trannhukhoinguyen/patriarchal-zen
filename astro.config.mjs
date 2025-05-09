@@ -5,6 +5,7 @@ import compressor from "astro-compressor";
 import starlight from "@astrojs/starlight";
 import react from '@astrojs/react';
 import mdx from "@astrojs/mdx";
+import AutoImport from "astro-auto-import";
 
 // https://astro.build/config
 export default defineConfig({
@@ -106,8 +107,15 @@ export default defineConfig({
       gzip: false,
       brotli: true,
     }),
+    react(),
+    AutoImport({
+      imports: [
+        "@/shortcodes/Tooltip",
+        "@/shortcodes/Video",
+        "@components/sections/LiteYouTubeEmbed.astro",
+      ],
+    }),
     mdx(),
-    react()
   ],
   experimental: {
     clientPrerender: true,

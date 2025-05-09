@@ -221,7 +221,7 @@ const masterDb = [
   },
   {
     name_en: "Cư sĩ Hoa Nhàn",
-    teacher: "Xiangzhou Huiman",
+    teacher: "Tương Châu Tuệ Mãn",
     sect: ""
   },
   {
@@ -450,7 +450,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Ngô Đầu đà",
+    name_en: "Ngô Đầu-đà",
     teacher: "Dajian Huineng",
     sect: ""
   },
@@ -475,7 +475,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Chung Sơn Đàm Thổi",
+    name_en: "Chung Sơn Đàm Thôi",
     teacher: "Dajian Huineng",
     sect: ""
   },
@@ -496,7 +496,7 @@ const masterDb = [
   },
   {
     name_en: "Đạo Lượng",
-    teacher: "Laoan Huian",
+    teacher: "Huệ An",
     sect: ""
   },
   {
@@ -525,8 +525,8 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Lục Hợp Đại Giác",
-    teacher: "Dinglin Huigang",
+    name_en: "Liuhe Dajue",
+    teacher: "Định Lâm Tuệ Cương",
     sect: ""
   },
   {
@@ -576,12 +576,12 @@ const masterDb = [
   },
   {
     name_en: "Jingzhong Wuxiang",
-    teacher: "Jingzhong Zhixian",
+    teacher: "Zizhou Chuji",
     sect: ""
   },
   {
     name_en: "峻極",
-    teacher: "Po Zao Dui",
+    teacher: "Phá Táo Đọa (破竈墮)",
     sect: ""
   },
   {
@@ -595,12 +595,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Jingzhong Wuxiang",
-    teacher: "Zizhou Chuji",
-    sect: ""
-  },
-  {
-    name_en: "Cao Bưu Đàm Ảnh",
+    name_en: "Gaobu Tanying",
     teacher: "Lục Hợp Đại Giác",
     sect: ""
   },
@@ -685,12 +680,7 @@ const masterDb = [
     sect: ""
   },
   {
-    name_en: "Baotang Wuzhu",
-    teacher: "Jingzhong Wuxiang",
-    sect: ""
-  },
-  {
-    name_en: "Thái sơn Minh Luyện",
+    name_en: "Thái Sơn Minh Luyện",
     teacher: "Cao Bưu Đàm Ảnh",
     sect: ""
   },
@@ -846,7 +836,7 @@ const masterDb = [
   },
   {
     name_en: "Guifeng Zongmi",
-    teacher: "Đại Đức Đạo Viên",
+    teacher: "Toại Châu Đạo Viên",
     sect: ""
   },
   {
@@ -1251,7 +1241,7 @@ const masterDb = [
   },
   {
     name_en: "Zhimen Guangzuo",
-    teacher: "Xianglin Chengyuan",
+    teacher: "Xianglin Chéngyuan",
     sect: "Yunmen"
   },
   {
@@ -1840,6 +1830,41 @@ const masterDb = [
     sect: "Linji, Yangqi"
   },
   {
+    name_en: "Miyun Yuanwu",
+    teacher: "Huanyou Zhengchuan",
+    sect: "Linji, Yangqi"
+  },
+  {
+    name_en: "Yufeng Yuanxin",
+    teacher: "Huanyou Zhengchuan",
+    sect: "Linji, Yangqi"
+  },
+  {
+    name_en: "Tianyin Yuanxiu",
+    teacher: "Huanyou Zhengchuan",
+    sect: "Linji, Yangqi"
+  },
+  {
+    name_en: "Feiyin Tongrong",
+    teacher: "Miyun Yuanwu",
+    sect: "Linji, Yangqi"
+  },
+  {
+    name_en: "Yulin Tongxiu",
+    teacher: "Tianyin Yuanxiu",
+    sect: "Linji, Yangqi"
+  },
+  {
+    name_en: "Yinyuan Longqi",
+    teacher: "Feiyin Tongrong",
+    sect: "Linji, Yangqi"
+  },
+  {
+    name_en: "Mu’an Xingtao",
+    teacher: "Yinyuan Longqi",
+    sect: "Linji, Yangqi"
+  },
+  {
     name_en: "Langhui Shirong",
     teacher: "",
     sect: "Linji"
@@ -1865,6 +1890,11 @@ const masterDb = [
     sect: ""
   },
   {
+    name_en: "Deqing Yanche",
+    teacher: "Shanci Changkai",
+    sect: "Linji, Yangqi, Guiyang, Yunmen, Fayan, Caodong"
+  },
+  {
     name_en: "Laiguo Miaoshu",
     teacher: "Mingxuan Xirui",
     sect: "Linji"
@@ -1876,7 +1906,7 @@ const masterDb = [
   },
   {
     name_en: "Deqing Yanche",
-    teacher: "",
+    teacher: "Shanci Changkai",
     sect: "Linji, Yangqi, Guiyang, Yunmen, Fayan, Caodong"
   },
   {

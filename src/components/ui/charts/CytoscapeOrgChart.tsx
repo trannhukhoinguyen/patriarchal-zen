@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import cytoscape from 'cytoscape';
-import masterDb from "../../../public/masterDb.tsx";
+import masterDb from "../../../../public/masterDb.tsx";
 
 type RawNode = {
     name_en: string;
@@ -35,7 +35,7 @@ function convertToCytoscape(data: RawNode[]): CytoscapeElement[] {
 }
 
 const chartData: CytoscapeElement[] = convertToCytoscape(masterDb);
-const CytoscapeChart: React.FC = () => {
+const CytoscapeOrgChart: React.FC = () => {
     const containerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -88,4 +88,4 @@ const CytoscapeChart: React.FC = () => {
     </div>
 };
 
-export default CytoscapeChart;
+export default CytoscapeOrgChart;

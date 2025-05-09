@@ -1,6 +1,7 @@
 [
   {
     "name_en": "Shakyamuni Buddha",
+    "teacher": "",
     "sect": ""
   },
   {
@@ -120,7 +121,7 @@
   },
   {
     "name_en": "Simhabodhi",
-    "teacher": "Haklena",
+    "teacher": "Haklenayaśas",
     "sect": ""
   },
   {
@@ -130,7 +131,7 @@
   },
   {
     "name_en": "Dharmadha",
-    "teacher": "Aryasimha",
+    "teacher": "Simhabodhi",
     "sect": ""
   },
   {
@@ -199,7 +200,7 @@
     "sect": ""
   },
   {
-    "name_en": "Tăng Na",
+    "name_en": "Zeng Na",
     "teacher": "Dazu Huike",
     "sect": ""
   },
@@ -264,7 +265,7 @@
     "sect": ""
   },
   {
-    "name_en": "Định Lâm Tuệ Cương",
+    "name_en": "Dinglin Huigang",
     "teacher": "Đàm Thúy",
     "sect": ""
   },
@@ -474,7 +475,7 @@
     "sect": ""
   },
   {
-    "name_en": "Chung Sơn Đàm Thổi",
+    "name_en": "Chung Sơn Đàm Thôi",
     "teacher": "Dajian Huineng",
     "sect": ""
   },
@@ -499,12 +500,12 @@
     "sect": ""
   },
   {
-    "name_en": "破竈墮",
-    "teacher": "Huệ An (慧安)",
+    "name_en": "Po Zao Dui",
+    "teacher": "Laoan Huian",
     "sect": ""
   },
   {
-    "name_en": "Tzu-chou Ch’u-chi",
+    "name_en": "Jingzhong Zhixian",
     "teacher": "Zizhou Chuji",
     "sect": "Oxhead"
   },
@@ -524,7 +525,7 @@
     "sect": ""
   },
   {
-    "name_en": "Lục Hợp Đại Giác",
+    "name_en": "Liuhe Dajue",
     "teacher": "Định Lâm Tuệ Cương",
     "sect": ""
   },
@@ -574,8 +575,8 @@
     "sect": ""
   },
   {
-    "name_en": "Yizhou Wuxiang",
-    "teacher": "Jingzhong Zhixian - Chùjì (普寂)",
+    "name_en": "Jingzhong Wuxiang",
+    "teacher": "Zizhou Chuji",
     "sect": ""
   },
   {
@@ -594,12 +595,7 @@
     "sect": ""
   },
   {
-    "name_en": "Jingzhong Wuxiang",
-    "teacher": "Zizhou Chuji",
-    "sect": ""
-  },
-  {
-    "name_en": "Cao bưu Đàm Ảnh",
+    "name_en": "Gaobu Tanying",
     "teacher": "Lục Hợp Đại Giác",
     "sect": ""
   },
@@ -684,12 +680,7 @@
     "sect": ""
   },
   {
-    "name_en": "Baotang Wuzhu",
-    "teacher": "Jingzhong Wuxiang",
-    "sect": ""
-  },
-  {
-    "name_en": "Thái sơn Minh Luyện",
+    "name_en": "Thái Sơn Minh Luyện",
     "teacher": "Cao Bưu Đàm Ảnh",
     "sect": ""
   },
@@ -740,7 +731,7 @@
   },
   {
     "name_en": "Yunyan Tansheng",
-    "teacher": "Yaoshan Weiyan, Baizhang Huaihai",
+    "teacher": "Yaoshan Weiyan",
     "sect": ""
   },
   {
@@ -990,7 +981,7 @@
   },
   {
     "name_en": "Niaoke Daolin",
-    "teacher": "Kinzan Dōkin",
+    "teacher": "Jingshan Faqin",
     "sect": "Niutou (Oxhead)"
   },
   {
@@ -1837,6 +1828,46 @@
     "name_en": "Huanyou Zhengchuan",
     "teacher": "Xiaoyan Debao",
     "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Miyun Yuanwu",
+    "teacher": "Huanyou Zhengchuan",
+    "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Yufeng Yuanxin",
+    "teacher": "Huanyou Zhengchuan",
+    "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Tianyin Yuanxiu",
+    "teacher": "Huanyou Zhengchuan",
+    "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Feiyin Tongrong",
+    "teacher": "Miyun Yuanwu",
+    "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Yulin Tongxiu",
+    "teacher": "Tianyin Yuanxiu",
+    "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Yinyuan Longqi",
+    "teacher": "Feiyin Tongrong",
+    "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Mu’an Xingtao",
+    "teacher": "Yinyuan Longqi",
+    "sect": "Linji, Yangqi"
+  },
+  {
+    "name_en": "Langhui Shirong",
+    "teacher": "",
+    "sect": "Linji"
   },
   {
     "name_en": "Yuelang Quanding",

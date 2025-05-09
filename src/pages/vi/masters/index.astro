@@ -3,7 +3,7 @@
 import MainLayout from "@/layouts/MainLayout.astro";
 import { SITE } from "@data/constants";
 import React from "react";
-import GoogleOrgChart from '../../../components/ui/GoogleOrgChart';
+import GoogleOrgChart from '../../../components/ui/charts/GoogleOrgChart';
 
 // Define variables for page content
 const title: string = "Tổ sư";
@@ -58,9 +58,11 @@ const pageTitle: string = `Tổ sư | ${SITE.title}`;
 
 <script>
     import { AllMasters } from '../../../db/masters/AllMasterDb.tsx';
-    console.log(AllMasters.map(master => ({
-        name_en: master.name_en,
-        teacher: master.teachers[0],
-        sect: master.sect.join(', '),
-    })));
+    console.log(AllMasters
+        .filter(master => master.name_en !== '')
+        .map(master => ({
+            name_en: master.name_en,
+            teacher: master.teachers[0],
+            sect: master.sect.join(', '),
+        })));
 </script>

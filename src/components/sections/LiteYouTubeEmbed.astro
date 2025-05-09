@@ -1,0 +1,80 @@
+---
+export interface Props {
+    videoId: string;
+    title?: string;
+}
+const { videoId, title = "YouTube Video" } = Astro.props;
+const poster = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+---
+
+<div class="yt-wrapper">
+    <lite-youtube
+            videoid={videoId}
+            playlabel={title}
+            style={`background-image: url(${poster});`}
+    >
+        <button class="play-button" aria-label="Play">
+            <svg viewBox="0 0 68 48" width="68" height="48">
+                <path d="M66.52 7.85c-0.78-2.93-3.1-5.25-6.03-6.03C55.3 0.5 34 0.5 34 0.5s-21.3 0-26.48 1.32c-2.93 0.78-5.25 3.1-6.03 6.03C0.5 13.03 0.5 24 0.5 24s0 10.97 1.32 16.15c0.78 2.93 3.1 5.25 6.03 6.03C12.7 47.5 34 47.5 34 47.5s21.3 0 26.48-1.32c2.93-0.78 5.25-3.1 6.03-6.03C67.5 34.97 67.5 24 67.5 24s0-10.97-0.98-16.15z" fill="#f00"/>
+                <path d="M45 24 27 14v20z" fill="#fff"/>
+            </svg>
+        </button>
+    </lite-youtube>
+</div>
+
+<script
+        is:inline
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.1.0/src/lite-yt-embed.js"
+></script>
+
+<style>
+.yt-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    }
+
+lite-youtube {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    }
+
+lite-youtube .play-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    width: 68px;
+    height: 48px;
+    }
+
+lite-youtube .play-button svg {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s;
+    }
+
+lite-youtube .play-button:hover svg {
+    transform: scale(1.1);
+    }
+
+@media (prefers-color-scheme: dark) {
+    lite-youtube {
+    background-color: #000;
+    }
+    }
+</style>
