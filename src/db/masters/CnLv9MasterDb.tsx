@@ -65,7 +65,7 @@ const CnLv9MasterDb = [
     sect: ['Yunmen'],
     country: '🇨🇳',
     place: '-',
-    teachers: ['Xianglin Chéngyuan'],
+    teachers: ['Xianglin Chengyuan'],
     successors: ['Xuedou Chongxian'],
     disciples: ['Xuedou Chongxian', 'Jiufeng Qin'],
     image: '/images/avatar.png',

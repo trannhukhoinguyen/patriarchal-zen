@@ -221,7 +221,7 @@
   },
   {
     "name_en": "Cư sĩ Hoa Nhàn",
-    "teacher": "Tương Châu Tuệ Mãn",
+    "teacher": "Xiangzhou Huiman",
     "sect": ""
   },
   {
@@ -496,7 +496,7 @@
   },
   {
     "name_en": "Đạo Lượng",
-    "teacher": "Huệ An",
+    "teacher": "Laoan Huian",
     "sect": ""
   },
   {
@@ -526,7 +526,7 @@
   },
   {
     "name_en": "Liuhe Dajue",
-    "teacher": "Định Lâm Tuệ Cương",
+    "teacher": "Dinglin Huigang",
     "sect": ""
   },
   {
@@ -565,7 +565,7 @@
     "sect": ""
   },
   {
-    "name_en": "Dàoxuán",
+    "name_en": "Daoxuan",
     "teacher": "Songshan Puji",
     "sect": ""
   },
@@ -581,7 +581,7 @@
   },
   {
     "name_en": "峻極",
-    "teacher": "Phá Táo Đọa (破竈墮)",
+    "teacher": "Po Zao Dui",
     "sect": ""
   },
   {
@@ -596,7 +596,7 @@
   },
   {
     "name_en": "Gaobu Tanying",
-    "teacher": "Lục Hợp Đại Giác",
+    "teacher": "Liuhe Dajue",
     "sect": ""
   },
   {
@@ -681,7 +681,7 @@
   },
   {
     "name_en": "Thái Sơn Minh Luyện",
-    "teacher": "Cao Bưu Đàm Ảnh",
+    "teacher": "Gaobu Tanying",
     "sect": ""
   },
   {
@@ -1241,7 +1241,7 @@
   },
   {
     "name_en": "Zhimen Guangzuo",
-    "teacher": "Xianglin Chéngyuan",
+    "teacher": "Xianglin Chengyuan",
     "sect": "Yunmen"
   },
   {
@@ -1890,8 +1890,18 @@
     "sect": ""
   },
   {
+    "name_en": "Laiguo Miaoshu",
+    "teacher": "Mingxuan Xirui",
+    "sect": "Linji"
+  },
+  {
+    "name_en": "Yuexi Xinyuan",
+    "teacher": "Mingxuan Xirui",
+    "sect": ""
+  },
+  {
     "name_en": "Deqing Yanche",
-    "teacher": "Shanci Changkai",
+    "teacher": "",
     "sect": "Linji, Yangqi, Guiyang, Yunmen, Fayan, Caodong"
   },
   {
@@ -1905,33 +1915,18 @@
     "sect": ""
   },
   {
-    "name_en": "Deqing Yanche",
-    "teacher": "Shanci Changkai",
-    "sect": "Linji, Yangqi, Guiyang, Yunmen, Fayan, Caodong"
-  },
-  {
-    "name_en": "Laiguo Miaoshu",
-    "teacher": "Mingxuan Xirui",
-    "sect": "Linji"
-  },
-  {
-    "name_en": "Yuexi Xinyuan",
-    "teacher": "Mingxuan Xirui",
-    "sect": ""
-  },
-  {
-    "name_en": "行表",
-    "teacher": "Dàoxuán (道璿)",
+    "name_en": "Hành Biểu",
+    "teacher": "Daoxuan",
     "sect": ""
   },
   {
     "name_en": "Tối Trừng",
-    "teacher": "Hành Biểu (行表)",
+    "teacher": "Hành Biểu",
     "sect": ""
   },
   {
     "name_en": "Duệ Sơn Giác A",
-    "teacher": "Shi Huiyuan",
+    "teacher": "Xiatang Huiyuan",
     "sect": ""
   },
   {
@@ -1945,9 +1940,14 @@
     "sect": "Linji, Yangqi"
   },
   {
+    "name_en": "Bokuo Sogyu'",
+    "teacher": "",
+    "sect": "Linji, Yangqi"
+  },
+  {
     "name_en": "Bankei Yotaku",
-    "teacher": "Bokuō Sogyū",
-    "sect": "Linji, Yangqi, "
+    "teacher": "Bokuo Sogyu",
+    "sect": "Linji, Yangqi"
   },
   {
     "name_en": "Zhongshan Faxian",

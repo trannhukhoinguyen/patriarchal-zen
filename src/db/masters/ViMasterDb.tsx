@@ -1,6 +1,6 @@
 const InMasterDb = [
   {
-    id: '32.101.1.V',
+    id: '32.101.1',
     name_en: 'Zhongshan Faxian',
     name_ja: 'Shūszen Hōken',
     name_zh: '眾善法賢 ',
@@ -22,7 +22,29 @@ const InMasterDb = [
     reference: ['',],
   },
   {
-    id: '88.101.2.V',
+    id: '87.100.1',
+    hasContent: true,
+    name_en: 'Thích Hoằng Tu',
+    name_ja: '',
+    name_zh: '',
+    name_vi: 'Thích Hoằng Tu',
+    other_name_vi: '',
+    nickname_vi: '',
+    worship_tower: '',
+    birth_death_time: ['', ''],
+    epoch: '',
+    records: '...',
+    sect: [],
+    country: '🇻🇳',
+    place: '-',
+    teachers: [''],
+    successors: ['Weili Juekai'],
+    disciples: ['Weili Juekai'],
+    image: '/images/avatar.png',
+    reference: ['',],
+  },
+  {
+    id: '88.101.2',
     hasContent: true,
     name_en: 'Weili Juekai',
     name_ja: 'Weili Juekai',
@@ -43,6 +65,5 @@ const InMasterDb = [
     image: '/images/avatar.png',
     reference: ['',],
   },
-
 ]
 export default InMasterDb;

@@ -1,12 +1,12 @@
 const CnLv4MasterDb = [
   {
     id: '37.4.1',
-    name_en: 'Đại Đức Đạo Viên',
+    name_en: 'Toại Châu Đạo Viên',
     name_ja: 'Đại Đức Đạo Viên',
     name_zh: '遂州道圓',
     other_name_zh: '大德道圓',
-    name_vi: 'Đại Đức Đạo Viên',
-    other_name_vi: 'Toại Châu Đạo Viên',
+    name_vi: 'Toại Châu Đạo Viên',
+    other_name_vi: 'Đại Đức Đạo Viên',
     nickname_vi: '',
     worship_tower: '',
     birth_death_time: ['', ''],

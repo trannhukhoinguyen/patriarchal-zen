@@ -372,7 +372,7 @@ const CnLv3MasterDb = [
     sect: [],
     country: '🇨🇳',
     place: '-',
-    teachers: ['Cao Bưu Đàm Ảnh'],
+    teachers: ['Gaobu Tanying'],
     successors: [''],
     disciples: ['Dương Châu Tĩnh Thái'],
     image: '/images/monocolor-unknown-zen-master.jpg',
