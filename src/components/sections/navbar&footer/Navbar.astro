@@ -12,6 +12,14 @@ import GoBackButton from '../../../components/ui/buttons/GoBackButton.tsx';
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "vi" ? viStrings : enStrings;
 const homeUrl = Astro.currentLocale === "vi" ? "/vi" : "/";
+
+// Setting expected props
+const { lang = "en" } = Astro.props;
+
+// Interface to type-check the properties
+interface Props {
+  lang?: string;
+}
 ---
 
 <!-- Main header component -->
@@ -74,7 +82,7 @@ const homeUrl = Astro.currentLocale === "vi" ? "/vi" : "/";
       </div>
       <!-- ThemeIcon component specifically for smaller screens -->
       <span class="inline-block md:hidden">
-        <ThemeIcon />
+        <ThemeIcon lang={lang} />
       </span>
       <GoBackButton />
     </div>
@@ -93,10 +101,10 @@ const homeUrl = Astro.currentLocale === "vi" ? "/vi" : "/";
         ))}
 
         <!--<Authentication />-->
-        <LanguagePicker />
+        <LanguagePicker lang={lang} />
         <!-- ThemeIcon component specifically for larger screens -->
         <span class="hidden md:inline-block">
-          <ThemeIcon />
+          <ThemeIcon lang={lang} />
         </span>
       </div>
     </div>

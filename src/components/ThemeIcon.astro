@@ -1,5 +1,16 @@
+---
+// Setting expected props
+const { lang = "en" } = Astro.props;
+
+// Interface to type-check the properties
+interface Props {
+  lang?: string;
+}
+---
+
 <!-- Dark Theme Toggle Button --><!-- This button is shown when the light theme is active, and when clicked, it switches the theme to dark -->
 <button
+  title={lang === "en" ? "Change the current theme" : "Đổi màu nền"}
   type="button"
   aria-label="Dark Theme Toggle"
   class="hs-dark-mode group flex h-8 w-8 items-center justify-center rounded-full font-medium text-neutral-600 outline-hidden ring-zinc-500 transition duration-300 hover:bg-neutral-200 hover:text-orange-400 hs-dark-mode-active:hidden dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-orange-300 dark:focus:outline-hidden"
@@ -22,6 +33,7 @@
   <!-- This button is hidden by default and only appears when the dark theme is active, when clicked, it switches to the light theme -->
 </button>
 <button
+  title={lang === "en" ? "Change the current theme" : "Đổi màu nền"}
   type="button"
   aria-label="Light Theme Toggle"
   class="hs-dark-mode group hidden h-8 w-8 items-center justify-center rounded-full font-medium text-neutral-600 outline-hidden ring-zinc-500 transition duration-300 hover:text-orange-400 hs-dark-mode-active:flex dark:text-neutral-400 dark:ring-zinc-200 dark:hover:bg-neutral-700 dark:hover:text-orange-300 dark:focus:outline-hidden"

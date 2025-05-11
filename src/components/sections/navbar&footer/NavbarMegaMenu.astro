@@ -12,6 +12,14 @@ import LanguagePicker from "@components/ui/LanguagePicker.astro";
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "vi" ? viStrings : enStrings;
 const homeUrl = Astro.currentLocale === "vi" ? "/vi" : "/";
+
+// Setting expected props
+const { lang = "en" } = Astro.props;
+
+// Interface to type-check the properties
+interface Props {
+  lang?: string;
+}
 ---
 
 <!-- Main header component -->
@@ -98,7 +106,7 @@ const homeUrl = Astro.currentLocale === "vi" ? "/vi" : "/";
         }
 
         <Authentication />
-        <LanguagePicker />
+        <LanguagePicker lang={lang} />
         <!-- ThemeIcon component specifically for larger screens -->
         <span class="hidden md:inline-block">
           <ThemeIcon />
