@@ -1,7 +1,6 @@
 ---
 // Import the necessary components
 import MainLayout from "@/layouts/MainLayout.astro";
-import HeroSection from "@components/sections/landing/HeroSection.astro";
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
 import ClientsSection from "@components/sections/landing/ClientsSection.astro";
 import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
@@ -38,26 +37,6 @@ let theme = 'dark'; // Default before hydration
     btnTitle="Tổ sư thiền"
     url="https://github.com/trannhukhoinguyen/patriarchal-zen"
   />
-
-  <div id="hero-section" data-theme={theme}>
-    <HeroSection
-        client:load
-        title=`Tổ sư thiền <span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>`
-        subTitle="Tổ sư thiền"
-        primaryBtn="Tổ sư thiền"
-        primaryBtnURL={getRelativeLocaleUrl("vi", "speeches")}
-        secondaryBtn="Contacter l'équipe commerciale"
-        secondaryBtnURL={getRelativeLocaleUrl("vi", "contact")}
-        withReview={true}
-        avatars={avatarSrcs}
-        rating=`<span class="font-bold">4.8</span> / 5`
-        starCount={4}
-        reviews=`Tổ sư thiền <span class="font-bold">12,8k</span> avis`
-        src={ theme === "dark" ? whiteHeroImage : blackHeroImage }
-        alt="Tổ sư thiền"
-    />
-  </div>
-
 
   <ClientsSection
     title="Tổ sư thiền"
@@ -160,8 +139,6 @@ let theme = 'dark'; // Default before hydration
   let theme = localStorage.getItem('hs_theme') ||
       (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
-  const heroSection = document.querySelector('#hero-section');
   const featuresGeneral = document.querySelector('#features-general');
-  heroSection.setAttribute('data-theme', theme);
   featuresGeneral.setAttribute('data-theme', theme);
 </script>
