@@ -3,21 +3,15 @@
 import MainLayout from "@/layouts/MainLayout.astro";
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
 import ClientsSection from "@components/sections/landing/ClientsSection.astro";
-import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import whiteHeroImage from "@images/white-zen-circle.png";
-import blackHeroImage from "@images/black-zen-circle.png";
-import whiteFeatureImage from "@images/white-zen-circle.png";
-import blackFeatureImage from "@images/black-zen-circle.png";
 import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
 import faqs from "@data/faqs.json";
-import features from "@data/features.json";
 import pricing from "@data/pricing.json";
 import { partnersData } from "@/data_files/constants";
 
@@ -42,15 +36,6 @@ let theme = 'dark'; // Default before hydration
     title="Trusted by Industry Leaders"
     subTitle="Experience the reliability chosen by industry giants."
     partners={partnersData}
-  />
-
-  <FeaturesGeneral
-      client:load
-      title="Patriarchal Zen"
-      subTitle="Patriarchal Zen"
-      src={ whiteFeatureImage }
-      alt="Patriarchal Zen speeches"
-      features={features}
   />
 
   <FeaturesNavs
