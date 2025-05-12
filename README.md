@@ -248,7 +248,7 @@ You can pass values to props directly in the page files for components used acro
 <HeroSection
   subTitle="Top-quality hardware tools and expert construction services for every project need."
   primaryBtn="Start Exploring"
-  primaryBtnURL="/explore"
+  primaryBtnURL="/welcome-to-docs"
 />
 
 <ClientsSection
@@ -271,7 +271,7 @@ Edit the `navBarLinks` array to adjust navigation bar links:
 // An array of links for the navigation bar
 export const navBarLinks: NavLink[] = [
   { name: "Home", url: "/" },
-  { name: "koans", url: "/koans" },
+  { name: "Doc", url: "/welcome-to-docskoans" },
   { name: "Services", url: "/services" },
   { name: "Blog", url: "/blog" },
   { name: "Contact", url: "/contact" },
