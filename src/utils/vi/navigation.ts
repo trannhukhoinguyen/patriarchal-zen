@@ -9,9 +9,9 @@ const navBarLinks = [
 
 const footerLinks = [
   {
-    section: "Tài liệu",
+    section: "Tham Thiền",
     links: [
-      { name: "Tài liệu", url: "/vi/welcome-to-docs/" },
+      { name: "Tham Thiền", url: "/vi/welcome-to-docs/" },
     ],
   },
   {
@@ -24,7 +24,6 @@ const footerLinks = [
     section: "Bộ sưu tập",
     links: [
       { name: "Ngữ lục", url: "/vi/speeches" },
-      { name: "Công án", url: "/vi/koans" },
       { name: "Tất cả", url: "/vi/collections" },
     ],
   },
