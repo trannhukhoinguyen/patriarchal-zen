@@ -5,14 +5,12 @@ import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
 import ClientsSection from "@components/sections/landing/ClientsSection.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
-import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
 import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
 import faqs from "@data/faqs.json";
-import pricing from "@data/pricing.json";
 import { partnersData } from "@/data_files/constants";
 
 const avatarSrcs: Array<string> = [
@@ -28,18 +26,12 @@ let theme = 'dark'; // Default before hydration
   <AnnouncementBanner
     btnId="dismiss-button"
     btnTitle="Explore Patriarchal Zen"
-    url="#"
+    url="https://www.youtube.com/c/T%C3%B4ngPhongT%E1%BB%95S%C6%B0Thi%E1%BB%81n/videos"
   />
 
-
-  <ClientsSection
-    title="Trusted by Industry Leaders"
-    subTitle="Experience the reliability chosen by industry giants."
-    partners={partnersData}
-  />
 
   <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>'s offerings to perfectly suit your hardware and construction needs.`
+    title=`<span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen Monasteries</span>`
     tabs={[
       {
         heading: "Patriarchal Zen",
@@ -104,7 +96,6 @@ let theme = 'dark'; // Default before hydration
     ]}
   />
 
-  <PricingSection pricing={pricing} />
 
   <FAQ title="Frequently<br />asked questions" faqs={faqs} />
 
@@ -112,5 +103,11 @@ let theme = 'dark'; // Default before hydration
     title="Let's Practise Zen"
     subTitle="Patriarchal Zen"
     url="#"
+  />
+
+  <ClientsSection
+    title="Trusted by Industry Leaders"
+    subTitle="Experience the reliability chosen by industry giants."
+    partners={partnersData}
   />
 </MainLayout>

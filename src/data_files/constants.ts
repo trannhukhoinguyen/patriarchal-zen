@@ -62,7 +62,7 @@ export const partnersData = [
         transform="translate(98.847 -259.733)"></path>
     </svg>`,
         name: "first",
-        href: "#",
+        href: "https://tosuthien.com/",
     },
     {
         icon: `<svg
@@ -93,7 +93,7 @@ export const partnersData = [
       ></path>
     </svg>`,
         name: "Second",
-        href: "#",
+        href: "https://thamtosuthien.net/",
     },
     {
         icon: ` <svg
@@ -134,7 +134,7 @@ export const partnersData = [
       </defs>
     </svg>`,
         name: "Third",
-        href: "#",
+        href: "https://www.youtube.com/@H%C3%B9ngV%C5%A9V%C4%83nOfficial",
     },
 
     {
@@ -159,6 +159,6 @@ export const partnersData = [
       ></path>
     </svg>`,
         name: "Fourth",
-        href: "#",
+        href: "https://tangthuphathoc.net/thien-su-ngu-luc/",
     },
 ]

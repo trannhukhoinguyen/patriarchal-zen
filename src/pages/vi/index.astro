@@ -5,14 +5,12 @@ import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
 import ClientsSection from "@components/sections/landing/ClientsSection.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
-import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
 import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
 import faqs from "@data/vi/faqs.json";
-import pricing from "@data/vi/pricing.json";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { partnersData } from "@/data_files/constants";
 
@@ -28,18 +26,12 @@ let theme = 'dark'; // Default before hydration
 <MainLayout lang="vi">
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Tổ sư thiền"
-    url="https://github.com/trannhukhoinguyen/patriarchal-zen"
-  />
-
-  <ClientsSection
-    title="Tổ sư thiền"
-    subTitle="Tổ sư thiền"
-    partners={partnersData}
+    btnTitle="Tông Phong Tổ Sư Thiền"
+    url="https://www.youtube.com/c/T%C3%B4ngPhongT%E1%BB%95S%C6%B0Thi%E1%BB%81n/videos"
   />
 
   <FeaturesNavs
-    title=`Tổ sư thiền <span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span> Tổ sư thiền`
+    title=`<span class="text-yellow-500 dark:text-yellow-400">Thiền đường Tổ Sư Thiền</span>`
     tabs={[
       {
         heading: "Tổ sư thiền",
@@ -107,13 +99,17 @@ let theme = 'dark'; // Default before hydration
     ]}
   />
 
-  <PricingSection pricing={pricing} />
-
   <FAQ title="Tổ sư thiền<br />fréquemment posées" faqs={faqs} />
 
   <HeroSectionAlt
     title="Tổ sư thiền"
     subTitle="Tổ sư thiền"
     url="https://github.com/trannhukhoinguyen/patriarchal-zen"
+  />
+
+  <ClientsSection
+    title="Trusted by Industry Leaders"
+    subTitle="Experience the reliability chosen by industry giants."
+    partners={partnersData}
   />
 </MainLayout>
