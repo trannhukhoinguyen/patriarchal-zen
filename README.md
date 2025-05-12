@@ -136,7 +136,7 @@ With dependencies installed, you can utilize the following npm scripts to manage
 
 * `npm run dev`: Starts a local development server with hot reloading enabled.
 * `npm run preview`: Serves your build output locally for preview before deployment.
-* `npm run build`: Bundles your site into static files for koanion.
+* `npm run build`: Bundles your site into static files for production.
 
 For detailed help with Astro CLI commands, visit [Astro's documentation](https://docs.astro.build/en/reference/cli-reference/).
 
@@ -144,7 +144,7 @@ For detailed help with Astro CLI commands, visit [Astro's documentation](https:/
 
 ### Building Your Site
 
-Before deployment, you need to create a koanion build:
+Before deployment, you need to create a production build:
 
 ```bash
 npm run build
