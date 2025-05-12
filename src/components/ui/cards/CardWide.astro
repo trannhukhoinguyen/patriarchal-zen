@@ -7,7 +7,7 @@ import type { CollectionEntry } from "astro:content";
 const { product, productLocale = "" } = Astro.props;
 
 interface Props {
-  product: CollectionEntry<"products">;
+  product: CollectionEntry<"koans">;
   productLocale?: string;
 }
 
@@ -20,8 +20,8 @@ const imageClass =
 <a
   href={
     productLocale && productLocale === "vi"
-      ? `/${productLocale}/products/${product.id.replace(/^vi\//, "")}/`
-      : `/products/${product.id.replace(/^en\//, "")}/`
+      ? `/${productLocale}/koans/${product.id.replace(/^vi\//, "")}/`
+      : `/koans/${product.id.replace(/^en\//, "")}/`
   }
   data-astro-prefetch
   class="group relative flex h-48 items-end overflow-hidden rounded-lg shadow-xl outline-hidden ring-zinc-500 focus-visible:ring-3 dark:ring-zinc-200 dark:focus:outline-hidden md:col-span-2 md:h-80"

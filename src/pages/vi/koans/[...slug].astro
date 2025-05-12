@@ -13,10 +13,10 @@ declare global {
     gsap: any;
   }
 }
-// This gets the static paths for all the unique products
+// This gets the static paths for all the unique koans
 
 export async function getStaticPaths() {
-  const productEntries = await getCollection("products", ({ id }) =>
+  const productEntries = await getCollection("koans", ({ id }) =>
     id.startsWith("vi/")
   );
   return productEntries.map((product) => {

@@ -12,12 +12,12 @@ import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 
 // Fetching all the product related content and sorting it by main.id
-const product: CollectionEntry<"products">[] = (
-  await getCollection("products", ({ id }) => {
+const product: CollectionEntry<"koans">[] = (
+  await getCollection("koans", ({ id }) => {
     return id.startsWith("vi/");
   })
 ).sort(
-  (a: CollectionEntry<"products">, b: CollectionEntry<"products">) =>
+  (a: CollectionEntry<"koans">, b: CollectionEntry<"koans">) =>
     a.data.main.id - b.data.main.id
 );
 
@@ -64,8 +64,8 @@ const testimonials = [
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://patriarchalzen.quest/vi/products",
-    url: "https://patriarchalzen.quest/vi/products",
+    "@id": "https://patriarchalzen.quest/vi/koans",
+    url: "https://patriarchalzen.quest/vi/koans",
     name: "Tổ sư thiền | Patriarchal Zen",
     description:
       "Tổ sư thiền",
@@ -103,7 +103,7 @@ const testimonials = [
         noArrow={true}
       />
     </div>
-    <!--Displaying products in alternating styles. Alternative product gets different card styling.-->
+    <!--Displaying koans in alternating styles. Alternative product gets different card styling.-->
     <!--Maps through all product entries and displays them with either CardSmall or CardWide based on their position.-->
     <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
       {
