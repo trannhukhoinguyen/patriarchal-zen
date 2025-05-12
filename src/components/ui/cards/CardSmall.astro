@@ -7,7 +7,7 @@ import type { CollectionEntry } from "astro:content";
 const { koan, koanLocale = "" } = Astro.props;
 
 interface Props {
-  koan: CollectionEntry<"koans">;
+  koan: CollectionEntry<"speeches">;
   koanLocale?: string;
 }
 
@@ -20,8 +20,8 @@ const imageClass =
 <a
   href={
     koanLocale && koanLocale === "vi"
-      ? `/${koanLocale}/koans/${koan.id.replace(/^vi\//, "")}/`
-      : `/koans/${koan.id.replace(/^en\//, "")}/`
+      ? `/${koanLocale}/speeches/${koan.id.replace(/^vi\//, "")}/`
+      : `/speeches/${koan.id.replace(/^en\//, "")}/`
   }
   data-astro-prefetch
   class="group relative flex h-48 items-end overflow-hidden rounded-xl shadow-lg outline-hidden ring-zinc-500 focus-visible:ring-3 dark:ring-zinc-200 dark:focus:outline-hidden md:h-80"

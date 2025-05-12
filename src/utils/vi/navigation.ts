@@ -3,7 +3,7 @@ const navBarLinks = [
   { name: "Trang chủ", url: "/vi" },
   { name: "Ngữ lục", url: "/vi/speeches" },
   { name: "Thiền sư", url: "/vi/masters" },
-  { name: "Công án", url: "/vi/koans" },
+  { name: "Công án", url: "/vi/speeches" },
   { name: "Tài liệu", url: "/vi/welcome-to-docs/" },
 ];
 

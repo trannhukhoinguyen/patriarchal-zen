@@ -179,11 +179,11 @@ src/
 │   ├── sections/         # Components for various sections of the website
 │   ├── ThemeIcon.astro   # Component for toggling light/dark themes
 │   └── ui/               # UI components categorized by functionality
-├── content/              # Markdown files for blog posts, insights, koans, and site configuration
+├── content/              # Markdown files for blog posts, insights, speeches, and site configuration
 │   ├── blog/
 │   ├── docs/           
 │   ├── insights/         
-│   └── koans/         
+│   └── speeches/         
 ├── data_files/           # Strings stored as JSON files
 ├── images/               # Static image assets for use across the website
 ├── layouts/              # Components defining layout templates
@@ -195,7 +195,7 @@ src/
 │   ├── contact.astro     
 │   ├── index.astro       # The landing/home page
 │   ├── insights/         
-│   ├── koans/         
+│   ├── speeches/         
 │   ├── robots.txt.ts     # Dynamically generates robots.txt
 │   └── services.astro
 ├── utils/                # Shared utility functions and helpers
@@ -271,7 +271,7 @@ Edit the `navBarLinks` array to adjust navigation bar links:
 // An array of links for the navigation bar
 export const navBarLinks: NavLink[] = [
   { name: "Home", url: "/" },
-  { name: "Doc", url: "/welcome-to-docskoans" },
+  { name: "Doc", url: "/welcome-to-docsspeeches" },
   { name: "Services", url: "/services" },
   { name: "Blog", url: "/blog" },
   { name: "Contact", url: "/contact" },
@@ -397,7 +397,7 @@ Please note that smooth scrolling can affect accessibility and performance on so
 
 ### GSAP Integration
 
- For individual koan pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the koan page loads. You can find and modify the GSAP configuration in the script sections of the koan page file located at `src/pages/koans/[id].astro` and the insights page at `src/pages/insights/[id].astro`:
+ For individual koan pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the koan page loads. You can find and modify the GSAP configuration in the script sections of the koan page file located at `src/pages/speeches/[id].astro` and the insights page at `src/pages/insights/[id].astro`:
 
 ```astro
 <script>
