@@ -35,14 +35,13 @@ let theme = 'dark'; // Default before hydration
   <AnnouncementBanner
     btnId="dismiss-button"
     btnTitle="Explore Patriarchal Zen"
-    url="/"
+    url="#"
   />
 
   <HeroSection
       client:load
-      title=`Equip Your Projects with <span
-          class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>`
-      subTitle="Top-quality hardware tools and expert construction services for every project need."
+      title=`<span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>`
+      subTitle="Patriarchal Zen"
       primaryBtn="Start Exploring"
       primaryBtnURL="/koans"
       secondaryBtn="Contact Sales Team"
@@ -64,10 +63,10 @@ let theme = 'dark'; // Default before hydration
 
   <FeaturesGeneral
       client:load
-      title="Meeting Industry Demands"
-      subTitle="At Patriarchal Zen, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
+      title="Patriarchal Zen"
+      subTitle="Patriarchal Zen"
       src={ whiteFeatureImage }
-      alt="Patriarchal Zen koans in floating boxes"
+      alt="Patriarchal Zen koans"
       features={features}
   />
 
@@ -75,27 +74,24 @@ let theme = 'dark'; // Default before hydration
     title=`Customize <span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>'s offerings to perfectly suit your hardware and construction needs.`
     tabs={[
       {
-        heading: "Cutting-Edge Tools",
-        content:
-          "Empower your projects with Patriarchal Zen's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
+        heading: "Patriarchal Zen",
+        content: "Patriarchal Zen",
         svg: "tools",
         src: tools,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
       },
       {
-        heading: "Intuitive Dashboards",
-        content:
-          "Navigate with ease using Patriarchal Zen's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
+        heading: "Patriarchal Zen",
+        content: "Patriarchal Zen",
         svg: "dashboard",
         src: dashboard,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
         second: true,
       },
       {
-        heading: "Robust Features",
-        content:
-          "Minimize complexity, maximize productivity. Patriarchal Zen's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
+        heading: "Patriarchal Zen",
+        content: "Patriarchal Zen",
         svg: "house",
         src: construction,
         alt: "Gray metal building frame near tower crane during daytime",
@@ -147,6 +143,6 @@ let theme = 'dark'; // Default before hydration
   <HeroSectionAlt
     title="Let's Practise Zen"
     subTitle="Patriarchal Zen"
-    url="/"
+    url="#"
   />
 </MainLayout>
