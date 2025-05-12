@@ -4,11 +4,11 @@ import { Image } from "astro:assets";
 import Icon from "@components/ui/icons/Icon.astro";
 import type { CollectionEntry } from "astro:content";
 
-const { koan, koanLocale = "" } = Astro.props;
+const { speech, speechLocale = "" } = Astro.props;
 
 interface Props {
-  koan: CollectionEntry<"speeches">;
-  koanLocale?: string;
+  speech: CollectionEntry<"speeches">;
+  speechLocale?: string;
 }
 
 // Define classes to be used with the Image component
@@ -16,32 +16,32 @@ const imageClass =
   "absolute inset-0 h-full w-full object-cover object-center transition duration-[600ms] ease-[cubic-bezier(0.45,0,0.55,1)] group-hover:scale-110";
 ---
 
-<!-- A clickable card that leads to the details of the koan-->
+<!-- A clickable card that leads to the details of the speech-->
 <a
   href={
-    koanLocale && koanLocale === "vi"
-      ? `/${koanLocale}/speeches/${koan.id.replace(/^vi\//, "")}/`
-      : `/speeches/${koan.id.replace(/^en\//, "")}/`
+    speechLocale && speechLocale === "vi"
+      ? `/${speechLocale}/speeches/${speech.id.replace(/^vi\//, "")}/`
+      : `/speeches/${speech.id.replace(/^en\//, "")}/`
   }
   data-astro-prefetch
   class="group relative flex h-48 items-end overflow-hidden rounded-xl shadow-lg outline-hidden ring-zinc-500 focus-visible:ring-3 dark:ring-zinc-200 dark:focus:outline-hidden md:h-80"
 >
-  <!-- The koan's main image -->
+  <!-- The speech's main image -->
   <Image
-    src={koan.data.main.imgCard}
-    alt={koan.data.main.imgAlt}
+    src={speech.data?.main.imgCard}
+    alt={speech.data?.main.imgAlt}
     draggable={"false"}
     class={imageClass}
     format={"jpg"}
   />
-  <!-- An overlay gradient that sits on top of the koan image-->
+  <!-- An overlay gradient that sits on top of the speech image-->
   <div
     class="pointer-events-none absolute inset-0 bg-linear-to-t from-neutral-800 via-transparent to-transparent opacity-50"
   >
   </div>
-  <!-- The koan's subtitle and the anchor SVG icon-->
+  <!-- The speech's subtitle and the anchor SVG icon-->
   <span
     class="relative mb-3 ml-4 inline-block text-sm font-bold text-neutral-50 transition duration-[600ms] ease-[cubic-bezier(0.45,0,0.55,1)] group-hover:scale-110 md:ml-5 md:text-lg"
-    >{koan.data.description} <Icon name="openInNew" />
+    >{speech.data.description} <Icon name="openInNew" />
   </span>
 </a>
