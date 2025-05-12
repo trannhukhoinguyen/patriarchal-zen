@@ -10,14 +10,16 @@ import TestimonialsSection from "@components/sections/testimonials/TestimonialsS
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/white-zen-circle.png";
-import faqs from "@data/faqs.json";
-import features from "@data/features.json";
-import pricing from "@data/pricing.json";
-import featureImage from "@images/white-zen-circle.png";
+import whiteHeroImage from "@images/white-zen-circle.png";
+import blackHeroImage from "@images/black-zen-circle.png";
+import whiteFeatureImage from "@images/white-zen-circle.png";
+import blackFeatureImage from "@images/black-zen-circle.png";
 import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
+import faqs from "@data/faqs.json";
+import features from "@data/features.json";
+import pricing from "@data/pricing.json";
 import { partnersData } from "@/data_files/constants";
 
 const avatarSrcs: Array<string> = [
@@ -26,6 +28,7 @@ const avatarSrcs: Array<string> = [
   "https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80",
   "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
 ];
+let theme = 'light'; // Default before hydration
 ---
 
 <MainLayout>
@@ -35,22 +38,25 @@ const avatarSrcs: Array<string> = [
     url="https://github.com/mearashadowfax/Patriarchal Zen"
   />
 
-  <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
-    primaryBtn="Start Exploring"
-    primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
-    secondaryBtnURL="/contact"
-    withReview={true}
-    avatars={avatarSrcs}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
-    src={heroImage}
-    alt="Stack of Patriarchal Zen product boxes containing assorted hardware tools"
-  />
+  <div id="hero-section" data-theme={theme}>
+    <HeroSection
+      client:load
+      title=`Equip Your Projects with <span
+          class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>`
+      subTitle="Top-quality hardware tools and expert construction services for every project need."
+      primaryBtn="Start Exploring"
+      primaryBtnURL="/products"
+      secondaryBtn="Contact Sales Team"
+      secondaryBtnURL="/contact"
+      withReview={true}
+      avatars={avatarSrcs}
+      rating=`<span class="font-bold">4.8</span> / 5`
+      starCount={4}
+      reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+      src={ theme === "dark" ? whiteHeroImage : blackHeroImage }
+      alt="Stack of Patriarchal Zen product boxes containing assorted hardware tools"
+    />
+  </div>
 
   <ClientsSection
     title="Trusted by Industry Leaders"
@@ -58,13 +64,16 @@ const avatarSrcs: Array<string> = [
     partners={partnersData}
   />
 
-  <FeaturesGeneral
-    title="Meeting Industry Demands"
-    subTitle="At Patriarchal Zen, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
-    src={featureImage}
-    alt="Patriarchal Zen products in floating boxes"
-    features={features}
-  />
+  <div id="features-general" data-theme={theme}>
+    <FeaturesGeneral
+      client:load
+      title="Meeting Industry Demands"
+      subTitle="At Patriarchal Zen, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
+      src={ theme === "dark" ? whiteFeatureImage : blackFeatureImage }
+      alt="Patriarchal Zen products in floating boxes"
+      features={features}
+    />
+  </div>
 
   <FeaturesNavs
     title=`Customize <span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen</span>'s offerings to perfectly suit your hardware and construction needs.`
@@ -100,7 +109,7 @@ const avatarSrcs: Array<string> = [
 
   <TestimonialsSection
     title="Fast-Track Your Projects"
-    subTitle="At Patriarchal Zen, we ensure a swift start with instant account setup. Experience the speed of construction redefined."
+    subTitle="Patriarchal Zen,"
     ;
     testimonials={[
       {
@@ -140,8 +149,18 @@ const avatarSrcs: Array<string> = [
   <FAQ title="Frequently<br />asked questions" faqs={faqs} />
 
   <HeroSectionAlt
-    title="Let's Build Together"
-    subTitle="Patriarchal Zen is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
+    title="Let's Practise Zen"
+    subTitle="Patriarchal Zen"
     url="https://github.com/mearashadowfax/Patriarchal Zen"
   />
 </MainLayout>
+
+<script is:inline>
+  let theme = localStorage.getItem('hs_theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+  const heroSection = document.querySelector('#hero-section');
+  const featuresGeneral = document.querySelector('#features-general');
+  heroSection.setAttribute('data-theme', theme);
+  featuresGeneral.setAttribute('data-theme', theme);
+</script>
