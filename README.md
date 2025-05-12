@@ -136,7 +136,7 @@ With dependencies installed, you can utilize the following npm scripts to manage
 
 * `npm run dev`: Starts a local development server with hot reloading enabled.
 * `npm run preview`: Serves your build output locally for preview before deployment.
-* `npm run build`: Bundles your site into static files for production.
+* `npm run build`: Bundles your site into static files for koanion.
 
 For detailed help with Astro CLI commands, visit [Astro's documentation](https://docs.astro.build/en/reference/cli-reference/).
 
@@ -144,7 +144,7 @@ For detailed help with Astro CLI commands, visit [Astro's documentation](https:/
 
 ### Building Your Site
 
-Before deployment, you need to create a production build:
+Before deployment, you need to create a koanion build:
 
 ```bash
 npm run build
@@ -288,7 +288,7 @@ Similarly, adjust the links displayed in the footer by editing the `footerLinks`
 // An array of links for the footer
 export const footerLinks: FooterLinkSection[] = [
   {
-    section: "Product",
+    section: "koan",
     links: [
       { name: "Tools & Equipment", url: "/tools-equipment" },
       { name: "Construction Services", url: "/construction-services" },
@@ -397,7 +397,7 @@ Please note that smooth scrolling can affect accessibility and performance on so
 
 ### GSAP Integration
 
- For individual product pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the product page loads. You can find and modify the GSAP configuration in the script sections of the product page file located at `src/pages/koans/[id].astro` and the insights page at `src/pages/insights/[id].astro`:
+ For individual koan pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the koan page loads. You can find and modify the GSAP configuration in the script sections of the koan page file located at `src/pages/koans/[id].astro` and the insights page at `src/pages/insights/[id].astro`:
 
 ```astro
 <script>
@@ -408,7 +408,7 @@ Please note that smooth scrolling can affect accessibility and performance on so
 
 **Customizing Animations:**
 
-Please tailor the GSAP animations within this script to fit your project's look and feel. The provided example is a starting point, representing how to leverage GSAP for immediate visual impact as a product page loads.
+Please tailor the GSAP animations within this script to fit your project's look and feel. The provided example is a starting point, representing how to leverage GSAP for immediate visual impact as a koan page loads.
 
 **Modifying or Removing Animations:**
 

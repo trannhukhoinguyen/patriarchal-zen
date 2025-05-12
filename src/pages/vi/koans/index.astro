@@ -11,8 +11,8 @@ import TestimonialsSectionAlt from "../../components/sections/testimonials/Testi
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 
-// Fetching all the product related content and sorting it by main.id
-const product: CollectionEntry<"koans">[] = (
+// Fetching all the koan related content and sorting it by main.id
+const koan: CollectionEntry<"koans">[] = (
   await getCollection("koans", ({ id }) => {
     return id.startsWith("vi/");
   })
@@ -103,16 +103,16 @@ const testimonials = [
         noArrow={true}
       />
     </div>
-    <!--Displaying koans in alternating styles. Alternative product gets different card styling.-->
-    <!--Maps through all product entries and displays them with either CardSmall or CardWide based on their position.-->
+    <!--Displaying koans in alternating styles. Alternative koan gets different card styling.-->
+    <!--Maps through all koan entries and displays them with either CardSmall or CardWide based on their position.-->
     <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
       {
-        product.map((product, index) => {
+        koan.map((koan, index) => {
           const position = index % 4;
           if (position === 0 || position === 3) {
-            return <CardSmall product={product} productLocale="vi" />;
+            return <CardSmall koan={koan} koanLocale="vi" />;
           } else {
-            return <CardWide product={product} productLocale="vi" />;
+            return <CardWide koan={koan} koanLocale="vi" />;
           }
         })
       }

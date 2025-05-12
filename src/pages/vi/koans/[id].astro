@@ -1,7 +1,7 @@
 ---
 // Import section components
 import MainLayout from "../../layouts/MainLayout.astro";
-import ProductTabBtn from "../../components/ui/buttons/ProductTabBtn.astro";
+import koanTabBtn from "../../components/ui/buttons/koanTabBtn.astro";
 import PrimaryCTA from "../../components/ui/buttons/PrimaryCTA.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
@@ -16,21 +16,21 @@ declare global {
 // This gets the static paths for all the unique koans
 
 export async function getStaticPaths() {
-  const productEntries = await getCollection("koans", ({ id }) =>
+  const koanEntries = await getCollection("koans", ({ id }) =>
     id.startsWith("vi/")
   );
-  return productEntries.map((product) => {
-    const idWithoutLang = product.id.replace(/^vi\//, ""); // Remove the "vi/" prefix
+  return koanEntries.map((koan) => {
+    const idWithoutLang = koan.id.replace(/^vi\//, ""); // Remove the "vi/" prefix
     return {
       params: { lang: "vi", id: idWithoutLang },
-      props: { product },
+      props: { koan },
     };
   });
 }
 
-const { product } = Astro.props;
+const { koan } = Astro.props;
 
-const pageTitle: string = `${product.data.title} | ${SITE.title}`;
+const pageTitle: string = `${koan.data.title} | ${SITE.title}`;
 ---
 
 <MainLayout title={pageTitle}>
@@ -45,7 +45,7 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
         id="fadeText"
         class="mb-8 max-w-prose text-pretty font-light text-neutral-700 dark:text-neutral-300 sm:text-xl"
       >
-        {product.data.main.content}
+        {koan.data.main.content}
       </p>
     </div>
     <div
@@ -55,18 +55,18 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
         <h1
           class="block text-4xl font-bold tracking-tighter text-neutral-800 dark:text-neutral-200 sm:text-5xl md:text-6xl lg:text-7xl"
         >
-          {product.data.title}
+          {koan.data.title}
         </h1>
         <p class="text-lg text-neutral-600 dark:text-neutral-400">
-          {product.data.description}
+          {koan.data.description}
         </p>
       </div>
       <div>
         <Image
           id="fadeInMoveRight"
-          src={product.data.main.imgMain}
+          src={koan.data.main.imgMain}
           class="w-[600px]"
-          alt={product.data.main.imgAlt}
+          alt={koan.data.main.imgAlt}
           format={"avif"}
           loading={"eager"}
         />
@@ -81,8 +81,8 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
       role="tablist"
     >
       {
-        product.data.tabs.map((tab, index) => (
-          <ProductTabBtn
+        koan.data.tabs.map((tab, index) => (
+          <koanTabBtn
             title={tab.title}
             id={tab.id}
             dataTab={tab.dataTab}
@@ -100,24 +100,24 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
               <h2
                 class="text-balance text-3xl font-bold tracking-tight text-neutral-800 dark:text-neutral-200 md:leading-tight lg:text-4xl"
               >
-                {product.data.longDescription.title}
+                {koan.data.longDescription.title}
               </h2>
               <p
                 class="mt-3 text-pretty text-neutral-600 dark:text-neutral-400"
               >
-                {product.data.longDescription.subTitle}
+                {koan.data.longDescription.subTitle}
               </p>
               <p class="mt-5">
                 <PrimaryCTA
-                  title={product.data.longDescription.btnTitle}
-                  url={product.data.longDescription.btnURL}
+                  title={koan.data.longDescription.btnTitle}
+                  url={koan.data.longDescription.btnURL}
                 />
               </p>
             </div>
 
             <div class="space-y-6 lg:space-y-10">
               {
-                product.data.descriptionList.map((list) => (
+                koan.data.descriptionList.map((list) => (
                   <div class="flex">
                     <div>
                       <h3 class="text-base font-bold text-neutral-800 dark:text-neutral-200 sm:text-lg">
@@ -140,7 +140,7 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
           <div class="grid w-full grid-cols-1 gap-x-16 md:grid-cols-2">
             <div class="max-w-md space-y-6">
               {
-                product.data.specificationsLeft.map((spec) => (
+                koan.data.specificationsLeft.map((spec) => (
                   <div>
                     <h3 class="block font-bold text-neutral-800 dark:text-neutral-200">
                       {spec.title}
@@ -153,9 +153,9 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
               }
             </div>
             {
-              product.data.specificationsRight ? (
+              koan.data.specificationsRight ? (
                 <div class="mt-6 max-w-md space-y-6 md:ml-auto md:mt-0">
-                  {product.data.specificationsRight?.map((spec) => (
+                  {koan.data.specificationsRight?.map((spec) => (
                     <div>
                       <h3 class="block font-bold text-neutral-800 dark:text-neutral-200">
                         {spec.title}
@@ -166,7 +166,7 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                     </div>
                   ))}
                 </div>
-              ) : product.data.tableData ? (
+              ) : koan.data.tableData ? (
                 <div class="mt-6 space-y-6 md:ml-auto md:mt-0">
                   <div class="flex flex-col">
                     <div class="-m-1.5 overflow-x-auto">
@@ -175,7 +175,7 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                           <table class="min-w-full divide-y divide-neutral-300 dark:divide-neutral-700">
                             <thead>
                               <tr>
-                                {product.data.tableData?.[0].feature?.map(
+                                {koan.data.tableData?.[0].feature?.map(
                                   (header) => (
                                     <th
                                       scope="col"
@@ -188,7 +188,7 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                               </tr>
                             </thead>
                             <tbody class="divide-y divide-neutral-300 dark:divide-neutral-700">
-                              {product.data.tableData?.map((row) =>
+                              {koan.data.tableData?.map((row) =>
                                 // Wrap each row's content in a separate <tr> element
                                 row.description.map((rowData) => (
                                   <tr>
@@ -223,9 +223,9 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
         class="relative left-12 top-12 z-10 overflow-hidden rounded-xl shadow-lg md:left-12 md:top-16 md:-ml-12 lg:ml-0"
       >
         {
-          product.data.blueprints.first && (
+          koan.data.blueprints.first && (
             <Image
-              src={product.data.blueprints.first}
+              src={koan.data.blueprints.first}
               class="h-full w-full object-cover object-center"
               alt="Blueprint Illustration"
               format={"avif"}
@@ -236,9 +236,9 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
 
       <div class="relative right-12 overflow-hidden rounded-xl shadow-xl">
         {
-          product.data.blueprints.second && (
+          koan.data.blueprints.second && (
             <Image
-              src={product.data.blueprints.second}
+              src={koan.data.blueprints.second}
               class="h-full w-full object-cover object-center"
               alt="Blueprint Illustration"
               format={"avif"}
