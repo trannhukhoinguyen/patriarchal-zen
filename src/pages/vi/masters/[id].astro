@@ -9,7 +9,7 @@ import { getCollection, render } from "astro:content";
 export async function getStaticPaths() {
   const speechPosts = await getCollection("speeches", ({ id }) => id.startsWith("vi/"));
   return speechPosts.map((post) => {
-    const idWithoutLang = post.id.replace(/^vi\//, ''); // Remove the "vi/" prefix
+    const idWithoutLang = post.id.replace(/^vi\//, '');
     return {
       params: { lang: 'vi', id: idWithoutLang },
       props: { post },
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
   });
 }
 
-// Get the props for this page that define a specific insight post
+// Get the props for this page that define a specific master post
 const { post } = Astro.props;
 
 const { Content } = await render(post);

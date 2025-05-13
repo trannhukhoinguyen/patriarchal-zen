@@ -182,7 +182,7 @@ src/
 ├── content/              # Markdown files for blog posts, insights, speeches, and site configuration
 │   ├── blog/
 │   ├── docs/           
-│   ├── insights/         
+│   ├── masters/         
 │   └── speeches/         
 ├── database/           # Strings stored as JSON files
 ├── images/               # Static image assets for use across the website
@@ -194,7 +194,7 @@ src/
 │   ├── vi/               # Localized content
 │   ├── contact.astro     
 │   ├── index.astro       # The landing/home page
-│   ├── insights/         
+│   ├── masters/         
 │   ├── speeches/         
 │   ├── robots.txt.ts     # Dynamically generates robots.txt
 │   └── services.astro
@@ -397,7 +397,7 @@ Please note that smooth scrolling can affect accessibility and performance on so
 
 ### GSAP Integration
 
- For individual koan pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the koan page loads. You can find and modify the GSAP configuration in the script sections of the koan page file located at `src/pages/speeches/[id].astro` and the insights page at `src/pages/insights/[id].astro`:
+ For individual koan pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the koan page loads. You can find and modify the GSAP configuration in the script sections of the koan page file located at `src/pages/speeches/[id].astro``:
 
 ```astro
 <script>

@@ -8,31 +8,31 @@ import { SITE } from "@database/constants";
 
 // Get all speeches post in Vietnamese and sort them based on publish date
 const speechPosts: CollectionEntry<"speeches">[] = await getCollection("speeches", ({ id }) => {
-  return id.startsWith("en/");
+  return id.startsWith("vi/");
 });
 
 // Define variables for page content
-const title: string = "Tổ sư thiền";
+const title: string = "Ngữ lục";
 const subTitle: string = "Tổ sư thiền";
 const pageTitle: string = `Ngữ lục | ${SITE.title}`;
 ---
 
-<MainLayout lang="en"
+<MainLayout lang="vi"
   title={pageTitle}
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": "https://patriarchalzen.quest/vi/speeches",
     "url": "https://patriarchalzen.quest/vi/speeches",
-    "name": "Patriarchal Zen",
-    "description": "Tổ sư thiền",
+    "name": "Ngữ lục | Patriarchal Zen",
+    "description": "Ngữ lục Tổ sư thiền",
     "isPartOf": {
       "@type": "WebSite",
       "url": "https://patriarchalzen.quest/vi",
       "name": "Patriarchal Zen",
-      "description": "Tổ sư thiền"
+      "description": "Ngữ lục Tổ sư thiền"
     },
-    "inLanguage": "en"
+    "inLanguage": "vi"
   }}
 >
   <section
@@ -59,7 +59,7 @@ const pageTitle: string = `Ngữ lục | ${SITE.title}`;
   >
     <!--posts grid-->
     <div class="grid gap-6 lg:grid-cols-2">
-      {speechPosts.map((speechEntry) => <CardSpeech speechEntry={speechEntry} speechLocale="en"/>)}
+      {speechPosts.map((speechEntry) => <CardSpeech speechEntry={speechEntry} speechLocale="vi"/>)}
     </div>
   </section>
 </MainLayout>

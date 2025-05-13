@@ -15,10 +15,10 @@ export default defineConfig({
     domains: ["images.unsplash.com"],
   },
   // i18n: {
-  //   defaultLocale: "en",
+  //   defaultLocale: "vi",
   //   locales: ["en", "vi"],
   //   fallback: {
-  //     vi: "en",
+  //     en: "vi",
   //   },
   //   routing: {
   //     prefixDefaultLocale: false,
@@ -27,9 +27,9 @@ export default defineConfig({
   prefetch: true,
   integrations: [sitemap({
     i18n: {
-        defaultLocale: "en", // All urls that don't contain `vi` after `https://patriarchalzen.quest/` will be treated as default locale, i.e. `en`
+        defaultLocale: "vi",
         locales: {
-          en: "en", // The `defaultLocale` value must present in `locales` keys
+          en: "en",
           vi: "vi",
         },
       },
@@ -43,11 +43,14 @@ export default defineConfig({
       // If only an Astro i18n configuration is provided, the Starlight i18n configuration is updated to match it.
       // If both an Astro and Starlight i18n configurations are provided, an error is thrown.
       locales: {
-        root: {
+        en: {
           label: "English",
           lang: "en",
         },
-        vi: { label: "Vietnamese", lang: "vi" },
+        root: {
+          label: "Vietnamese",
+          lang: "vi"
+        },
       },
       // https://starlight.astro.build/guides/sidebar/
       sidebar: [

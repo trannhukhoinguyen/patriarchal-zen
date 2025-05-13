@@ -7,9 +7,9 @@ import { getCollection, render } from "astro:content";
 
 // Use `getStaticPaths` to generate static routes for generated pages on build
 export async function getStaticPaths() {
-  const insightPosts = await getCollection("speeches", ({ id }) => id.startsWith("en/"));
-  return insightPosts.map((post) => {
-    const idWithoutLang = post.id.replace(/^en\//, ''); // Remove the "en/" prefix
+  const speechPosts = await getCollection("speeches", ({ id }) => id.startsWith("en/"));
+  return speechPosts.map((post) => {
+    const idWithoutLang = post.id.replace(/^en\//, '');
     return {
       params: { lang: 'en', id: idWithoutLang },
       props: { post },
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
   });
 }
 
-// Get the props for this page that define a specific insight post
+// Get the props for this page that define a specific speech post
 const { post } = Astro.props;
 
 const { Content } = await render(post);

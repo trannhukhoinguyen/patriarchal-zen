@@ -14,7 +14,7 @@ const footerLinks = [
   {
     section: "Compositions",
     links: [
-      { name: "Insights", url: "/insights" },
+      { name: "Speeches", url: "/speeches" },
     ],
   },
 ];
