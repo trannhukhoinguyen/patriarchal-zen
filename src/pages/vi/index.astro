@@ -7,9 +7,9 @@ import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import construction from "@images/construction-image.avif";
-import tools from "@images/automated-tools.avif";
-import dashboard from "@images/dashboard-image.avif";
+import DuyLuc from "@images/monasteries/duy-luc-monastery.avif";
+import QuySon from "@images/monasteries/quy-son-monastery.avif";
+import PhatDa from "@images/monasteries/phat-da-monastery.avif";
 import faqs from "@data/vi/faqs.json";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { partnersData } from "@/data_files/constants";
@@ -31,33 +31,30 @@ let theme = 'dark'; // Default before hydration
   />
 
   <FeaturesNavs
-    title=`<span class="text-yellow-500 dark:text-yellow-400">Thiền đường Tổ Sư Thiền</span>`
+    title=`<span class="text-yellow-500 dark:text-yellow-400">Thiền đường Tổ Sư Thiền (Việt Nam)</span>`
     tabs={[
       {
-        heading: "Tổ sư thiền",
-        content:
-          "Tổ sư thiền",
-        svg: "tools",
-        src: tools,
-        alt: "Tổ sư thiền",
+        heading: "Thiền Viện Duy Lực",
+        content: "VVMJ+JQG, Unnamed Road, An Hoà, Biên Hòa, Đồng Nai, Việt Nam",
+        svg: "house",
+        src: DuyLuc,
+        alt: "Thiền đường Tổ sư thiền",
         first: true,
       },
       {
-        heading: "Tổ sư thiền",
-        content:
-          "Tổ sư thiền",
-        svg: "dashboard",
-        src: dashboard,
-        alt: "Tổ sư thiền",
+        heading: "Thiền Tự Quy Sơn",
+        content: "G4H3+RG2, Tân Hoà, Tân Thành, Bà Rịa - Vũng Tàu, Việt Nam",
+        svg: "house",
+        src: QuySon,
+        alt: "Thiền đường Tổ sư thiền",
         second: true,
       },
       {
-        heading: "Tổ sư thiền",
-        content:
-          "Tổ sư thiền",
+        heading: "Chùa Phật Đà",
+        content: "362 Nguyễn Đình Chiểu, Phường 4, Quận 3, Tp. Hồ Chí Minh, Việt Nam",
         svg: "house",
-        src: construction,
-        alt: "Tổ sư thiền",
+        src: PhatDa,
+        alt: "Thiền đường Tổ sư thiền",
       },
     ]}
   />

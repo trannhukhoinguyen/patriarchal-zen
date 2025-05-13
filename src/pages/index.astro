@@ -7,7 +7,8 @@ import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import construction from "@images/construction-image.avif";
+import TuAn from "@images/monasteries/tu-an-monastery.avif";
+import DuyPhap from "@images/monasteries/duy-phap-monastery.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
 import faqs from "@data/faqs.json";
@@ -31,30 +32,23 @@ let theme = 'dark'; // Default before hydration
 
 
   <FeaturesNavs
-    title=`<span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen Monasteries</span>`
+    title=`<span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen Monasteries (abroad)</span>`
     tabs={[
       {
-        heading: "Patriarchal Zen",
-        content: "Patriarchal Zen",
-        svg: "tools",
-        src: tools,
-        alt: "Yellow and black heavy equipment on brown grass field",
+        heading: "Từ Ân monastery",
+        content: "4310 W 5th St, Santa Ana, CA 92703, USA",
+        svg: "house",
+        src: TuAn,
+        alt: "Patriarchal Zen Monasteries",
         first: true,
       },
       {
-        heading: "Patriarchal Zen",
-        content: "Patriarchal Zen",
-        svg: "dashboard",
-        src: dashboard,
-        alt: "A screenshot or graphic representation of the intuitive dashboard",
-        second: true,
-      },
-      {
-        heading: "Patriarchal Zen",
-        content: "Patriarchal Zen",
+        heading: "Duy Pháp monastery",
+        content: "14851 Wilson St, Midway City, CA 92655, USA",
         svg: "house",
-        src: construction,
-        alt: "Gray metal building frame near tower crane during daytime",
+        src: DuyPhap,
+        alt: "Patriarchal Zen Monasteries",
+        second: true,
       },
     ]}
   />
