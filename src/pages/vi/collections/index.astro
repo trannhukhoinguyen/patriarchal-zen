@@ -4,7 +4,7 @@ import MainLayout from "@/layouts/MainLayout.astro";
 import CardSpeech from "@components/ui/cards/CardSpeech.astro";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
-import { SITE } from "@data/constants";
+import { SITE } from "@database/constants";
 
 // Get all speeches post in Vietnamese and sort them based on publish date
 const speechPosts: CollectionEntry<"speeches">[] = await getCollection("speeches", ({ id }) => {

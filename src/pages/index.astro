@@ -9,10 +9,8 @@ import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
 import TuAn from "@images/monasteries/tu-an-monastery.avif";
 import DuyPhap from "@images/monasteries/duy-phap-monastery.avif";
-import tools from "@images/automated-tools.avif";
-import dashboard from "@images/dashboard-image.avif";
-import faqs from "@data/faqs.json";
-import { partnersData } from "@/data_files/constants";
+import faqs from "@database/faqs.json";
+import { partnersData } from "@/database/constants";
 
 const avatarSrcs: Array<string> = [
   "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
@@ -24,12 +22,8 @@ let theme = 'dark'; // Default before hydration
 ---
 
 <MainLayout>
-  <AnnouncementBanner
-    btnId="dismiss-button"
-    btnTitle="Explore Patriarchal Zen"
-    url="https://www.youtube.com/c/T%C3%B4ngPhongT%E1%BB%95S%C6%B0Thi%E1%BB%81n/videos"
-  />
 
+  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
 
   <FeaturesNavs
     title=`<span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen Monasteries (abroad)</span>`
@@ -90,9 +84,6 @@ let theme = 'dark'; // Default before hydration
     ]}
   />
 
-
-  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
-
   <HeroSectionAlt
     title="Let's Practise Zen"
     subTitle="Patriarchal Zen"
@@ -103,5 +94,11 @@ let theme = 'dark'; // Default before hydration
     title="Trusted by Industry Leaders"
     subTitle="Experience the reliability chosen by industry giants."
     partners={partnersData}
+  />
+
+  <AnnouncementBanner
+      btnId="dismiss-button"
+      btnTitle="Explore Patriarchal Zen"
+      url="https://www.youtube.com/c/T%C3%B4ngPhongT%E1%BB%95S%C6%B0Thi%E1%BB%81n/videos"
   />
 </MainLayout>

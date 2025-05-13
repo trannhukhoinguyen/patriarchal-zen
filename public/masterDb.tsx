@@ -1,4 +1,4 @@
-import { AllMasters } from '@/db/masters/AllMasterDb.tsx';
+import { AllMasters } from '@database/vi/masters/AllMasterDb.tsx';
 
 const masterDbJson = AllMasters
     .filter(master => master.name_en !== '')

@@ -10,9 +10,12 @@ import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro"
 import DuyLuc from "@images/monasteries/duy-luc-monastery.avif";
 import QuySon from "@images/monasteries/quy-son-monastery.avif";
 import PhatDa from "@images/monasteries/phat-da-monastery.avif";
-import faqs from "@data/vi/faqs.json";
+import faqsZen from "@database/vi/faqs.json";
+import faqsReasonResult from "@database/vi/faqs1.json";
+import faqsOther from "@database/vi/faqs2.json";
+import faqsStories from "@database/vi/faqs3.json";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { partnersData } from "@/data_files/constants";
+import { partnersData } from "@database/constants";
 
 const avatarSrcs: Array<string> = [
   "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
@@ -24,11 +27,11 @@ let theme = 'dark'; // Default before hydration
 ---
 
 <MainLayout lang="vi">
-  <AnnouncementBanner
-    btnId="dismiss-button"
-    btnTitle="Tông Phong Tổ Sư Thiền"
-    url="https://www.youtube.com/c/T%C3%B4ngPhongT%E1%BB%95S%C6%B0Thi%E1%BB%81n/videos"
-  />
+
+  <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi về<br />Tổ Sư Thiền" faqs={faqsZen} />
+  <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi về<br />Nhân quả" faqs={faqsReasonResult} />
+  <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi khác" faqs={faqsOther} />
+  <FAQ title="Duy Lực Ngữ Lục<br />Kể chuyện về<br />Tổ Sư Thiền" faqs={faqsStories} />
 
   <FeaturesNavs
     title=`<span class="text-yellow-500 dark:text-yellow-400">Thiền đường Tổ Sư Thiền (Việt Nam)</span>`
@@ -51,11 +54,11 @@ let theme = 'dark'; // Default before hydration
       },
       {
         heading: "Chùa Tam Bảo",
-        content: "",
+        content: "Đồng Tháp, Việt Nam",
         svg: "house",
         src: QuySon,
         alt: "Thiền đường Tổ sư thiền",
-        second: true,
+        first: true,
       },
       {
         heading: "Chùa Phật Đà",
@@ -63,69 +66,79 @@ let theme = 'dark'; // Default before hydration
         svg: "house",
         src: PhatDa,
         alt: "Thiền đường Tổ sư thiền",
+        second: true,
       },
       {
         heading: "Thiền đường Liễu Quán 1",
-        content: "",
+        content: "Tân Hoà, Tân Thành, Bà Rịa - Vũng Tàu, Việt Nam",
         svg: "house",
         src: DuyLuc,
         alt: "Thiền đường Tổ sư thiền",
+        first: true,
       },
       {
         heading: "Chùa Lá Huyền Trang",
-        content: "",
+        content: "Huyện Nhà Bè, Tp. Hồ Chí Minh, Việt Nam",
         svg: "house",
         src: QuySon,
         alt: "Thiền đường Tổ sư thiền",
+        second: true,
       },
       {
         heading: "Chùa Thiên Trì",
-        content: "",
+        content: "Huyện Bình Chánh, Tp. Hồ Chí Minh, Việt Nam",
         svg: "house",
         src: PhatDa,
         alt: "Thiền đường Tổ sư thiền",
+        first: true,
       },
       {
         heading: "Chùa Liên Hoa",
-        content: "",
+        content: "Huyện Bình Chánh, Tp. Hồ Chí Minh, Việt Nam",
         svg: "house",
         src: PhatDa,
         alt: "Thiền đường Tổ sư thiền",
+        second: true,
       },
       {
         heading: "Chùa Liên Hương",
-        content: "",
+        content: "Đồng Tháp, Việt Nam",
         svg: "house",
         src: PhatDa,
         alt: "Thiền đường Tổ sư thiền",
+        first: true,
       },
       {
         heading: "Chùa Phật Quang",
-        content: "",
+        content: "Đồng Tháp, Việt Nam",
         svg: "house",
         src: PhatDa,
         alt: "Thiền đường Tổ sư thiền",
+        second: true,
       },
       {
         heading: "Chùa Thiện Quang",
-        content: "",
+        content: "Bà Rịa, Bà Rịa - Vũng Tàu, Việt Nam",
         svg: "house",
         src: PhatDa,
         alt: "Thiền đường Tổ sư thiền",
+        first: true,
       },
       {
         heading: "Phước Điền Tự",
-        content: "",
+        content: "Châu Đốc, An Giang, Việt Nam",
         svg: "house",
         src: QuySon,
         alt: "Thiền đường Tổ sư thiền",
+        second: true,
       },
       {
         heading: "Phước Lộc Tự",
-        content: "",
+        content: "Tân Biên, Tây Ninh, Việt Nam",
         svg: "house",
         src: PhatDa,
         alt: "Thiền đường Tổ sư thiền",
+        first: true,
       },
     ]}
   />
@@ -167,8 +180,6 @@ let theme = 'dark'; // Default before hydration
     ]}
   />
 
-  <FAQ title="Tổ sư thiền<br />fréquemment posées" faqs={faqs} />
-
   <HeroSectionAlt
     title="Tổ sư thiền"
     subTitle="Tổ sư thiền"
@@ -179,5 +190,11 @@ let theme = 'dark'; // Default before hydration
     title="Trusted by Industry Leaders"
     subTitle="Experience the reliability chosen by industry giants."
     partners={partnersData}
+  />
+
+  <AnnouncementBanner
+      btnId="dismiss-button"
+      btnTitle="Tông Phong Tổ Sư Thiền"
+      url="https://www.youtube.com/c/T%C3%B4ngPhongT%E1%BB%95S%C6%B0Thi%E1%BB%81n/videos"
   />
 </MainLayout>

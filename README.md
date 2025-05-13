@@ -184,7 +184,7 @@ src/
 │   ├── docs/           
 │   ├── insights/         
 │   └── speeches/         
-├── data_files/           # Strings stored as JSON files
+├── database/           # Strings stored as JSON files
 ├── images/               # Static image assets for use across the website
 ├── layouts/              # Components defining layout templates
 │   └── MainLayout.astro  # The main wrapping layout for all pages
@@ -497,7 +497,7 @@ For page-specific SEO overrides, developers can pass individual schema propertie
 
 ```astro
 ---
-import { SITE } from "@/data_files/constants";
+import { SITE } from "@/database/constants";
 ---
 <MainLayout
   title={`Example Page | ${SITE.title}`}
