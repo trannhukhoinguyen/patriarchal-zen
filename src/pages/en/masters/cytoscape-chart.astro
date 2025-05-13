@@ -1,0 +1,57 @@
+---
+// Import components, modules and types
+import MainLayout from "@/layouts/MainLayout.astro";
+import { SITE } from "@database/constants";
+import React from "react";
+import Cytoscape from '../../../components/ui/charts/CytoscapeOrgChart';
+
+// Define variables for page content
+const title: string = "Tổ sư";
+const subTitle: string = "Tổ sư";
+const pageTitle: string = `Tổ sư | ${SITE.title}`;
+---
+
+<MainLayout
+    lang="vi"
+    title={pageTitle}
+    structuredData={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://patriarchalzen.quest/vi/masters",
+        "url": "https://patriarchalzen.quest/vi/masters",
+        "name": "Tổ sư | Patriarchal Zen",
+        "description": "Tổ sư",
+        "isPartOf": {
+            "@type": "WebSite",
+            "url": "https://patriarchalzen.quest/vi",
+            "name": "Patriarchal Zen",
+            "description": "Tổ sư"
+        },
+        "inLanguage": "vi"
+    }}
+>
+    <section
+        class="mx-auto max-w-[85rem] space-y-8 px-4 pt-16 sm:px-6 lg:px-8 2xl:max-w-full"
+    >
+        <!--Page header-->
+        <div class="mx-auto max-w-3xl text-left sm:text-center">
+            <h1
+                class="block text-balance text-4xl font-bold tracking-tight text-neutral-800 dark:text-neutral-200 md:text-5xl lg:text-6xl"
+            >
+                {title}
+            </h1>
+
+            <p
+                class="mt-4 text-pretty text-lg text-neutral-600 dark:text-neutral-400"
+            >
+                {subTitle}
+            </p>
+        </div>
+    </section>
+
+    <section
+            class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+    >
+        <Cytoscape client:load />
+    </section>
+</MainLayout>
