@@ -1,0 +1,59 @@
+---
+// Import necessary modules and utilities
+import { Image } from "astro:assets";
+import Icon from "@components/ui/icons/Icon.astro";
+import type { CollectionEntry } from "astro:content";
+
+const {
+  koanEntry,
+  koanLocale,
+  label = Astro.currentLocale === "vi" ? "Đọc thêm" : "Read more",
+} = Astro.props;
+
+interface Props {
+  koanEntry: CollectionEntry<"koans">;
+  koanLocale?: string;
+  label?: string;
+}
+---
+
+<!-- The anchor tag is the root container for the card. It links to the koan detail page. -->
+<a
+  class="group rounded-xl outline-hidden ring-zinc-500 transition duration-300 focus-visible:ring-3 dark:ring-zinc-200 dark:focus:outline-hidden"
+  href={
+    koanLocale && koanLocale === "vi"
+      ? `/${koanLocale}/koans/${koanEntry.id.replace(/^vi\//, "")}/`
+      : `/koans/${koanEntry.id.replace(/^en\//, "")}/`
+  }
+>
+  <!-- This is the container for the cover image. -->
+  <div class="relative overflow-hidden rounded-xl pt-[50%] sm:pt-[70%]">
+    <Image
+      class="absolute start-0 top-0 size-full rounded-xl object-cover transition duration-500 ease-in-out group-hover:scale-105"
+      src={koanEntry.data.cardImage}
+      alt={koanEntry.data.cardImageAlt}
+      draggable={"false"}
+      format={"avif"}
+    />
+  </div>
+  <!-- This is the container for the title and description. -->
+  <div class="mt-7">
+    <!-- The title of the koan -->
+    <h3
+      class="text-xl font-bold text-neutral-800 group-hover:text-neutral-600 dark:text-neutral-200 dark:group-hover:text-neutral-400"
+    >
+      {koanEntry.data.title}
+    </h3>
+    <!-- The description of the koan -->
+    <p class="mt-3 text-neutral-600 dark:text-neutral-400">
+      {koanEntry.data.description}
+    </p>
+    <!-- The "Read More" hyperlink. With an arrow icon -->
+    <p
+      class="mt-5 inline-flex items-center gap-x-1 font-medium text-orange-400 decoration-2 group-hover:underline dark:text-orange-300"
+    >
+      {label}
+      <Icon name="arrowRightStatic" />
+    </p>
+  </div>
+</a>

@@ -26,8 +26,21 @@ const mastersCollection = defineCollection({
   }),
 });
 
+
+const koansCollection = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/koans" }),
+  schema: ({ image }) => z.object ({
+  title: z.string(),
+  description: z.string(),
+  // contents: z.array(z.string()),
+  cardImage: image(),
+  cardImageAlt: z.string(),
+  }),
+});
+
 export const collections = {
   docs: defineCollection({ schema: docsSchema() }),
   'speeches': speechesCollection,
   'masters': mastersCollection,
+  'koans': koansCollection,
 };
