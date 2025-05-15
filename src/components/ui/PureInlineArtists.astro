@@ -1,0 +1,16 @@
+---
+interface Props {
+    authors: string[];
+}
+
+const { authors } = Astro.props;
+---
+
+{
+    authors.map((author, index) => (
+    <>
+        {author}
+        {index === authors.length - 1 ? " " : ", "}
+    </>
+        ))
+    }

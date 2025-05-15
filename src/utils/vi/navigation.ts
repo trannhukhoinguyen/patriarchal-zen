@@ -1,30 +1,30 @@
 
 const navBarLinks = [
-  { name: "Trang chủ", url: "/vi" },
-  { name: "Ngữ lục", url: "/vi/speeches" },
-  { name: "Thiền sư", url: "/vi/masters" },
-  { name: "Công án", url: "/vi/speeches" },
-  { name: "Tài liệu", url: "/vi/welcome-to-docs/" },
+  { name: "Trang chủ", url: "/" },
+  { name: "Ngữ lục", url: "/speeches" },
+  { name: "Thiền sư", url: "/masters" },
+  { name: "Công án", url: "/speeches" },
+  { name: "Tài liệu", url: "/welcome-to-docs/" },
 ];
 
 const footerLinks = [
   {
     section: "Tham Thiền",
     links: [
-      { name: "Tham Thiền", url: "/vi/welcome-to-docs/" },
+      { name: "Tham Thiền", url: "/welcome-to-docs/" },
     ],
   },
   {
     section: "Thiền sư",
     links: [
-      { name: "Thiền sư", url: "/vi/masters" },
+      { name: "Thiền sư", url: "/masters" },
     ],
   },
   {
     section: "Bộ sưu tập",
     links: [
-      { name: "Ngữ lục", url: "/vi/speeches" },
-      { name: "Tất cả", url: "/vi/collections" },
+      { name: "Ngữ lục", url: "/speeches" },
+      { name: "Tất cả", url: "/collections" },
     ],
   },
   {

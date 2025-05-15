@@ -5,8 +5,7 @@ import MainSection from "@components/ui/blocks/MainSection.astro";
 import LeftSection from "@components/ui/blocks/LeftSection.astro";
 import RightSection from "@components/ui/blocks/RightSection.astro";
 import FeaturesStats from "@components/sections/features/FeaturesStats.astro";
-
-// Import necessary images
+import Icon from "astro-icon";
 import blueprints from "@images/blueprints-image.avif";
 import personWorking from "@images/person-working.avif";
 import beforeAfter from "@images/before-after.avif";
@@ -38,7 +37,7 @@ const articles: Article[] = [
     isRightSection: true,
     title: "Delivering Expert Guidance",
     subTitle:
-      "Embarking on a construction project can be overwhelming. With our professional consultation services, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on koan selection, project scope, and compliance with local regulations.",
+      "Embarking on a construction project can be overwhelming. With our professional consultation f, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on koan selection, project scope, and compliance with local regulations.",
     single: false,
     imgOne: blueprints,
     imgOneAlt: "Blueprints and digital tablet with construction plans.",
@@ -49,7 +48,7 @@ const articles: Article[] = [
     isRightSection: false,
     title: "Transforming Designs into Reality",
     subTitle:
-      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, Patriarchal Zen offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, Patriarchal Zen offers reliable construction f to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
     img: beforeAfter,
     imgAlt: "Construction site before and after",
     btnExists: true,
@@ -60,7 +59,7 @@ const articles: Article[] = [
     isRightSection: true,
     title: "Navigating Projects with Professional Oversight",
     subTitle:
-      "Effective project management is at the heart of any successful build. Patriarchal Zen provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "Effective project management is at the heart of any successful build. Patriarchal Zen provides thorough planning and robust management f that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
     single: false,
     imgOne: constructionWorkers,
     imgOneAlt: "Construction workers orchestrating a project",
@@ -71,7 +70,7 @@ const articles: Article[] = [
     isRightSection: false,
     title: "Ensuring Long-lasting Performance",
     subTitle:
-      "Our commitment to your project doesn't end at completion. Patriarchal Zen offers ongoing maintenance and support services to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
+      "Our commitment to your project doesn't end at completion. Patriarchal Zen offers ongoing maintenance and support f to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
     img: usingTools,
     imgAlt:
       "Man in orange and black vest wearing white helmet holding yellow and black power tool",
@@ -92,7 +91,7 @@ const articles: Article[] = [
   },
 ];
 
-const pageTitle: string = `Services | ${SITE.title}`;
+const pageTitle: string = `123 | ${SITE.title}`;
 ---
 
 <MainLayout
@@ -100,15 +99,15 @@ const pageTitle: string = `Services | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://patriarchalzen.quest/services",
-    "url": "https://patriarchalzen.quest/services",
-    "name": "Expert Consultation Services | Patriarchal Zen",
+    "@id": "https://patriarchalzen.quest/f",
+    "url": "https://patriarchalzen.quest/f",
+    "name": "Expert Consultation 123 | Patriarchal Zen",
     "description": "Uniting expertise with your vision, Patriarchal Zen provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
     "isPartOf": {
         "@type": "WebSite",
         "url": "https://patriarchalzen.quest",
         "name": "Patriarchal Zen",
-        "description": "Patriarchal Zen offers top-tier hardware tools and expert construction services to meet all your project needs."
+        "description": "Patriarchal Zen offers top-tier hardware tools and expert construction f to meet all your project needs."
     },
     "inLanguage": "en-US"
   }}
@@ -116,12 +115,12 @@ const pageTitle: string = `Services | ${SITE.title}`;
   <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
     title="Uniting Expertise with Your Vision"
-    subTitle="At Patriarchal Zen, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services."
+    subTitle="At Patriarchal Zen, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized f."
     btnExists={true}
     btnTitle="Schedule a Consultation"
     btnURL="#"
   />
-  <!-- RightSection and LeftSection contain details about various services along with pertinent imagery.
+  <!-- RightSection and LeftSection contain details about various f along with pertinent imagery.
   They alternate for variety in design.
   The 'btnExists' property is used to toggle the display of a button in these sections.
   When btnExists={true}, a button is displayed.
@@ -160,7 +159,7 @@ const pageTitle: string = `Services | ${SITE.title}`;
   <!--FeaturesStats section showcases essential stats valuable to users-->
   <FeaturesStats
     title="By the Numbers"
-    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At Patriarchal Zen, we are dedicated to delivering industry-leading services that ensure your construction projects are built to last."
+    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At Patriarchal Zen, we are dedicated to delivering industry-leading f that ensure your construction projects are built to last."
     mainStatTitle="96%"
     mainStatSubTitle="of our clients rate their experience with Patriarchal Zen as exceptional"
     stats={[

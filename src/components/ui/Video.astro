@@ -1,0 +1,16 @@
+---
+import Icon  from "astro-icon";
+
+const { src, title, allowFullscreen = true } = Astro.props;
+---
+
+<div class="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+    <iframe
+            class="w-full h-full"
+            src={src}
+            title={title}
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen={allowFullscreen}
+    ></iframe>
+</div>

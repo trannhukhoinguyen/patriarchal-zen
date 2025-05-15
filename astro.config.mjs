@@ -69,7 +69,7 @@ export default defineConfig({
           ],
         },
         {
-          label: "Construction Services",
+          label: "Zen",
           autogenerate: { directory: "construction" },
         },
         {
@@ -115,7 +115,8 @@ export default defineConfig({
       imports: [
         "@/shortcodes/Tooltip",
         "@/shortcodes/Video",
-        "@components/sections/YouTube.astro",
+        "@components/ui/YouTube.astro",
+        "@components/ui/YouTubePlaylist.astro",
       ],
     }),
     mdx(),

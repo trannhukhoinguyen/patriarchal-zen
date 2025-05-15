@@ -1,12 +1,10 @@
 import ogImageSrc from "@images/social.png";
 
-
-
 export const SITE = {
   title: "Patriarchal Zen",
   tagline: "Top-quality Hardware Tools",
-  description: "Patriarchal Zen offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "Patriarchal Zen offers top-tier hardware tools and expert construction services to meet all your project needs.",
+  description: "Patriarchal Zen offers top-tier hardware tools and expert construction  to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
+  description_short: "Patriarchal Zen offers top-tier hardware tools and expert construction  to meet all your project needs.",
   url: "https://patriarchalzen.quest",
   author: "Emil Gulamov",
 };
@@ -35,8 +33,8 @@ export const OG = {
   locale: "en_US",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with Patriarchal Zen's top-quality hardware tools and expert construction services. Trusted by industry leaders, Patriarchal Zen offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : Hardware Tools & Construction 123`,
+  description: "Equip your projects with Patriarchal Zen's top-quality hardware tools and expert construction . Trusted by industry leaders, Patriarchal Zen offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
   image: ogImageSrc,
 };
 
@@ -162,3 +160,28 @@ export const partnersData = [
         href: "https://tangthuphathoc.net/thien-su-ngu-luc/",
     },
 ]
+
+export const colors = {
+    red: { accent: "#da2735", dark: "#7f1d1d" },
+    orange: { accent: "#cc5400", dark: "#7c2d12" },
+    amber: { accent: "#f59e0b", dark: "#78350f" },
+    yellow: { accent: "#ffae00", dark: "#78350f" },
+    lime: { accent: "#84cc16", dark: "#365314" },
+    green: { accent: "#21c872", dark: "#14532d" },
+    emerald: { accent: "#0c6e54", dark: "#064e3b" },
+    teal: { accent: "#2ee9d7", dark: "#134e4a" },
+    cyan: { accent: "#06b6d4", dark: "#164e63" },
+    sky: { accent: "#38bdf8", dark: "#075985" },
+    blue: { accent: "#1e3a8a", dark: "#1e3a8a" },
+    indigo: { accent: "#394bd5", dark: "#312e81" },
+    violet: { accent: "#8b5cf6", dark: "#4c1d95" },
+    purple: { accent: "#df24ff", dark: "#581c87" },
+    fuchsia: { accent: "#d946ef", dark: "#701a75" },
+    pink: { accent: "#f33b73", dark: "#831843" },
+    rose: { accent: "#ed2377", dark: "#871b48" },
+    gray: { accent: "#555555", dark: "#27272a" },
+    slate: { accent: "#64748b", dark: "#1e293b" },
+    zinc: { accent: "#71717a", dark: "#3f3f46" },
+    neutral: { accent: "#737373", dark: "#404040" },
+    stone: { accent: "#78716c", dark: "#44403c" },
+} as const;

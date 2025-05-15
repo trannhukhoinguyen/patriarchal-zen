@@ -1,0 +1,33 @@
+---
+import Icon from "astro-icon";
+
+const {
+    playlistId,
+    title = 'YouTube Playlist',
+    index = 0,
+    autoplay = false,
+} = Astro.props;
+
+const params = new URLSearchParams({
+    list: playlistId,
+    index: index.toString(),
+    autoplay: autoplay ? '1' : '0',
+    rel: '0',
+    modestbranding: '1',
+});
+
+const src = `https://www.youtube.com/embed/videoseries?${params.toString()}`;
+---
+
+<div class="flex flex-wrap mt-6 gap-4">
+    <div class="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+        <iframe
+                class="w-full h-full"
+                src={src}
+                title={title}
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+        ></iframe>
+    </div>
+</div>

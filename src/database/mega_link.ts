@@ -1,5 +1,5 @@
-// Define data structures for services and success stories
-export const servicesData = [
+// Define data structures for  and success stories
+export const Data = [
   {
     title: "Explore Advice and Explanations",
     description:
@@ -15,8 +15,8 @@ export const servicesData = [
     url: "#",
   },
   {
-    title: "Expert Services",
-    description: "Go beyond tools with Patriarchal Zen's expert services",
+    title: "Expert 123",
+    description: "Go beyond tools with Patriarchal Zen's expert ",
     icon: "rocket",
     url: "#",
   },

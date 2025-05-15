@@ -1,47 +1,27 @@
-
+// An array of links for navigation bar
 const navBarLinks = [
-  { name: "Trang chủ", url: "/vi" },
-  { name: "Ngữ lục", url: "/vi/speeches" },
-  { name: "Thiền sư", url: "/vi/masters" },
-  { name: "Công án", url: "/vi/speeches" },
-  { name: "Tài liệu", url: "/vi/welcome-to-docs/" },
+  { name: "Home", url: "/en" },
+  { name: "Practise Zen", url: "/en/welcome-to-docs/" },
 ];
-
+// An array of links for footer
 const footerLinks = [
   {
-    section: "Tham Thiền",
+    section: "Documentation",
     links: [
-      { name: "Tham Thiền", url: "/vi/welcome-to-docs/" },
+      { name: "Documentation", url: "/en/welcome-to-docs/" },
     ],
   },
   {
-    section: "Thiền sư",
+    section: "Compositions",
     links: [
-      { name: "Thiền sư", url: "/vi/masters" },
-    ],
-  },
-  {
-    section: "Bộ sưu tập",
-    links: [
-      { name: "Ngữ lục", url: "/vi/speeches" },
-      { name: "Tất cả", url: "/vi/collections" },
-    ],
-  },
-  {
-    section: "Thiền đường",
-    links: [
-/*      { name: "Miền Nam", url: "/vi/monasteries/vietnam/south" },
-      { name: "Miền Trung", url: "/vi/monasteries/vietnam/middle" },
-      { name: "Miền Bắc", url: "/vi/monasteries/vietnam/north" },
-      { name: "Hải ngoại", url: "/vi/monasteries/world" },*/
-      { name: "(Đang xây dựng)", url: "#" },
+      { name: "Speeches", url: "/en/speeches" },
     ],
   },
 ];
-
+// An object of links for social icons
 const socialLinks = {
-  facebook: "https://www.facebook.com/Nhohoivanhin",
-  x: "#",
+  facebook: "#",
+  x: "https://twitter.com/@patriarchalzen",
   github: "https://github.com/trannhukhoinguyen/patriarchal-zen",
   google: "#",
   slack: "#",

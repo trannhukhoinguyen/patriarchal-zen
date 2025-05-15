@@ -6,90 +6,187 @@ import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import TuAn from "@images/monasteries/tu-an-monastery.avif";
-import DuyPhap from "@images/monasteries/duy-phap-monastery.avif";
-import faqs from "@database/faqs.json";
-import { partnersData } from "@/database/constants";
+import DuyLuc from "@images/monasteries/duy-luc-monastery.avif";
+import QuySon from "@images/monasteries/quy-son-monastery.avif";
+import PhatDa from "@images/monasteries/phat-da-monastery.avif";
+import faqsZen from "@database/vi/faqs.json";
+import faqsReasonResult from "@database/vi/faqs1.json";
+import faqsOther from "@database/vi/faqs2.json";
+import faqsStories from "@database/vi/faqs3.json";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { partnersData } from "@database/constants";
+import Icon from "astro-icon";
 ---
 
-<MainLayout>
+<MainLayout lang="vi">
 
-  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
+  <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi về<br />Tổ Sư Thiền" faqs={faqsZen} />
+  <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi về<br />Nhân quả" faqs={faqsReasonResult} />
+  <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi khác" faqs={faqsOther} />
+  <FAQ title="Duy Lực Ngữ Lục<br />Kể chuyện về<br />Tổ Sư Thiền" faqs={faqsStories} />
 
   <FeaturesNavs
-    title=`<span class="text-yellow-500 dark:text-yellow-400">Patriarchal Zen Monasteries (abroad)</span>`
-    tabs={[
-      {
-        heading: "Từ Ân monastery",
-        content: "4310 W 5th St, Santa Ana, CA 92703, USA",
-        svg: "house",
-        src: TuAn,
-        alt: "Patriarchal Zen Monasteries",
-        first: true,
-      },
-      {
-        heading: "Duy Pháp monastery",
-        content: "14851 Wilson St, Midway City, CA 92655, USA",
-        svg: "house",
-        src: DuyPhap,
-        alt: "Patriarchal Zen Monasteries",
-        second: true,
-      },
-    ]}
+      title=`<span class="text-yellow-500 dark:text-yellow-400">Thiền đường Tổ Sư Thiền (Việt Nam)</span>`
+      tabs={[
+        {
+          heading: "Thiền Viện Duy Lực",
+          content: "VVMJ+JQG, Unnamed Road, An Hoà, Biên Hòa, Đồng Nai, Việt Nam",
+          svg: "house",
+          src: DuyLuc,
+          alt: "Thiền đường Tổ sư thiền",
+          first: true,
+        },
+        {
+          heading: "Thiền Tự Quy Sơn",
+          content: "G4H3+RG2, Tân Hoà, Tân Thành, Bà Rịa - Vũng Tàu, Việt Nam",
+          svg: "house",
+          src: QuySon,
+          alt: "Thiền đường Tổ sư thiền",
+          second: true,
+        },
+        {
+          heading: "Chùa Tam Bảo",
+          content: "Đồng Tháp, Việt Nam",
+          svg: "house",
+          src: QuySon,
+          alt: "Thiền đường Tổ sư thiền",
+          first: true,
+        },
+        {
+          heading: "Chùa Phật Đà",
+          content: "362 Nguyễn Đình Chiểu, Phường 4, Quận 3, Tp. Hồ Chí Minh, Việt Nam",
+          svg: "house",
+          src: PhatDa,
+          alt: "Thiền đường Tổ sư thiền",
+          second: true,
+        },
+        {
+          heading: "Thiền đường Liễu Quán 1",
+          content: "Tân Hoà, Tân Thành, Bà Rịa - Vũng Tàu, Việt Nam",
+          svg: "house",
+          src: DuyLuc,
+          alt: "Thiền đường Tổ sư thiền",
+          first: true,
+        },
+        {
+          heading: "Chùa Lá Huyền Trang",
+          content: "Huyện Nhà Bè, Tp. Hồ Chí Minh, Việt Nam",
+          svg: "house",
+          src: QuySon,
+          alt: "Thiền đường Tổ sư thiền",
+          second: true,
+        },
+        {
+          heading: "Chùa Thiên Trì",
+          content: "Huyện Bình Chánh, Tp. Hồ Chí Minh, Việt Nam",
+          svg: "house",
+          src: PhatDa,
+          alt: "Thiền đường Tổ sư thiền",
+          first: true,
+        },
+        {
+          heading: "Chùa Liên Hoa",
+          content: "Huyện Bình Chánh, Tp. Hồ Chí Minh, Việt Nam",
+          svg: "house",
+          src: PhatDa,
+          alt: "Thiền đường Tổ sư thiền",
+          second: true,
+        },
+        {
+          heading: "Chùa Liên Hương",
+          content: "Đồng Tháp, Việt Nam",
+          svg: "house",
+          src: PhatDa,
+          alt: "Thiền đường Tổ sư thiền",
+          first: true,
+        },
+        {
+          heading: "Chùa Phật Quang",
+          content: "Đồng Tháp, Việt Nam",
+          svg: "house",
+          src: PhatDa,
+          alt: "Thiền đường Tổ sư thiền",
+          second: true,
+        },
+        {
+          heading: "Chùa Thiện Quang",
+          content: "Bà Rịa, Bà Rịa - Vũng Tàu, Việt Nam",
+          svg: "house",
+          src: PhatDa,
+          alt: "Thiền đường Tổ sư thiền",
+          first: true,
+        },
+        {
+          heading: "Phước Điền Tự",
+          content: "Châu Đốc, An Giang, Việt Nam",
+          svg: "house",
+          src: QuySon,
+          alt: "Thiền đường Tổ sư thiền",
+          second: true,
+        },
+        {
+          heading: "Phước Lộc Tự",
+          content: "Tân Biên, Tây Ninh, Việt Nam",
+          svg: "house",
+          src: PhatDa,
+          alt: "Thiền đường Tổ sư thiền",
+          first: true,
+        },
+      ]}
   />
 
   <TestimonialsSection
-    title="Fast-Track Your Projects"
-    subTitle="Patriarchal Zen,"
-    ;
-    testimonials={[
-      {
-        content:
-          "Patriarchal Zen dramatically boosted our project efficiency. Setup was instant, and their rapid response times are phenomenal. Truly a game-changer in hardware and construction support!",
-        author: "Samantha Ruiz",
-        role: "Chief Operating Officer | ConstructIt Inc.",
-        avatarSrc:
-          "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-      },
-    ]}
-    statistics={[
-      {
-        count: "70k+",
-        description:
-          "customers equipped — from DIY to major construction firms",
-      },
-      {
-        count: "35%",
-        description:
-          "uptick in project efficiency with Patriarchal Zen tools and services",
-      },
-      {
-        count: "15.3%",
-        description:
-          "reduction in maintenance costs reported by long-term clients",
-      },
-      {
-        count: "2x",
-        description: "quicker assembly using innovative fastening solutions",
-      },
-    ]}
+      title="Tổ sư thiền"
+      subTitle="Tổ sư thiền"
+      testimonials={[
+        {
+          content:
+              "Tổ sư thiền",
+          author: "Samantha Ruiz",
+          role: "Directrice des opérations | ConstructIt Inc.",
+          avatarSrc:
+              "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+        },
+      ]}
+      statistics={[
+        {
+          count: "70k+",
+          description:
+              "Tổ sư thiền 1",
+        },
+        {
+          count: "35%",
+          description:
+              "Tổ sư thiền 2",
+        },
+        {
+          count: "15,3%",
+          description:
+              "Tổ sư thiền 3",
+        },
+        {
+          count: "2x",
+          description:
+              "Tổ sư thiền 4",
+        },
+      ]}
   />
 
   <HeroSectionAlt
-    title="Let's Practise Zen"
-    subTitle="Patriarchal Zen"
-    url="#"
+      title="Tổ sư thiền"
+      subTitle="Tổ sư thiền"
+      url="https://github.com/trannhukhoinguyen/patriarchal-zen"
   />
 
   <ClientsSection
-    title="Trusted by Industry Leaders"
-    subTitle="Experience the reliability chosen by industry giants."
-    partners={partnersData}
+      title="Trusted by Industry Leaders"
+      subTitle="Experience the reliability chosen by industry giants."
+      partners={partnersData}
   />
 
   <AnnouncementBanner
       btnId="dismiss-button"
-      btnTitle="Explore Patriarchal Zen"
+      btnTitle="Tông Phong Tổ Sư Thiền"
       url="https://www.youtube.com/c/T%C3%B4ngPhongT%E1%BB%95S%C6%B0Thi%E1%BB%81n/videos"
   />
 </MainLayout>
