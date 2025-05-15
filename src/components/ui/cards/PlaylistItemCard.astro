@@ -1,7 +1,7 @@
 ---
-import type { Playlist } from "../lib/data";
-import PlayButton from "../buttons/PlayButton.astro";
-import PureInlineArtists from "../PureInlineArtists.astro";
+import type { Playlist } from "@/database/dataMedia";
+import PlayButton from "@/components/ui/buttons/PlayButton.astro";
+import PureInlineArtists from "@/components/ui/PureInlineArtists.astro";
 interface Props {
   playlist: Playlist;
 }
@@ -26,7 +26,7 @@ const { playlist } = Astro.props;
   <div class="font-bold block" transition:name=`playlist ${playlist.id} title`>
     <p>{playlist.title}</p>
     <p class="text-gray-400 font-normal text-xs relative">
-      <PureInlineArtists author={playlist.author} />
+      <PureInlineArtists authors={playlist.authors} />
     </p>
   </div>
   <div

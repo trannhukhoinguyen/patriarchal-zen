@@ -1,7 +1,6 @@
 ---
 import VideoIframe from "@/components/ui/Video.astro";
 const { id, path } = Astro.params;
-import PageHeader from "@/components/sections/PageHeader.astro";
 import LayoutEpisode  from "@/layouts/LayoutEpisode.astro";
 import { videosExample } from "@database/dataMedia";
 import Video from "@/components/ui/Video.astro";
@@ -24,8 +23,6 @@ const episode = videosExample.find((ep) => ep.id === +id);
             class="relative bg-zinc-900 min-h-full flex flex-col overflow-x-hidden rounded-lg"
             transition:name=`playlist ${episode?.id} box`
     >
-        <PageHeader />
-
         <!--    <Video
                 title={episode?.title}
                 src={episode?.episodeId}

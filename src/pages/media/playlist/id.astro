@@ -6,7 +6,6 @@ import DotsButton from "@/components/ui/buttons/DotsButton.astro";
 import LikeButton from "@/components/ui/buttons/LikeButton.astro";
 import PlayButton from "@/components/ui/buttons/PlayButton.astro";
 import VideoTable from "@/components/ui/VideoTable.astro";
-import PageHeader from "@/components/sections/PageHeader.astro";
 import LayoutEpisode from "@/layouts/LayoutEpisode.astro";
 import { allPlaylists } from "@database/dataMedia";
 
@@ -26,7 +25,6 @@ const playlist = allPlaylists.find((playlist) => playlist.id === id);
             class="relative bg-zinc-900 min-h-full flex flex-col overflow-x-hidden rounded-lg"
             transition:name=`playlist ${playlist?.id} box`
     >
-        <PageHeader />
         <div
                 class="flex flex-col items-center md:flex-row md:items-stretch gap-8 px-6"
         >
