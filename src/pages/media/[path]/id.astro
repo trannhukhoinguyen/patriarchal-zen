@@ -7,15 +7,15 @@ import Video from "@/components/ui/Video.astro";
 import DailyMotion from "@/components/ui/DailyMotion.astro";
 
 export function getStaticPaths() {
-    return videosExample.map((ep) => ({
+    return videosExample?.map((ep) => ({
         params: {
-            path: ep.path,
-            id: ep.id,
+            path: ep?.path,
+            id: ep?.id,
         },
     }));
 }
 
-const episode = videosExample.find((ep) => ep.id === +id);
+const episode = videosExample?.find((ep) => ep?.id === +id);
 ---
 
 <LayoutEpisode image={episode?.image} title={episode?.title || "404"}>
@@ -23,7 +23,7 @@ const episode = videosExample.find((ep) => ep.id === +id);
             class="relative bg-zinc-900 min-h-full flex flex-col overflow-x-hidden rounded-lg"
             transition:name=`playlist ${episode?.id} box`
     >
-        <!--    <Video
+<!--            <Video
                 title={episode?.title}
                 src={episode?.episodeId}
             />-->

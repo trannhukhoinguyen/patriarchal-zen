@@ -1,6 +1,4 @@
-<!--
-
--&#45;&#45;
+---
 const { id } = Astro.params;
 import VideoTable from "@/components/ui/VideoTable.astro";
 import LayoutEpisode from "@/layouts/LayoutEpisode.astro";
@@ -15,7 +13,7 @@ export function getStaticPaths() {
 }
 
 const playlist = allPlaylists?.find((playlist) => playlist.id === id);
--&#45;&#45;
+---
 
 <LayoutEpisode image={playlist?.cover} title={playlist?.title || "404"}>
     <div
@@ -44,11 +42,11 @@ const playlist = allPlaylists?.find((playlist) => playlist.id === id);
                 <div class="flex-1 flex items-end">
                     <div class="text-sm">
                         {playlist?.authors || []}
-                        &lt;!&ndash;            <div class="mt-1">
+                        <!--            <div class="mt-1">
                                       <span class="font-semibold">58 likes</span>, 83 musics, <span
                                         class="text-gray-300">about 3h 15min</span
                                       >
-                                    </div>&ndash;&gt;
+                                    </div>-->
                     </div>
                 </div>
             </div>
@@ -63,7 +61,7 @@ const playlist = allPlaylists?.find((playlist) => playlist.id === id);
         </div>
         <div
                 class="absolute h-screen inset-0 z-[-1] bg-gradient-to-b from-context"
-                style=`&#45;&#45;context-color:${playlist?.color.accent}`
+                style=`--context-color:${playlist?.color.accent}`
         >
             <img
                     src={playlist?.cover}
@@ -84,4 +82,3 @@ const playlist = allPlaylists?.find((playlist) => playlist.id === id);
         line-height: 1;
     }
 </style>
--->
