@@ -6,14 +6,14 @@ import LayoutEpisode from "@/layouts/LayoutEpisode.astro";
 import { allPlaylists } from "@database/dataMedia";
 
 export function getStaticPaths() {
-    return allPlaylists.map((playlist) => ({
+    return allPlaylists?.map((playlist) => ({
         params: {
             id: playlist.id,
         },
     }));
 }
 
-const playlist = allPlaylists.find((playlist) => playlist.id === id);
+const playlist = allPlaylists?.find((playlist) => playlist.id === id);
 ---
 
 <LayoutEpisode image={playlist?.cover} title={playlist?.title || "404"}>
