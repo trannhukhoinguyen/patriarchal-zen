@@ -8,7 +8,7 @@ import { allPlaylists } from "@database/dataMedia";
 export function getStaticPaths() {
     return allPlaylists?.map((playlist) => ({
         params: {
-            id: playlist.id,
+            id: playlist?.id,
         },
     }));
 }
