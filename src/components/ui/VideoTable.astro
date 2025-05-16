@@ -1,6 +1,4 @@
 ---
-import Icon from "astro-icon";
-
 const { playlist } = Astro.props;
 ---
 
@@ -15,7 +13,7 @@ const { playlist } = Astro.props;
         </thead>
         <tbody>
         {
-            playlist.episodes?.map((episode, index) => (
+            playlist.episodes?.map((episode: any, index: string) => (
                     <tr class="group hover:bg-gray-500/20 sm:table-row block sm:table-row mb-4 border-b border-gray-700 sm:border-0">
                         <td class="whitespace-nowrap px-4 py-2 sm:table-cell block text-sm text-gray-400">#{index + 1}</td>
                         <td class="whitespace-nowrap px-4 py-2 flex gap-3 items-center sm:table-cell block">

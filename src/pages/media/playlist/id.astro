@@ -1,10 +1,6 @@
 
 ---
 const { id } = Astro.params;
-import InlineArtists from "@/components/ui/InlineArtists.astro";
-import DotsButton from "@/components/ui/buttons/DotsButton.astro";
-import LikeButton from "@/components/ui/buttons/LikeButton.astro";
-import PlayButton from "@/components/ui/buttons/PlayButton.astro";
 import VideoTable from "@/components/ui/VideoTable.astro";
 import LayoutEpisode from "@/layouts/LayoutEpisode.astro";
 import { allPlaylists } from "@database/dataMedia";
@@ -46,7 +42,7 @@ const playlist = allPlaylists.find((playlist) => playlist.id === id);
                 </div>
                 <div class="flex-1 flex items-end">
                     <div class="text-sm">
-                        <InlineArtists authors={playlist?.authors || []} />
+                        {playlist?.authors || []}
                         <!--            <div class="mt-1">
                                       <span class="font-semibold">58 likes</span>, 83 musics, <span
                                         class="text-gray-300">about 3h 15min</span
@@ -58,12 +54,6 @@ const playlist = allPlaylists.find((playlist) => playlist.id === id);
         </div>
 
         <div class="bg-zinc-900/30 mt-6 flex-1 p-6 blur-100">
-            <div class="flex gap-1 items-center">
-                <PlayButton size="lg" />
-                <div class="ml-4" transition:name=`playlist ${playlist?.id} play`></div>
-                <LikeButton />
-                <DotsButton />
-            </div>
             <div class="px-6 pt-4">
                 <VideoTable
                         playlist={playlist}

@@ -18,7 +18,7 @@ export function getStaticPaths() {
 const episode = videosExample.find((ep) => ep.id === +id);
 ---
 
-<LayoutEpisode  image={episode?.image} title={episode?.title || "404"}>
+<LayoutEpisode image={episode?.image} title={episode?.title || "404"}>
     <div
             class="relative bg-zinc-900 min-h-full flex flex-col overflow-x-hidden rounded-lg"
             transition:name=`playlist ${episode?.id} box`
