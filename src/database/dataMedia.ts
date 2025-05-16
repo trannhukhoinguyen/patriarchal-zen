@@ -28,13 +28,14 @@ interface Episode {
 export const videosExample: Episode[] = videos;
 export const audiosExample: Episode[] = audios;
 export const youtubeVideosExample: Episode[] = youtubeVideos;
+
 export interface Playlist {
     id: string;
     title: string;
     color: (typeof colors)[keyof typeof colors];
     cover?: string;
     authors?: [];
-    episodes?: Episode[];
+    episodes: Episode[];
 }
 
 export const playlists: Playlist[] = [
@@ -44,7 +45,7 @@ export const playlists: Playlist[] = [
         authors: [],
         color: colors.teal,
         cover: "/images/pham_nhan_tu_tien_duyen_khoi.jpg",
-        episodes: videosExample,
+        episodes: videosExample || audios || youtubeVideos,
     },
     {
         id: "2",
@@ -52,19 +53,19 @@ export const playlists: Playlist[] = [
         authors: [],
         color: colors.green,
         cover: "/images/pham_nhan_tu_tien_cover.jpg",
-        episodes: videosExample,
+        episodes: videosExample || audios || youtubeVideos,
     },
 ];
 
 export const morePlaylists = [
-    ...playlists.map((item) => ({
+    ...playlists?.map((item) => ({
         ...item,
         id: item.id + "a",
     })),
 ];
 
 export const sidebarPlaylists = [
-    ...playlists.map((item) => ({
+    ...playlists?.map((item) => ({
         ...item,
         id: item.id + "_side",
     })),
