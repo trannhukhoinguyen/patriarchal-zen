@@ -44,7 +44,7 @@ export const playlists: Playlist[] = [
         authors: [],
         color: colors.teal,
         cover: "/images/pham_nhan_tu_tien_duyen_khoi.jpg",
-        episodes: videos,
+        episodes: videosExample,
     },
     {
         id: "2",
@@ -52,40 +52,8 @@ export const playlists: Playlist[] = [
         authors: [],
         color: colors.green,
         cover: "/images/pham_nhan_tu_tien_cover.jpg",
-        episodes: videos,
+        episodes: videosExample,
     },
-    {
-        id: "3",
-        title: "3",
-        authors: [],
-        color: colors.rose,
-        cover: "/images/mortals-journey-to-immortality-season-3.png",
-        episodes: videos,
-    },
-    {
-        id: "4",
-        title: "4",
-        authors: [],
-        color: colors.red,
-        cover: "/images/pham_nhan_tu_tien.jpg",
-        episodes: videos,
-    },
-    /* {
-      id: "5",
-      title: "5",
-      authors: [],
-      color: colors.pink,
-      cover: "/images/pham_nhan_tu_tien_duyen_khoi.jpg",
-      episodes: [],
-    },
-    {
-      id: "6",
-      title: "6",
-      authors: [],
-      color: colors.gray,
-      cover: "/images/pham_nhan_tu_tien_duyen_khoi.jpg",
-      episodes: [],
-    },*/
 ];
 
 export const morePlaylists = [
