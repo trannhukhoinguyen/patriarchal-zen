@@ -75,7 +75,7 @@ const OrgChart: React.FC = () => {
         setVisibleRows(originalRows);
     };
     const viewOtherChart = () => {
-        window.location.href = '/vi/masters/cytoscape-chart';
+        window.location.href = '/masters/cytoscape-chart';
     };
 
     return (
