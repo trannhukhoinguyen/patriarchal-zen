@@ -10,7 +10,7 @@ interface Testimonial {
   content: string;
   author: string;
   role: string;
-  avatarSrc: string;
+  avatarSrc: string | ImageMetadata;
   avatarAlt: string;
 }
 
@@ -50,7 +50,7 @@ interface Props {
             <div class="rounded-b-xl bg-neutral-300/30 p-4 dark:bg-neutral-900/30 md:px-7">
               <div class="flex items-center">
                 <AvatarTestimonialSection
-                  src={testimonial.avatarSrc}
+                  src={testimonial.avatarSrc.toString()}
                   alt={testimonial.avatarAlt}
                 />
 
