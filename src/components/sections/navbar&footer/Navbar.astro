@@ -11,10 +11,10 @@ import GoBackButton from '../../../components/ui/buttons/GoBackButton.tsx';
 
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "vi" ? viStrings : enStrings;
-const homeUrl = Astro.currentLocale === "vi" ? "/vi" : "/";
+const homeUrl = Astro.currentLocale === "vi" ? "/" : "/en";
 
 // Setting expected props
-const { lang = "en" } = Astro.props;
+const { lang = "vi" } = Astro.props;
 
 // Interface to type-check the properties
 interface Props {

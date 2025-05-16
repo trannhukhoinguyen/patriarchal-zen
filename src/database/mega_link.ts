@@ -1,5 +1,5 @@
 // Define data structures for  and success stories
-export const Data = [
+export const megaData = [
   {
     title: "Explore Advice and Explanations",
     description:
