@@ -9,7 +9,7 @@ import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro"
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { partnersData } from "@database/constants";
 
-// import LinjiYixuan from "@images/masters/cn/Linji_Yixuan.jpg";
+import LinjiYixuan from "@images/masters/cn/Linji_Yixuan.jpg";
 
 import DuyLuc from "@images/monasteries/duy-luc-monastery.avif";
 import QuySon from "@images/monasteries/quy-son-monastery.avif";
@@ -36,8 +36,6 @@ import faqsStories from "@database/faqs3.json";
 
   <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi về<br />Tổ Sư Thiền" faqs={faqsZen} />
   <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi về<br />Nhân quả" faqs={faqsReasonResult} />
-  <FAQ title="Duy Lực Ngữ Lục<br />Giải Nghi khác" faqs={faqsOther} />
-  <FAQ title="Duy Lực Ngữ Lục<br />Kể chuyện về<br />Tổ Sư Thiền" faqs={faqsStories} />
 
   <FeaturesNavs
       title=`<span class="text-yellow-500 dark:text-yellow-400">Thiền đường Tổ Sư Thiền (Việt Nam)</span>`
@@ -148,28 +146,36 @@ import faqsStories from "@database/faqs3.json";
       subTitle="4 cách để thấy và đi vào thực tại - 4 Phép Độ Người"
       testimonials={[
         {
-          content: "Tứ Liệu Giản",
+          content:
+              "Có khi (hữu thời), cho thấy không nhất định, chỉ tùy duyên, tùy căn cơ, tùy người. Như vậy bốn câu không phải theo thứ tự, câu sau có giá trị hơn câu trước. Như người xưa nói, “tùy bệnh mà cho thuốc”." +
+              "Đoạt là lấy đi, lấy hết. Như đoạt mạng. Chữ đoạt này khiến chúng ta liên tưởng đến pháp trekcho (cắt đứt, phá thấu qua), một trong hai pháp của Đại Toàn Thiện. Đoạt nhân bất đoạt cảnh có thể hiểu là Cắt đứt nhân không cắt đứt cảnh." +
+              "Nhân là chủ thể, con người với mọi phiền não, mê mờ của nó. Cảnh là sự vật, người khác, thiên nhiên, thế giới. Theo Đại thừa, nhân là ngã, cảnh là pháp. Vô ngã và vô pháp là thực tại rốt ráo." +
+              "Nhân là chủ thể, con người. Nhưng con người này gồm cả tham, sân, si, kiêu mạn, đố kỵ, nghi ngờ… Chính những phiền não này làm con người bị phân mảnh: tình cảm này chống lại tình cảm khác, ý muốn này mâu thuẫn với ý muốn khác, ý nghĩ này chiến đấu với ý nghĩ khác. " +
+              "Đó do đó con người bị phân mảnh, và con người bị phân mảnh nên cảnh, đối tượng của nó cũng bị phân mảnh, bị nhiễm ô." +
+              "Hơn nữa trong phán đoán phân biệt của con người có sự nặng nhẹ khác nhau. Của tôi thì nặng hơn của anh. Và trong các phiền não tham, sân, si, kiêu mạn, đố kỵ của tôi, có cái nặng có cái nhẹ. " +
+              "Trọng lượng của cảnh, của người khác, của thế giới, không chỉ là trọng lượng khách quan của chúng, mà cái chính là trọng lượng của những phiền não cá nhân, và chính những phiền não cá nhân này quyết định cách con người thấy cảnh, thấy thế giới. Cảnh, thế giới được thấy qua người phân biệt, phiền não." +
+              "Tóm lại người thế nào thì cảnh thế ấy. Con người thế nào thì thế giới thế ấy. Tác động lên người cũng tức là tác động lên cảnh, và ngược lại. Tịnh hóa người cũng tức là tịnh hóa cảnh, và ngược lại.",
           author: "(Thiền sư) Lâm Tế Nghĩa Huyền",
           role: "Tổ sáng lập | Lâm Tế Tông",
-          avatarSrc: "https://quangduc.com/images/file/W_vC48zj0QgBAFtk/lamtetosu-1.jpg",
+          avatarSrc: LinjiYixuan || '',
         },
       ]}
       statistics={[
         {
             count: "Hữu thời đoạt nhân bất đoạt cảnh",
-            description: "Hú nhật phát sinh phô địa cẩm. Anh hài thùy phát bạch như ty",
+            description: "Hú nhật phát sinh phô địa cẩm. Anh hài thùy phát bạch như ty.",
         },
         {
             count: "Hữu thời đoạt cảnh bất đoạt nhân",
-            description: "Vương lệnh dĩ hành biến thiên hạ. Tướng quân tái ngoại tuyệt yên trần",
+            description: "Vương lệnh dĩ hành biến thiên hạ. Tướng quân tái ngoại tuyệt yên trần.",
         },
         {
             count: "Hữu thời nhân cảnh câu đoạt",
-            description: "Tịnh Phần tuyệt tín. Độc xử nhất phương",
+            description: "Tịnh Phần tuyệt tín. Độc xử nhất phương.",
         },
         {
             count: "Hữu thời nhân cảnh bất câu đoạt",
-            description: "Vương đăng bảo điện. Dã lão âu ca",
+            description: "Vương đăng bảo điện. Dã lão âu ca.",
         },
       ]}
   />
