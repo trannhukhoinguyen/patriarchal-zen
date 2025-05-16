@@ -1,6 +1,9 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
-import YouTubePlaylist from "../../components/ui/YouTubePlaylist.astro"; 
+import YouTubePlaylist from "@/components/ui/YouTubePlaylist.astro";
+import YouTube from "@/components/ui/YouTube.astro";
+import youtubeDb from "@/database/vi/youtube/youtubeDb.tsx";
+import youtubePlaylistDb from "@/database/vi/youtube/youtubePlaylistDb.tsx";
 ---
 
 <MainLayout title="Youtube">
@@ -11,11 +14,27 @@ import YouTubePlaylist from "../../components/ui/YouTubePlaylist.astro";
     >
         <div class="px-6 relative z-10 mt-4">
             <h2 class="text-2xl font-bold">Youtube Playlist</h2>
-            <YouTubePlaylist
-                    playlistId="PLvABDE5gBEnbQMGW2AhUrUMgN3cdgpRAh"
-                    title="Phàm Nhân Tu Tiên (EN SUB)"
-                    autoplay={false}
-            />
+            <hr />
+            {
+                youtubePlaylistDb?.map(playlist =>
+                        <h3 class="text-lg font-normal">{playlist.title}</h3>
+                        <YouTubePlaylist
+                            playlistId={playlist.listId}
+                            title={playlist.title}
+                        />)
+            }
+        </div>
+        <div class="px-6 relative z-10 mt-4">
+            <h2 class="text-2xl font-bold">Youtube Videos</h2>
+            <hr />
+            {
+                youtubeDb?.map(video =>
+                        <h3 class="text-lg font-normal">{video.title}</h3>
+                        <YouTube
+                            playlistId={video.videoId}
+                            title={video.title}
+                        />)
+            }
         </div>
     </div>
 </MainLayout>
