@@ -1,15 +1,5 @@
-:root {
-  --color-primary: theme(colors.green.500);
-  --color-background: theme(colors.zinc.950);
-  --color-foreground: theme(colors.zinc.900);
-}
-body {
-  background: var(--color-background);
-  color: white;
-}
-
 * {
-  scrollbar-width: 10px;
+  scrollbar-width: auto;
   scrollbar-color: rgb(50, 50, 50) rgb(30, 30, 30);
 }
 *::-webkit-scrollbar {
