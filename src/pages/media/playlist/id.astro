@@ -4,13 +4,13 @@ import VideoTable from "@/components/ui/VideoTable.astro";
 import LayoutEpisode from "@/layouts/LayoutEpisode.astro";
 import { allPlaylists } from "@database/dataMedia";
 
-export function getStaticPaths() {
+/*export function getStaticPaths() {
     return allPlaylists?.map((playlist) => ({
         params: {
             id: playlist?.id,
         },
     }));
-}
+}*/
 
 const playlist = allPlaylists?.find((playlist) => playlist.id === id);
 ---

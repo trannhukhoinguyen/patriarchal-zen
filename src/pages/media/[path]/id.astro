@@ -6,14 +6,14 @@ import { videosExample } from "@database/dataMedia";
 import Video from "@/components/ui/Video.astro";
 import DailyMotion from "@/components/ui/DailyMotion.astro";
 
-export function getStaticPaths() {
+/*export function getStaticPaths() {
     return videosExample?.map((ep) => ({
         params: {
             path: ep?.path,
             id: ep?.id,
         },
     }));
-}
+}*/
 
 const episode = videosExample?.find((ep) => ep?.id === +id);
 ---
