@@ -15,7 +15,7 @@ export function getStaticPaths() {
 const playlist = allPlaylists?.find((playlist) => playlist.id === id);
 ---
 
-<LayoutEpisode image={playlist?.cover} title={playlist?.title || "404"}>
+<!--<LayoutEpisode image={playlist?.cover} title={playlist?.title || "404"}>
     <div
             class="relative bg-zinc-900 min-h-full flex flex-col overflow-x-hidden rounded-lg"
             transition:name=`playlist ${playlist?.id} box`
@@ -42,11 +42,11 @@ const playlist = allPlaylists?.find((playlist) => playlist.id === id);
                 <div class="flex-1 flex items-end">
                     <div class="text-sm">
                         {playlist?.authors || []}
-                        <!--            <div class="mt-1">
+                        &lt;!&ndash;            <div class="mt-1">
                                       <span class="font-semibold">58 likes</span>, 83 musics, <span
                                         class="text-gray-300">about 3h 15min</span
                                       >
-                                    </div>-->
+                                    </div>&ndash;&gt;
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const playlist = allPlaylists?.find((playlist) => playlist.id === id);
         </div>
         <div
                 class="absolute h-screen inset-0 z-[-1] bg-gradient-to-b from-context"
-                style=`--context-color:${playlist?.color.accent}`
+                style=`&#45;&#45;context-color:${playlist?.color.accent}`
         >
             <img
                     src={playlist?.cover}
@@ -74,7 +74,7 @@ const playlist = allPlaylists?.find((playlist) => playlist.id === id);
             </div>
         </div>
     </div>
-</LayoutEpisode>
+</LayoutEpisode>-->
 
 <style>
     .title-clamp {
