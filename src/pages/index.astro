@@ -6,6 +6,11 @@ import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { partnersData } from "@database/constants";
+
+import LinjiYixuan from "@images/masters/cn/Linji_Yixuan.jpg";
+
 import DuyLuc from "@images/monasteries/duy-luc-monastery.avif";
 import QuySon from "@images/monasteries/quy-son-monastery.avif";
 import ThanhLong from "@images/monasteries/quy-son-monastery.avif";
@@ -20,12 +25,11 @@ import PhatQuang from "@images/monasteries/phat-da-monastery.avif";
 import ThienQuang from "@images/monasteries/phat-da-monastery.avif";
 import PhuocDien from "@images/monasteries/phat-da-monastery.avif";
 import PhuocLoc from "@images/monasteries/phat-da-monastery.avif";
+
 import faqsZen from "@database/faqs.json";
 import faqsReasonResult from "@database/faqs1.json";
 import faqsOther from "@database/faqs2.json";
 import faqsStories from "@database/faqs3.json";
-import { getRelativeLocaleUrl } from "astro:i18n";
-import { partnersData } from "@database/constants";
 ---
 
 <MainLayout lang="vi">
@@ -147,7 +151,7 @@ import { partnersData } from "@database/constants";
           content: "Tứ Liệu Giản",
           author: "(Thiền sư) Lâm Tế Nghĩa Huyền",
           role: "Tổ sáng lập | Lâm Tế Tông",
-          avatarSrc: "https://zen.nl/shop/2816-large_default/scroll-m.jpg",
+          avatarSrc: LinjiYixuan,
         },
       ]}
       statistics={[
