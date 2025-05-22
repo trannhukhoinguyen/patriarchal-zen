@@ -3,9 +3,14 @@ import cytoscape from 'cytoscape';
 import masterDb from "../../../../public/masterDb.tsx";
 
 type RawNode = {
+    name_vi: string;
     name_en: string;
     teacher: string;
     sect: string;
+};
+// Thêm type cho prop
+type CytoscapeOrgChartProps = {
+    lang: 'vi' | 'en'; // hoặc string nếu không giới hạn
 };
 
 type CytoscapeElement =
@@ -33,10 +38,16 @@ function convertToCytoscape(data: RawNode[]): CytoscapeElement[] {
 
     return elements;
 }
-
-const chartData: CytoscapeElement[] = convertToCytoscape(masterDb);
-const CytoscapeOrgChart: React.FC = () => {
+const CytoscapeOrgChart: React.FC<CytoscapeOrgChartProps> = ({ lang }) => {
     const containerRef = useRef<HTMLDivElement>(null);
+
+    const chartData: CytoscapeElement[] = convertToCytoscape(
+      masterDb.map((node) => ({
+          ...node,
+          // Lấy label theo ngôn ngữ
+          name_en: lang === 'vi' ? node.name_vi : node.name_en,
+      }))
+    );
 
     useEffect(() => {
         if (!containerRef.current) return;
@@ -81,7 +92,7 @@ const CytoscapeOrgChart: React.FC = () => {
         return () => {
             cy.destroy();
         };
-    }, []);
+    }, [lang]); // lang thay đổi => vẽ lại chart
 
     return <div>
         <div ref={containerRef} style={{ width: '100%', height: '500px' }} />

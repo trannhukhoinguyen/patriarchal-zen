@@ -2,17 +2,27 @@
 // Import components, modules and types
 import MainLayout from "@/layouts/MainLayout.astro";
 import { SITE } from "@database/constants";
-import React from "react";
 import Cytoscape from '../../components/ui/charts/CytoscapeOrgChart';
 
 // Define variables for page content
 const title: string = "Tổ sư";
 const subTitle: string = "Tổ sư";
 const pageTitle: string = `Tổ sư | ${SITE.title}`;
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: {
+        lang: 'vi'
+      }
+    },
+  ];
+}
+const { lang } = Astro. params;
 ---
 
 <MainLayout
-    lang="vi"
+    lang={lang}
     title={pageTitle}
     structuredData={{
         "@context": "https://schema.org",
@@ -27,7 +37,7 @@ const pageTitle: string = `Tổ sư | ${SITE.title}`;
             "name": "Patriarchal Zen",
             "description": "Tổ sư"
         },
-        "inLanguage": "vi"
+        "inLanguage": lang
     }}
 >
     <section
@@ -52,6 +62,6 @@ const pageTitle: string = `Tổ sư | ${SITE.title}`;
     <section
             class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
     >
-        <Cytoscape client:load />
+        <Cytoscape client:load lang={lang} />
     </section>
 </MainLayout>
