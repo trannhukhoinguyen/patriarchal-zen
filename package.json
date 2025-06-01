@@ -30,7 +30,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "rimraf": "^6.0.1",
-    "sharp": "^0.33.5",
+    "sharp": "^0.34.2",
     "sharp-ico": "^0.1.5",
     "tailwindcss": "^4.0.17"
   },
